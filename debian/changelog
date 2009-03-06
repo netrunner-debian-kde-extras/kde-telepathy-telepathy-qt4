@@ -1,0 +1,5 @@
+telepathy-qt4 (0.1.1-0~pre1) UNRELEASED; urgency=low
+
+  * Initial Debian packaging (not ready for upload to Debian yet).
+
+ -- Simon McVittie <smcv@debian.org>  Fri, 06 Mar 2009 14:34:22 +0000

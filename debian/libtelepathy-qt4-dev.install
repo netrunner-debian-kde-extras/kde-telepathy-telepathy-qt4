@@ -1,0 +1,4 @@
+#debian/tmp/usr/lib/libtelepathy-qt4.so
+debian/tmp/usr/lib/libtelepathy-qt4.a
+debian/tmp/usr/include/telepathy-1.0
+debian/tmp/usr/lib/pkgconfig/TelepathyQt4.pc

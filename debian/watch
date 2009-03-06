@@ -1,0 +1,2 @@
+version=3
+http://telepathy.freedesktop.org/releases/telepathy-qt4/telepathy-qt4-(.*).tar.gz
