@@ -14,7 +14,7 @@ Build-Depends: cdbs,
                python-dbus
 Build-Depends-Indep: doxygen,
                      graphviz
-Standards-Version: 3.8.0
+Standards-Version: 3.8.1
 Vcs-Git: git://git.debian.org/git/pkg-telepathy/telepathy-qt4.git
 Vcs-Browser: http://git.debian.org/?p=pkg-telepathy/telepathy-qt4.git
 Homepage: http://telepathy.freedesktop.org/wiki/
@@ -76,9 +76,11 @@ Description: Prototype Qt 4 Telepathy library
 
 Package: libtelepathy-qt4-dbg
 Architecture: any
-Section: libdevel
+Section: debug
 Priority: extra
-Depends: ${misc:Depends}
+Depends: libtelepathy-qt4-dev (= ${binary:Version})
+         | libtelepathy-qt4-prototype-dev (= ${binary:Version}),
+         ${misc:Depends}
 Description: Qt 4 Telepathy library (debug symbols)
  This package contains support for debugging programs that use telepathy-qt4,
  a Qt-based library for Telepathy components.
