@@ -11,7 +11,10 @@ Build-Depends: cdbs,
                libtelepathy-glib-dev (>= 0.7.28),
                pkg-config (>= 0.21),
                python (>= 2.5),
-               python-dbus
+               python-dbus,
+               python-gobject
+# Of the above, python-dbus and python-gobject can safely be removed if you
+# don't care about running the regression tests
 Build-Depends-Indep: doxygen,
                      graphviz
 Standards-Version: 3.8.1
