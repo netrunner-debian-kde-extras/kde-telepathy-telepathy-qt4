@@ -63,20 +63,6 @@ Description: Qt 4 Telepathy library (headers and static library)
  differences between protocols to provide a unified interface for
  applications.
 
-Package: libtelepathy-qt4-prototype-dev
-Architecture: any
-Section: libdevel
-Depends: libqt4-dev (>= 4.5.0),
-         libtelepathy-qt4-dev (= ${binary:Version}),
-         ${misc:Depends}
-Suggests: libtelepathy-qt4-doc
-Description: Prototype Qt 4 Telepathy library
- This package contains development files for tpqt4-prototype, a prototype
- Qt-based library for Telepathy components.
- .
- This library has been superseded by libtelepathy-qt4-dev and should not be
- used in new code.
-
 Package: libtelepathy-qt4-dbg
 Architecture: any
 Section: debug
