@@ -67,8 +67,7 @@ Package: libtelepathy-qt4-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: libtelepathy-qt4-dev (= ${binary:Version})
-         | libtelepathy-qt4-prototype-dev (= ${binary:Version}),
+Depends: libtelepathy-qt4-dev (= ${binary:Version}),
          ${misc:Depends}
 Description: Qt 4 Telepathy library (debug symbols)
  This package contains support for debugging programs that use telepathy-qt4,
