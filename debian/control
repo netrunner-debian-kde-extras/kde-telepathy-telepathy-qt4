@@ -39,7 +39,9 @@ Description: Telepathy framework - Qt 4 library
 Package: libtelepathy-qt4-farsight0
 Architecture: any
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: libtelepathy-qt4-0 (= ${binary:Version}),
+         ${shlibs:Depends},
+         ${misc:Depends}
 Description: Telepathy/Farsight integration - Qt 4 library
  telepathy-qt4-farsight provides telepathy-qt4 integration with
  telepathy-farsight, which implements media streaming using GStreamer and
