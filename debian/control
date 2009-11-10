@@ -25,7 +25,6 @@ Homepage: http://telepathy.freedesktop.org/wiki/
 
 Package: libtelepathy-qt4-0
 Architecture: any
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Telepathy framework - Qt 4 library
  This package contains telepathy-qt4, a Qt-based library for Telepathy
@@ -38,7 +37,6 @@ Description: Telepathy framework - Qt 4 library
 
 Package: libtelepathy-qt4-farsight0
 Architecture: any
-Section: libs
 Depends: libtelepathy-qt4-0 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
