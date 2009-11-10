@@ -1,5 +1,5 @@
-telepathy-qt4 (0.2.0~rc1-1) UNRELEASED; urgency=low
+telepathy-qt4 (0.2.0-1) unstable; urgency=low
 
   * Initial Debian packaging (Closes: #539008)
 
- -- Simon McVittie <smcv@debian.org>  Tue, 10 Nov 2009 14:09:23 +0000
+ -- Simon McVittie <smcv@debian.org>  Tue, 10 Nov 2009 14:49:41 +0000
