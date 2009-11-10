@@ -36,7 +36,7 @@ Description: Telepathy framework - Qt 4 library
  differences between protocols to provide a unified interface for
  applications.
 
-Package: libtelepathy-qt4-farsight-0
+Package: libtelepathy-qt4-farsight0
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
