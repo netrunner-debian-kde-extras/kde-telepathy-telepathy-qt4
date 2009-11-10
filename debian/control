@@ -55,7 +55,7 @@ Architecture: any
 Section: libdevel
 Depends: libqt4-dev (>= 4.5.0),
          libtelepathy-qt4-0 (= ${binary:Version}),
-         libtelepathy-qt4-farsight-0 (= ${binary:Version}),
+         libtelepathy-qt4-farsight0 (= ${binary:Version}),
          pkg-config (>= 0.21),
          ${shlibs:Depends},
          ${misc:Depends}
@@ -75,7 +75,7 @@ Section: debug
 Priority: extra
 Depends: libtelepathy-qt4-0 (= ${binary:Version}),
          ${misc:Depends}
-Suggests: libtelepathy-qt4-farsight-0 (= ${binary:Version})
+Suggests: libtelepathy-qt4-farsight0 (= ${binary:Version})
 Description: Qt 4 Telepathy library (debug symbols)
  This package contains support for debugging programs that use telepathy-qt4,
  a Qt-based library for Telepathy components.
