@@ -1,7 +1,6 @@
 #!/usr/bin/make -f
 
-# We don't have a shared library yet
-#DEB_DH_MAKESHLIBS_ARGS_libtelepathy-qt4-0 := -V"libtelepathy-qt4-0 (>= 0.2)"
+DEB_DH_MAKESHLIBS_ARGS_libtelepathy-qt4-0 := -V"libtelepathy-qt4-0 (>= 0.2)"
 
 include /usr/share/cdbs/1/rules/utils.mk
 include /usr/share/cdbs/1/class/autotools.mk
@@ -23,7 +22,8 @@ DEB_MAKE_CHECK_TARGET = check
 common-build-indep::
 	$(DEB_MAKE_INVOKE) doxygen-doc
 
-export DPKG_GENSYMBOLS_CHECK_LEVEL = 4
+# symbols file to be added later, if C++ even allows
+#export DPKG_GENSYMBOLS_CHECK_LEVEL = 4
 
 include $(CURDIR)/debian/update-patches.mk
 
