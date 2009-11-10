@@ -1,7 +1,7 @@
-telepathy-qt4 (0.1.9-1) UNRELEASED; urgency=low
+telepathy-qt4 (0.1.12-1) UNRELEASED; urgency=low
 
   * (Not ready for upload to Debian yet - only upload when we have 0.2.0
     and a shared library.)
   * Initial Debian packaging (Closes: #539008)
 
- -- Simon McVittie <smcv@debian.org>  Tue, 28 Jul 2009 14:08:10 +0100
+ -- Simon McVittie <smcv@debian.org>  Tue, 10 Nov 2009 13:38:29 +0000
