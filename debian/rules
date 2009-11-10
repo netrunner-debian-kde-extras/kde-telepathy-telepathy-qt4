@@ -15,11 +15,6 @@ common-binary-post-install-arch:: list-missing
 
 DEB_DH_STRIP_ARGS := --dbg-package=libtelepathy-qt4-dbg
 
-# forcibly build the static library to be position-independent, so KDE
-# developers can link telepathy-qt4 into plugins
-CFLAGS += -fPIC
-CXXFLAGS += -fPIC
-
 DEB_CONFIGURE_EXTRA_FLAGS := \
 	--disable-Werror \
 	--docdir=/usr/share/doc/libtelepathy-qt4-doc
