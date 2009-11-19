@@ -17,7 +17,7 @@ DEB_DH_STRIP_ARGS := --dbg-package=libtelepathy-qt4-dbg
 DEB_CONFIGURE_EXTRA_FLAGS := \
 	--disable-Werror \
 	--docdir=/usr/share/doc/libtelepathy-qt4-doc
-DEB_MAKE_CHECK_TARGET = check
+#DEB_MAKE_CHECK_TARGET = check
 
 common-build-indep::
 	$(DEB_MAKE_INVOKE) doxygen-doc

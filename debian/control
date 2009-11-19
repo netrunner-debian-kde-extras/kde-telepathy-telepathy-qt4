@@ -5,6 +5,8 @@ Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth
 Uploaders: Simon McVittie <smcv@debian.org>
 Build-Depends: cdbs,
                debhelper (>= 5),
+               doxygen,
+               graphviz,
                libgstreamer0.10-dev,
                libgstreamer-plugins-base0.10-dev,
                libqt4-dev (>= 4.5.0),
@@ -14,10 +16,9 @@ Build-Depends: cdbs,
                python (>= 2.5),
                python-dbus,
                python-gobject
-# Of the above, python-dbus and python-gobject can safely be removed if you
-# don't care about running the regression tests
-Build-Depends-Indep: doxygen,
-                     graphviz
+# * python-dbus and python-gobject can safely be removed if you don't care
+#   about running the regression tests
+# * doxygen and graphviz should be Build-Depends-Indep if #478524 is fixed
 Standards-Version: 3.8.3
 Vcs-Git: git://git.debian.org/git/pkg-telepathy/telepathy-qt4.git
 Vcs-Browser: http://git.debian.org/?p=pkg-telepathy/telepathy-qt4.git
