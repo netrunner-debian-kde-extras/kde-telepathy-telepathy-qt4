@@ -1,11 +1,11 @@
-telepathy-qt4 (0.2.0-2) UNRELEASED; urgency=low
+telepathy-qt4 (0.2.0-2) unstable; urgency=low
 
   * Move Build-Depends-Indep to Build-Depends, working around #478524 in
     sbuild (Closes: #557032)
   * Disable tests for now, due to race conditions in the test code that can't
     usefully be debugged on a buildd
 
- -- Simon McVittie <smcv@debian.org>  Thu, 19 Nov 2009 12:12:37 +0000
+ -- Simon McVittie <smcv@debian.org>  Thu, 19 Nov 2009 12:22:40 +0000
 
 telepathy-qt4 (0.2.0-1) unstable; urgency=low
 
