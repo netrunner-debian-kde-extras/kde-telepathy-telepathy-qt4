@@ -1,6 +1,7 @@
 telepathy-qt4 (0.3.2-1) UNRELEASED; urgency=low
 
   * Update to new upstream release
+  * Build now depends on telepathy-glib >=0.10.0
 
  -- George Goldberg <george.goldberg@collabora.co.uk>  Sat, 24 Apr 2010 14:01:18 +0100
 
