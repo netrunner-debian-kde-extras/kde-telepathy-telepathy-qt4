@@ -7,8 +7,8 @@ Upstream-Maintainer:
 Upstream-Source: http://telepathy.freedesktop.org/releases/telepathy-qt4/
 
 Files: *
-Copyright: Copyright © 2007-2009 Collabora Ltd.
-Copyright: Copyright © 2007-2009 Nokia Corporation
+Copyright: Copyright © 2007-2010 Collabora Ltd.
+Copyright: Copyright © 2007-2010 Nokia Corporation
 License: LGPL-2.1+
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Lesser General Public
@@ -27,8 +27,8 @@ X-Comment: On Debian systems, the complete text of the GNU Lesser General
    Public License v2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
 
 Files: spec/*
-Copyright: Copyright © 2005-2009 Collabora Ltd.
-Copyright: Copyright © 2005-2009 Nokia Corporation
+Copyright: Copyright © 2005-2010 Collabora Ltd.
+Copyright: Copyright © 2005-2010 Nokia Corporation
 Copyright: Copyright © 2006 INdT
 License: LGPL-2.1+
 
@@ -64,3 +64,59 @@ License: LGPL-2.1+
 Files: doxygen.am, m4/doxygen.m4
 Copyright: Copyright © 2004 Oren Ben-Kiki
 License: GPL-2+
+
+Files: install-sh
+Copyright: Copyright © 1884 X Consortium
+License: other
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  .
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  .
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+  X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+  AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
+  TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  .
+  Except as contained in this notice, the name of the X Consortium shall not
+  be used in advertising or otherwise to promote the sale, use or other deal-
+  ings in this Software without prior written authorization from the X Consor-
+  tium.
+
+Files: ltmain.sh, m4/libtool.m4
+Copyright: Copyright © 1996-2001, 2003-2008 Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: m4/tp-visibility-hidden.m4
+Copyright: Copyright © 2005 Scott James Remnant
+Copyright: Copyright © 2009 Collabora Ltd.
+Copyright: Copyright © 2009 Nokia Corporation
+License: other
+  The same license as Expat:
+  .
+  Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this software and associated documentation files (the
+  "Software"), to deal in the Software without restriction, including
+  without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to
+  the following conditions:
+  .
+  The above copyright notice and this permission notice shall be
+  included in all copies or substantial portions of the Software.
+  .
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
