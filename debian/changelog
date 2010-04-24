@@ -1,4 +1,4 @@
-telepathy-qt4 (0.3.2-1) UNRELEASED; urgency=low
+telepathy-qt4 (0.3.2-1) unstable; urgency=low
 
   [ George Goldberg ]
   * Update to new upstream release
@@ -7,7 +7,7 @@ telepathy-qt4 (0.3.2-1) UNRELEASED; urgency=low
   [ Jonny Lamb ]
   * debian/control: Added George and myself to Uploaders.
 
- -- Jonny Lamb <jonny@debian.org>  Sat, 24 Apr 2010 14:46:26 +0100
+ -- Jonny Lamb <jonny@debian.org>  Sat, 24 Apr 2010 14:47:07 +0100
 
 telepathy-qt4 (0.2.0-2) unstable; urgency=low
 
