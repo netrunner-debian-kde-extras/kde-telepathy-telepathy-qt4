@@ -1,9 +1,13 @@
 telepathy-qt4 (0.3.2-1) UNRELEASED; urgency=low
 
+  [ George Goldberg ]
   * Update to new upstream release
   * Build now depends on telepathy-glib >=0.10.0
 
- -- George Goldberg <george.goldberg@collabora.co.uk>  Sat, 24 Apr 2010 14:01:18 +0100
+  [ Jonny Lamb ]
+  * debian/control: Added George and myself to Uploaders.
+
+ -- Jonny Lamb <jonny@debian.org>  Sat, 24 Apr 2010 14:46:26 +0100
 
 telepathy-qt4 (0.2.0-2) unstable; urgency=low
 

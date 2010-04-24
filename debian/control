@@ -2,7 +2,9 @@ Source: telepathy-qt4
 Section: libs
 Priority: optional
 Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
-Uploaders: Simon McVittie <smcv@debian.org>
+Uploaders: Simon McVittie <smcv@debian.org>,
+           George Goldberg <george.goldberg@collabora.co.uk>,
+           Jonny Lamb <jonny@debian.org>
 Build-Depends: cdbs,
                debhelper (>= 5),
                doxygen,
