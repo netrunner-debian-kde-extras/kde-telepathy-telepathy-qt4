@@ -1,8 +1,12 @@
 telepathy-qt4 (0.3.5-1) UNRELEASED; urgency=low
 
+  [ George Goldberg ]
   * Update to new upstream release
 
- -- George Goldberg <george.goldberg@collabora.co.uk>  Thu, 24 Jun 2010 18:22:22 +0100
+  [ Jonny Lamb ]
+  * debian/control: Upped Standards-Version. (no changes)
+
+ -- Jonny Lamb <jonny@debian.org>  Thu, 24 Jun 2010 18:57:22 +0100
 
 telepathy-qt4 (0.3.2-1) unstable; urgency=low
 
