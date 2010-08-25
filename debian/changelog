@@ -1,9 +1,11 @@
-telepathy-qt4 (0.3.6-2) UNRELEASED; urgency=low
+telepathy-qt4 (0.3.8-1) unstable; urgency=low
 
+  * New upstream relase.
   * Make libtelepathy-qt4-dev depend on libtelepathy-farsight-dev,
     to agree with the header and runtime dependencies on the same.
+  * Add myself to Uploaders.
 
- -- Adam Conrad <adconrad@debian.org>  Fri, 06 Aug 2010 14:17:23 +0100
+ -- Adam Conrad <adconrad@0c3.net>  Wed, 25 Aug 2010 16:31:01 -0600
 
 telepathy-qt4 (0.3.6-1) unstable; urgency=low
 
