@@ -4,8 +4,9 @@ telepathy-qt4 (0.5.15-1) UNRELEASED; urgency=low
   * debian/rules: Update to use cmake now.
   * debian/control: Add cmake Build-Dep.
   * Bump package name sonames for new library soname.
+  * debian/copyright: Update copyright years.
 
- -- Jonny Lamb <jonny@debian.org>  Thu, 14 Apr 2011 10:55:00 +0100
+ -- Jonny Lamb <jonny@debian.org>  Thu, 14 Apr 2011 11:18:19 +0100
 
 telepathy-qt4 (0.3.8-1) unstable; urgency=low
 
