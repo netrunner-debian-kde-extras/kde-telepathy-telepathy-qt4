@@ -28,7 +28,7 @@ Vcs-Git: git://git.debian.org/git/pkg-telepathy/telepathy-qt4.git
 Vcs-Browser: http://git.debian.org/?p=pkg-telepathy/telepathy-qt4.git
 Homepage: http://telepathy.freedesktop.org/wiki/
 
-Package: libtelepathy-qt4-0
+Package: libtelepathy-qt4-1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Telepathy framework - Qt 4 library
@@ -40,9 +40,9 @@ Description: Telepathy framework - Qt 4 library
  differences between protocols to provide a unified interface for
  applications.
 
-Package: libtelepathy-qt4-farsight0
+Package: libtelepathy-qt4-farsight1
 Architecture: any
-Depends: libtelepathy-qt4-0 (= ${binary:Version}),
+Depends: libtelepathy-qt4-1 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
 Description: Telepathy/Farsight integration - Qt 4 library
@@ -59,8 +59,8 @@ Package: libtelepathy-qt4-dev
 Architecture: any
 Section: libdevel
 Depends: libqt4-dev (>= 4.5.0),
-         libtelepathy-qt4-0 (= ${binary:Version}),
-         libtelepathy-qt4-farsight0 (= ${binary:Version}),
+         libtelepathy-qt4-1 (= ${binary:Version}),
+         libtelepathy-qt4-farsight1 (= ${binary:Version}),
          libtelepathy-farsight-dev,
          pkg-config (>= 0.21),
          ${shlibs:Depends},
@@ -79,9 +79,9 @@ Package: libtelepathy-qt4-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: libtelepathy-qt4-0 (= ${binary:Version}),
+Depends: libtelepathy-qt4-1 (= ${binary:Version}),
          ${misc:Depends}
-Suggests: libtelepathy-qt4-farsight0 (= ${binary:Version})
+Suggests: libtelepathy-qt4-farsight1 (= ${binary:Version})
 Description: Qt 4 Telepathy library (debug symbols)
  This package contains support for debugging programs that use telepathy-qt4,
  a Qt-based library for Telepathy components.

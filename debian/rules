@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-DEB_DH_MAKESHLIBS_ARGS_libtelepathy-qt4-0 := -V"libtelepathy-qt4-0 (>= 0.5)"
+DEB_DH_MAKESHLIBS_ARGS_libtelepathy-qt4-1 := -V"libtelepathy-qt4-1 (>= 0.5)"
 
 include /usr/share/cdbs/1/rules/utils.mk
 include /usr/share/cdbs/1/class/cmake.mk
@@ -26,8 +26,8 @@ include $(CURDIR)/debian/update-patches.mk
 
 # we're going to symlink many of the doc directories together
 DEB_INSTALL_DOCS_libtelepathy-qt4-dbg := --no-act
-DEB_INSTALL_DOCS_libtelepathy-qt4-farsight0 := --no-act
+DEB_INSTALL_DOCS_libtelepathy-qt4-farsight1 := --no-act
 DEB_INSTALL_DOCS_libtelepathy-qt4-dev := --no-act
 DEB_INSTALL_CHANGELOGS_libtelepathy-qt4-dbg := --no-act
-DEB_INSTALL_CHANGELOGS_libtelepathy-qt4-farsight0 := --no-act
+DEB_INSTALL_CHANGELOGS_libtelepathy-qt4-farsight1 := --no-act
 DEB_INSTALL_CHANGELOGS_libtelepathy-qt4-dev := --no-act
