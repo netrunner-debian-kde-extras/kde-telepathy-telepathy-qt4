@@ -8,6 +8,7 @@ Uploaders: Simon McVittie <smcv@debian.org>,
            Adam Conrad <adconrad@0c3.net>
 Build-Depends: cdbs,
                debhelper (>= 5),
+               cmake,
                doxygen,
                graphviz,
                libgstreamer0.10-dev,
