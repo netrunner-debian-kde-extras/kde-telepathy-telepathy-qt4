@@ -1,8 +1,9 @@
-telepathy-qt4 (0.5.15-1) experimental; urgency=low
+telepathy-qt4 (0.5.15-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * debian/rules: Update to use cmake now.
 
- -- Jonny Lamb <jonny@debian.org>  Thu, 14 Apr 2011 10:42:17 +0100
+ -- Jonny Lamb <jonny@debian.org>  Thu, 14 Apr 2011 10:51:48 +0100
 
 telepathy-qt4 (0.3.8-1) unstable; urgency=low
 
