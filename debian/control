@@ -15,10 +15,11 @@ Build-Depends: cdbs,
                libgstreamer-plugins-base0.10-dev,
                libqt4-dev (>= 4.5.0),
                libtelepathy-farsight-dev (>= 0.0.4),
-               libtelepathy-glib-dev (>= 0.10.0),
+               libtelepathy-glib-dev (>= 0.13.10),
                pkg-config (>= 0.21),
-               python (>= 2.5),
+               python (>= 2.6),
                python-dbus,
+               python-dev,
                python-gobject
 # * python-dbus and python-gobject can safely be removed if you don't care
 #   about running the regression tests
