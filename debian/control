@@ -13,9 +13,9 @@ Build-Depends: cdbs,
                graphviz,
                libgstreamer0.10-dev,
                libgstreamer-plugins-base0.10-dev,
-               libqt4-dev (>= 4.5.0),
+               libqt4-dev (>= 4.6.0),
                libtelepathy-farsight-dev (>= 0.0.4),
-               libtelepathy-glib-dev (>= 0.13.10),
+               libtelepathy-glib-dev (>= 0.15.1),
                pkg-config (>= 0.21),
                python (>= 2.6),
                python-dbus,
@@ -59,7 +59,7 @@ Description: Telepathy/Farsight integration - Qt 4 library
 Package: libtelepathy-qt4-dev
 Architecture: any
 Section: libdevel
-Depends: libqt4-dev (>= 4.5.0),
+Depends: libqt4-dev (>= 4.6.0),
          libtelepathy-qt4-1 (= ${binary:Version}),
          libtelepathy-qt4-farsight1 (= ${binary:Version}),
          libtelepathy-farsight-dev,
