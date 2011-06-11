@@ -1,6 +1,8 @@
 #!/usr/bin/make -f
 
-DEB_DH_MAKESHLIBS_ARGS_libtelepathy-qt4-1 := -V"libtelepathy-qt4-1 (>= 0.5.15)"
+SOURCE_VERSION=$(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: //' | cut -d'-' -f1)
+
+DEB_DH_MAKESHLIBS_ARGS_libtelepathy-qt4-1 := -V"libtelepathy-qt4-1 (>= $(SOURCE_VERSION))"
 
 include /usr/share/cdbs/1/rules/utils.mk
 include /usr/share/cdbs/1/class/cmake.mk

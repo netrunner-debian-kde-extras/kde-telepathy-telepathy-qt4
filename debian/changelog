@@ -2,6 +2,7 @@ telepathy-qt4 (0.7.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * debian/control: Update dependency version requirements.
+  * debian/rules: Add code to bump makeshlibs args version automatically.
 
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sat, 11 Jun 2011 14:47:18 +0300
 
