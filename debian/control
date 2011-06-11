@@ -24,7 +24,7 @@ Build-Depends: cdbs,
 # * python-dbus and python-gobject can safely be removed if you don't care
 #   about running the regression tests
 # * doxygen and graphviz should be Build-Depends-Indep if #478524 is fixed
-Standards-Version: 3.8.4
+Standards-Version: 3.9.2
 Vcs-Git: git://git.debian.org/git/pkg-telepathy/telepathy-qt4.git
 Vcs-Browser: http://git.debian.org/?p=pkg-telepathy/telepathy-qt4.git
 Homepage: http://telepathy.freedesktop.org/wiki/
