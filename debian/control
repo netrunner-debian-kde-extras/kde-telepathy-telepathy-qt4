@@ -5,7 +5,8 @@ Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth
 Uploaders: Simon McVittie <smcv@debian.org>,
            George Goldberg <george.goldberg@collabora.co.uk>,
            Jonny Lamb <jonny@debian.org>,
-           Adam Conrad <adconrad@0c3.net>
+           Adam Conrad <adconrad@0c3.net>,
+           George Kiagiadakis <kiagiadakis.george@gmail.com>
 Build-Depends: cdbs,
                debhelper (>= 5),
                cmake,
