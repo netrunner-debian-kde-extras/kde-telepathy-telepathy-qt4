@@ -1,3 +1,9 @@
+telepathy-qt4 (0.8.0-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #647835)
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Wed, 30 Nov 2011 22:33:49 +0200
+
 telepathy-qt4 (0.7.1-1) unstable; urgency=low
 
   * New upstream release.
