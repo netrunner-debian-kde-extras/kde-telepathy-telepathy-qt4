@@ -1,8 +1,12 @@
-telepathy-qt4 (0.8.0-1) unstable; urgency=low
+telepathy-qt (0.9.1-1) UNRELEASED; urgency=low
 
   * New upstream release. (Closes: #647835)
+    - Build against farstream instead of farsight (Closes: #672107)
+    - Upstream source package renamed to telepathy-qt
+    - Bump soname of both libraries
+    - Bump build-dependencies
 
- -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Wed, 30 Nov 2011 22:33:49 +0200
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 21 May 2012 16:06:55 +0200
 
 telepathy-qt4 (0.7.1-1) unstable; urgency=low
 

@@ -1,4 +1,4 @@
-Source: telepathy-qt4
+Source: telepathy-qt
 Section: libs
 Priority: optional
 Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
@@ -15,8 +15,9 @@ Build-Depends: cdbs,
                libgstreamer0.10-dev,
                libgstreamer-plugins-base0.10-dev,
                libqt4-dev (>= 4.6.0),
-               libtelepathy-farsight-dev (>= 0.0.4),
-               libtelepathy-glib-dev (>= 0.15.1),
+               libfarstream-0.1-dev (>= 0.1.0),
+               libtelepathy-farstream-dev (>= 0.2.2),
+               libtelepathy-glib-dev (>= 0.17.5),
                pkg-config (>= 0.21),
                python (>= 2.6),
                python-dbus,
@@ -30,7 +31,7 @@ Vcs-Git: git://git.debian.org/git/pkg-telepathy/telepathy-qt4.git
 Vcs-Browser: http://git.debian.org/?p=pkg-telepathy/telepathy-qt4.git
 Homepage: http://telepathy.freedesktop.org/wiki/
 
-Package: libtelepathy-qt4-1
+Package: libtelepathy-qt4-2
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Telepathy framework - Qt 4 library
@@ -42,14 +43,14 @@ Description: Telepathy framework - Qt 4 library
  differences between protocols to provide a unified interface for
  applications.
 
-Package: libtelepathy-qt4-farsight1
+Package: libtelepathy-qt4-farstream2
 Architecture: any
-Depends: libtelepathy-qt4-1 (= ${binary:Version}),
+Depends: libtelepathy-qt4-2 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
 Description: Telepathy/Farsight integration - Qt 4 library
- telepathy-qt4-farsight provides telepathy-qt4 integration with
- telepathy-farsight, which implements media streaming using GStreamer and
+ telepathy-qt4-farstream provides telepathy-qt4 integration with
+ telepathy-farstream, which implements media streaming using GStreamer and
  Farsight.
  .
  Telepathy is a D-Bus framework for unifying real time communication,
@@ -61,9 +62,9 @@ Package: libtelepathy-qt4-dev
 Architecture: any
 Section: libdevel
 Depends: libqt4-dev (>= 4.6.0),
-         libtelepathy-qt4-1 (= ${binary:Version}),
-         libtelepathy-qt4-farsight1 (= ${binary:Version}),
-         libtelepathy-farsight-dev,
+         libtelepathy-qt4-2 (= ${binary:Version}),
+         libtelepathy-qt4-farstream2 (= ${binary:Version}),
+         libtelepathy-farstream-dev,
          pkg-config (>= 0.21),
          ${shlibs:Depends},
          ${misc:Depends}
@@ -81,9 +82,9 @@ Package: libtelepathy-qt4-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: libtelepathy-qt4-1 (= ${binary:Version}),
+Depends: libtelepathy-qt4-2 (= ${binary:Version}),
          ${misc:Depends}
-Suggests: libtelepathy-qt4-farsight1 (= ${binary:Version})
+Suggests: libtelepathy-qt4-farstream2 (= ${binary:Version})
 Description: Qt 4 Telepathy library (debug symbols)
  This package contains support for debugging programs that use telepathy-qt4,
  a Qt-based library for Telepathy components.

@@ -30,8 +30,8 @@ include $(CURDIR)/debian/update-patches.mk
 
 # we're going to symlink many of the doc directories together
 DEB_INSTALL_DOCS_libtelepathy-qt4-dbg := --no-act
-DEB_INSTALL_DOCS_libtelepathy-qt4-farsight1 := --no-act
+DEB_INSTALL_DOCS_libtelepathy-qt4-farstream2 := --no-act
 DEB_INSTALL_DOCS_libtelepathy-qt4-dev := --no-act
 DEB_INSTALL_CHANGELOGS_libtelepathy-qt4-dbg := --no-act
-DEB_INSTALL_CHANGELOGS_libtelepathy-qt4-farsight1 := --no-act
+DEB_INSTALL_CHANGELOGS_libtelepathy-qt4-farstream2 := --no-act
 DEB_INSTALL_CHANGELOGS_libtelepathy-qt4-dev := --no-act
