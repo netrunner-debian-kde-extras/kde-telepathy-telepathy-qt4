@@ -6,8 +6,10 @@ telepathy-qt (0.9.1-1) UNRELEASED; urgency=low
     - Bump soname of both libraries
     - Bump build-dependencies
   * Switch to dpkg-source 3.0 (quilt) format
+  * Fix FTBFS with gcc 4.7 by fixing missing <unistd.h> includes,
+    thanks to Cyril Brulebois (Closes: #667391)
 
- -- Laurent Bigonville <bigon@debian.org>  Mon, 21 May 2012 16:06:55 +0200
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 21 May 2012 16:24:14 +0200
 
 telepathy-qt4 (0.7.1-1) unstable; urgency=low
 

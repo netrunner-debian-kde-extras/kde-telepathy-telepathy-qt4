@@ -1,0 +1,38 @@
+Description: Fix FTBFS with gcc-4.7
+Author: Cyril Brulebois <kibi@debian.org>
+Bug: https://bugs.freedesktop.org/show_bug.cgi?id=50204
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=667391
+
+--- a/TelepathyQt/client-registrar.cpp
++++ b/TelepathyQt/client-registrar.cpp
+@@ -40,6 +40,8 @@
+ #include <TelepathyQt/PendingComposite>
+ #include <TelepathyQt/PendingReady>
+ 
++#include <unistd.h>
++
+ namespace Tp
+ {
+ 
+--- a/TelepathyQt/stream-tube-client.cpp
++++ b/TelepathyQt/stream-tube-client.cpp
+@@ -38,6 +38,8 @@
+ #include <QAbstractSocket>
+ #include <QHash>
+ 
++#include <unistd.h>
++
+ namespace Tp
+ {
+ 
+--- a/TelepathyQt/stream-tube-server.cpp
++++ b/TelepathyQt/stream-tube-server.cpp
+@@ -38,6 +38,8 @@
+ #include <TelepathyQt/OutgoingStreamTubeChannel>
+ #include <TelepathyQt/StreamTubeChannel>
+ 
++#include <unistd.h>
++
+ namespace Tp
+ {
+ 
