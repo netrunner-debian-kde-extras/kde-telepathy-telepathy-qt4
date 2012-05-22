@@ -8,7 +8,7 @@ Uploaders: Simon McVittie <smcv@debian.org>,
            Adam Conrad <adconrad@0c3.net>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>
 Build-Depends: cdbs,
-               debhelper (>= 5),
+               debhelper (>= 9),
                cmake,
                doxygen,
                graphviz,

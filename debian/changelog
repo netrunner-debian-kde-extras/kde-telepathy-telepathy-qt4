@@ -9,8 +9,9 @@ telepathy-qt (0.9.1-1) UNRELEASED; urgency=low
   * Fix FTBFS with gcc 4.7 by fixing missing <unistd.h> includes,
     thanks to Cyril Brulebois (Closes: #667391)
   * debian/control: Bump Standards-Version to 3.9.3 (no further changes)
+  * Bump debhelper compatibility to 9
 
- -- Laurent Bigonville <bigon@debian.org>  Tue, 22 May 2012 11:34:10 +0200
+ -- Laurent Bigonville <bigon@debian.org>  Tue, 22 May 2012 11:35:49 +0200
 
 telepathy-qt4 (0.7.1-1) unstable; urgency=low
 
