@@ -27,8 +27,8 @@ Build-Depends: cdbs,
 #   about running the regression tests
 # * doxygen and graphviz should be Build-Depends-Indep if #478524 is fixed
 Standards-Version: 3.9.3
-Vcs-Git: git://git.debian.org/git/pkg-telepathy/telepathy-qt4.git
-Vcs-Browser: http://git.debian.org/?p=pkg-telepathy/telepathy-qt4.git
+Vcs-Git: git://git.debian.org/git/pkg-telepathy/telepathy-qt.git
+Vcs-Browser: http://git.debian.org/?p=pkg-telepathy/telepathy-qt.git
 Homepage: http://telepathy.freedesktop.org/wiki/
 
 Package: libtelepathy-qt4-2
