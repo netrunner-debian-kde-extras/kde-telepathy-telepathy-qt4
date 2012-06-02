@@ -18,9 +18,6 @@ endif
 override_dh_strip:
 	dh_strip --dbg-package=libtelepathy-qt4-dbg
 
-override_dh_makeshlibs:
-	dh_makeshlibs -V
-
 override_dh_install:
 	dh_install --list-missing
 
@@ -28,6 +25,3 @@ override_dh_install:
 override_dh_installdocs:
 	dh_installdocs -a --link-doc=libtelepathy-qt4-2
 	dh_installdocs -i
-
-# symbols file to be added later, if C++ even allows
-#export DPKG_GENSYMBOLS_CHECK_LEVEL = 4

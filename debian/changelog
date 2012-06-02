@@ -17,6 +17,7 @@ telepathy-qt (0.9.1-1) UNRELEASED; urgency=low
   * Switch build system to dh.
   * Convert to multiarch.
   * Install the TelepathyQt4*Config.cmake and related files.
+  * Add symbols files.
 
  -- Laurent Bigonville <bigon@debian.org>  Thu, 31 May 2012 14:47:51 +0200
 
