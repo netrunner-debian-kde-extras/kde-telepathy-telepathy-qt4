@@ -1,18 +1,3 @@
-Patches
-=======
-
-This package can use cdbs simple-patch-system to store
-modifications to the upstream source, although in most uploads no patches
-are needed.
-
-To get the fully patched source: make -f debian/rules patch
-
-To revert to what's in git: make -f debian/rules unpatch
-
-To add a patch: obtain a diff and put it in debian/patches, or see below
-
-To remove an existing patch: delete it from debian/patches
-
 Packaging using git
 ===================
 
@@ -23,15 +8,15 @@ debian-squeeze branch will contain versions targeted for squeeze, etc.
 
 Here's how to build it:
 
-    git clone git://git.debian.org/git/pkg-telepathy/telepathy-qt4.git
-    cd telepathy-qt4
+    git clone git://git.debian.org/git/pkg-telepathy/telepathy-qt.git
+    cd telepathy-qt
     git checkout debian
     git-buildpackage -us -uc
 
 or for testing/stable branches like debian-squeeze:
 
-    git clone git://git.debian.org/git/pkg-telepathy/telepathy-qt4.git
-    cd telepathy-qt4
+    git clone git://git.debian.org/git/pkg-telepathy/telepathy-qt.git
+    cd telepathy-qt
     git checkout debian-squeeze
     git-buildpackage -us -uc --git-debian-branch=debian-squeeze
 
@@ -39,21 +24,13 @@ The branch 'upstream' is a copy of the contents of upstream tarballs. To import
 upstream tarballs use:
 
     git checkout debian
-    git-import-orig ~/telepathy-qt4-0.1.x.tar.gz
+    git-import-orig ~/telepathy-qt-0.x.y.tar.gz
 
-The branch 'debian-patches' is 'upstream' plus any patches needed for Debian.
-It should be rebased on 'upstream' after each upstream release:
+Patches can be added in the usual 3.0 (quilt) ways, for instance by using
+gbp-pq(1) from the git-buildpackage package.
 
-    git checkout debian-patches
-    git rebase upstream
+.symbols files
+==============
 
-The preferred way of adding patches is to cherry pick from an upstream
-repository:
-
-    git remote add collabora \
-        git+ssh://git.collabora.co.uk/git/telepathy-qt4.git
-    git fetch
-    git checkout debian-patches
-    git cherry-pick xxxxxxxxxxxxxx
-    git checkout debian
-    fakeroot debian/rules update-patches
+Please refer to http://pkg-kde.alioth.debian.org/symbolfiles.html
+for instructions on how to manage symbol files.
