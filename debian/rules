@@ -1,36 +1,30 @@
 #!/usr/bin/make -f
 
-SOURCE_VERSION=$(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: //' | cut -d'-' -f1)
+%:
+	dh $@ --parallel
 
-DEB_DH_MAKESHLIBS_ARGS_libtelepathy-qt4-1 := -V"libtelepathy-qt4-1 (>= $(SOURCE_VERSION))"
-
-include /usr/share/cdbs/1/rules/utils.mk
-include /usr/share/cdbs/1/class/cmake.mk
-include /usr/share/cdbs/1/rules/debhelper.mk
-
-# We don't want the .la files, but complain if anything else is missing
-binary-post-install/libtelepathy-qt4-dev::
-	rm -f debian/tmp/usr/lib/*.la
-common-binary-post-install-arch:: list-missing
-
-DEB_DH_STRIP_ARGS := --dbg-package=libtelepathy-qt4-dbg
-
-DEB_CMAKE_EXTRA_FLAGS := -DDISABLE_WERROR=ON -DCMAKE_INSTALL_LOCAL_ONLY=0 -DHAVE_DOT=YES
+override_dh_auto_configure:
+	dh_auto_configure -- -DDISABLE_WERROR=ON -DHAVE_DOT=YES
 
 ifeq (,$(findstring nodocs,$(DEB_BUILD_OPTIONS)))
-common-build-indep::
-	$(DEB_MAKE_INVOKE) doxygen-doc
+override_dh_auto_build:
+	dh_auto_build --parallel
+	dh_auto_build -- doxygen-doc
 endif
+
+override_dh_strip:
+	dh_strip --dbg-package=libtelepathy-qt4-dbg
+
+override_dh_makeshlibs:
+	dh_makeshlibs -V
+
+override_dh_install:
+	dh_install --list-missing
+
+# -i is for the doc package, which doesn't depend on the shared library
+override_dh_installdocs:
+	dh_installdocs -a --link-doc=libtelepathy-qt4-2
+	dh_installdocs -i
 
 # symbols file to be added later, if C++ even allows
 #export DPKG_GENSYMBOLS_CHECK_LEVEL = 4
-
-include $(CURDIR)/debian/update-patches.mk
-
-# we're going to symlink many of the doc directories together
-DEB_INSTALL_DOCS_libtelepathy-qt4-dbg := --no-act
-DEB_INSTALL_DOCS_libtelepathy-qt4-farstream2 := --no-act
-DEB_INSTALL_DOCS_libtelepathy-qt4-dev := --no-act
-DEB_INSTALL_CHANGELOGS_libtelepathy-qt4-dbg := --no-act
-DEB_INSTALL_CHANGELOGS_libtelepathy-qt4-farstream2 := --no-act
-DEB_INSTALL_CHANGELOGS_libtelepathy-qt4-dev := --no-act

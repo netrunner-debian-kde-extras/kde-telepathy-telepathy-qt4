@@ -14,6 +14,7 @@ telepathy-qt (0.9.1-1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Change the gcc-4.7 ftbfs patch to use the upstream patch.
+  * Switch build system to dh.
 
  -- Laurent Bigonville <bigon@debian.org>  Thu, 31 May 2012 14:47:51 +0200
 
