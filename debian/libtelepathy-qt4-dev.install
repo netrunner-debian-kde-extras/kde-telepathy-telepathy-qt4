@@ -1,3 +1,3 @@
-debian/tmp/usr/lib/*.so
-debian/tmp/usr/include/telepathy-qt4
-debian/tmp/usr/lib/pkgconfig/*.pc
+usr/lib/*/*.so
+usr/lib/*/pkgconfig/*.pc
+usr/include/telepathy-qt4

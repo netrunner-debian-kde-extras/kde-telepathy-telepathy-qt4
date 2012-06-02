@@ -8,6 +8,7 @@ Uploaders: Simon McVittie <smcv@debian.org>,
            Adam Conrad <adconrad@0c3.net>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>
 Build-Depends: debhelper (>= 9),
+               dpkg-dev (>= 1.16.1~),
                cmake,
                doxygen,
                graphviz,
@@ -32,6 +33,8 @@ Homepage: http://telepathy.freedesktop.org/wiki/
 
 Package: libtelepathy-qt4-2
 Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Telepathy framework - Qt 4 library
  This package contains telepathy-qt4, a Qt-based library for Telepathy
@@ -44,6 +47,8 @@ Description: Telepathy framework - Qt 4 library
 
 Package: libtelepathy-qt4-farstream2
 Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
 Depends: libtelepathy-qt4-2 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
