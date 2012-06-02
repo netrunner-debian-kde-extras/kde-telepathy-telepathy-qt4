@@ -15,6 +15,9 @@ override_dh_auto_build:
 	dh_auto_build -- doxygen-doc
 endif
 
+# Do not run tests, as they fall into race conditions sometimes
+override_dh_auto_test:
+
 override_dh_strip:
 	dh_strip --dbg-package=libtelepathy-qt4-dbg
 
