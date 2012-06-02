@@ -1,38 +1,39 @@
-Description: Fix FTBFS with gcc-4.7
-Author: Cyril Brulebois <kibi@debian.org>
+Description: Use quintptr instead of intptr_t to fix FTBFS with gcc-4.7
+Origin: backport, http://cgit.freedesktop.org/telepathy/telepathy-qt/commit/?id=b2632998374b45af488b6c3a5a6fe330d23bb799
+Author: George Kiagiadakis <george.kiagiadakis@collabora.com>
 Bug: https://bugs.freedesktop.org/show_bug.cgi?id=50204
 Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=667391
 
 --- a/TelepathyQt/client-registrar.cpp
 +++ b/TelepathyQt/client-registrar.cpp
-@@ -40,6 +40,8 @@
- #include <TelepathyQt/PendingComposite>
- #include <TelepathyQt/PendingReady>
+@@ -888,7 +888,7 @@ bool ClientRegistrar::registerClient(const AbstractClientPtr &client,
+                 .arg(mPriv->bus.baseService()
+                     .replace(QLatin1String(":"), QLatin1String("_"))
+                     .replace(QLatin1String("."), QLatin1String("_")))
+-                .arg((intptr_t) client.data(), 0, 16));
++                .arg((quintptr) client.data(), 0, 16));
+     }
  
-+#include <unistd.h>
-+
- namespace Tp
- {
- 
+     if (mPriv->services.contains(busName) ||
 --- a/TelepathyQt/stream-tube-client.cpp
 +++ b/TelepathyQt/stream-tube-client.cpp
-@@ -38,6 +38,8 @@
- #include <QAbstractSocket>
- #include <QHash>
- 
-+#include <unistd.h>
-+
- namespace Tp
- {
+@@ -211,7 +211,7 @@ struct TP_QT_NO_EXPORT StreamTubeClient::Private
+                 .arg(registrar->dbusConnection().baseService()
+                         .replace(QLatin1Char(':'), QLatin1Char('_'))
+                         .replace(QLatin1Char('.'), QLatin1Char('_')))
+-                .arg((intptr_t) this, 0, 16);
++                .arg((quintptr) this, 0, 16);
+         }
+     }
  
 --- a/TelepathyQt/stream-tube-server.cpp
 +++ b/TelepathyQt/stream-tube-server.cpp
-@@ -38,6 +38,8 @@
- #include <TelepathyQt/OutgoingStreamTubeChannel>
- #include <TelepathyQt/StreamTubeChannel>
- 
-+#include <unistd.h>
-+
- namespace Tp
- {
+@@ -307,7 +307,7 @@ struct StreamTubeServer::Private
+                 .arg(registrar->dbusConnection().baseService()
+                         .replace(QLatin1Char(':'), QLatin1Char('_'))
+                         .replace(QLatin1Char('.'), QLatin1Char('_')))
+-                .arg((intptr_t) this, 0, 16);
++                .arg((quintptr) this, 0, 16);
+         }
+     }
  
