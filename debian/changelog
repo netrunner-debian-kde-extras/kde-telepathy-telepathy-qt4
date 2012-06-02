@@ -19,6 +19,7 @@ telepathy-qt (0.9.1-1) UNRELEASED; urgency=low
   * Install the TelepathyQt4*Config.cmake and related files.
   * Add symbols files.
   * Update README.source.
+  * Update debian/copyright.
 
  -- Laurent Bigonville <bigon@debian.org>  Thu, 31 May 2012 14:47:51 +0200
 
