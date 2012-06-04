@@ -101,7 +101,7 @@ Description: Qt 4 Telepathy library (debug symbols)
 Package: libtelepathy-qt4-doc
 Architecture: all
 Section: doc
-Depends: ${misc:Depends}
+Depends: libjs-jquery, ${misc:Depends}
 Description: Qt 4 Telepathy library (documentation)
  This package contains HTML documentation for telepathy-qt4, a Qt-based
  library for Telepathy components.

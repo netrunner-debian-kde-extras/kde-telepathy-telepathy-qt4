@@ -11,6 +11,7 @@ telepathy-qt (0.9.1-1) UNRELEASED; urgency=low
   * debian/control: Bump Standards-Version to 3.9.3 (no further changes)
   * Bump debhelper compatibility to 9
   * debian/watch: Update watch file to match new upstream name
+  * Link jquery.js file to the one provided by libjs-jquery
 
   [ George Kiagiadakis ]
   * Change the gcc-4.7 ftbfs patch to use the upstream patch.
@@ -21,7 +22,7 @@ telepathy-qt (0.9.1-1) UNRELEASED; urgency=low
   * Update README.source.
   * Update debian/copyright.
 
- -- Laurent Bigonville <bigon@debian.org>  Thu, 31 May 2012 14:47:51 +0200
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 04 Jun 2012 13:45:55 +0200
 
 telepathy-qt4 (0.7.1-1.1) unstable; urgency=low
 
