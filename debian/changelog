@@ -1,5 +1,6 @@
-telepathy-qt (0.9.1-1) UNRELEASED; urgency=low
+telepathy-qt (0.9.1-1) unstable; urgency=low
 
+  * Team upload.
   * New upstream release. (Closes: #647835)
     - Upstream source package renamed to telepathy-qt
 
@@ -22,7 +23,7 @@ telepathy-qt (0.9.1-1) UNRELEASED; urgency=low
   * Update README.source.
   * Update debian/copyright.
 
- -- Laurent Bigonville <bigon@debian.org>  Mon, 04 Jun 2012 13:45:55 +0200
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 04 Jun 2012 14:33:00 +0200
 
 telepathy-qt4 (0.7.1-1.1) unstable; urgency=low
 
