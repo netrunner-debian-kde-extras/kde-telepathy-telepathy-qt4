@@ -1,1 +1,2 @@
 fix_ftbfs_gcc47.patch
+fvisibility-inlines-hidden.patch
