@@ -4,7 +4,7 @@ telepathy-qt (0.9.1-3) UNRELEASED; urgency=low
     -fvisibility-inlines-hidden to the compiler and avoid
     having inline functions in the symbols file.
   * Cleanup libtelepathy-qt4-2.symbols from all inline
-    functions to fix FTBFS.
+    functions to fix FTBFS (Closes: #676259).
 
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Wed, 06 Jun 2012 18:57:08 +0300
 
