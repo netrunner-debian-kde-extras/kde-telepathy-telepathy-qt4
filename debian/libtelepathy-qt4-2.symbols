@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.9.1 amd64
+# SymbolsHelper-Confirmed: 0.9.1 amd64 armhf i386 ia64 mips mipsel powerpc s390 s390x sparc
 libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
 * Build-Depends-Package: libtelepathy-qt4-dev
  _ZN2Tp10AccountSet11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -13,11 +13,11 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp10AccountSetD0Ev@Base 0.9.1
  _ZN2Tp10AccountSetD1Ev@Base 0.9.1
  _ZN2Tp10AccountSetD2Ev@Base 0.9.1
- _ZN2Tp10AvatarDataC1ERKS0_@Base 0.9.1
- _ZN2Tp10AvatarDataC2ERKS0_@Base 0.9.1
- _ZN2Tp10AvatarDataD1Ev@Base 0.9.1
- _ZN2Tp10AvatarDataD2Ev@Base 0.9.1
- _ZN2Tp10AvatarDataaSERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp10AvatarDataC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp10AvatarDataC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp10AvatarDataD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp10AvatarDataD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp10AvatarDataaSERKS0_@Base 0.9.1
  _ZN2Tp10AvatarSpecC1ERK11QStringListjjjjjjj@Base 0.9.1
  _ZN2Tp10AvatarSpecC1ERKS0_@Base 0.9.1
  _ZN2Tp10AvatarSpecC1Ev@Base 0.9.1
@@ -107,20 +107,20 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp11CallContentD0Ev@Base 0.9.1
  _ZN2Tp11CallContentD1Ev@Base 0.9.1
  _ZN2Tp11CallContentD2Ev@Base 0.9.1
- _ZN2Tp11CaptchaInfoC1ERKS0_@Base 0.9.1
- _ZN2Tp11CaptchaInfoC2ERKS0_@Base 0.9.1
- _ZN2Tp11CaptchaInfoD1Ev@Base 0.9.1
- _ZN2Tp11CaptchaInfoD2Ev@Base 0.9.1
- _ZN2Tp11ChannelInfoC1ERKS0_@Base 0.9.1
- _ZN2Tp11ChannelInfoC2ERKS0_@Base 0.9.1
- _ZN2Tp11ChannelInfoD1Ev@Base 0.9.1
- _ZN2Tp11ChannelInfoD2Ev@Base 0.9.1
- _ZN2Tp11MailAddressC1ERKS0_@Base 0.9.1
- _ZN2Tp11MailAddressC2ERKS0_@Base 0.9.1
- _ZN2Tp11MailAddressD1Ev@Base 0.9.1
- _ZN2Tp11MailAddressD2Ev@Base 0.9.1
- _ZN2Tp11MessagePartD1Ev@Base 0.9.1
- _ZN2Tp11MessagePartD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp11CaptchaInfoC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp11CaptchaInfoC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp11CaptchaInfoD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp11CaptchaInfoD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp11ChannelInfoC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp11ChannelInfoC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp11ChannelInfoD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp11ChannelInfoD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp11MailAddressC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp11MailAddressC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp11MailAddressD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp11MailAddressD2Ev@Base 0.9.1
+ (optional=inline|arch=!ia64)_ZN2Tp11MessagePartD1Ev@Base 0.9.1
+ (optional=inline|arch=!ia64)_ZN2Tp11MessagePartD2Ev@Base 0.9.1
  _ZN2Tp11PendingVoid11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp11PendingVoid11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp11PendingVoid16staticMetaObjectE@Base 0.9.1
@@ -173,12 +173,12 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp11TubeChannelD1Ev@Base 0.9.1
  _ZN2Tp11TubeChannelD2Ev@Base 0.9.1
  _ZN2Tp11enableDebugEb@Base 0.9.1
- _ZN2Tp12ChannelClassD1Ev@Base 0.9.1
- _ZN2Tp12ChannelClassD2Ev@Base 0.9.1
- _ZN2Tp12HTTPPostDataC1ERKS0_@Base 0.9.1
- _ZN2Tp12HTTPPostDataC2ERKS0_@Base 0.9.1
- _ZN2Tp12HTTPPostDataD1Ev@Base 0.9.1
- _ZN2Tp12HTTPPostDataD2Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp12ChannelClassD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp12ChannelClassD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp12HTTPPostDataC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp12HTTPPostDataC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp12HTTPPostDataD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp12HTTPPostDataD2Ev@Base 0.9.1
  _ZN2Tp12LocationInfoC1ERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp12LocationInfoC1ERKS0_@Base 0.9.1
  _ZN2Tp12LocationInfoC1Ev@Base 0.9.1
@@ -204,10 +204,10 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp12PresenceSpecD1Ev@Base 0.9.1
  _ZN2Tp12PresenceSpecD2Ev@Base 0.9.1
  _ZN2Tp12PresenceSpecaSERKS0_@Base 0.9.1
- _ZN2Tp12PropertySpecC1ERKS0_@Base 0.9.1
- _ZN2Tp12PropertySpecC2ERKS0_@Base 0.9.1
- _ZN2Tp12PropertySpecD1Ev@Base 0.9.1
- _ZN2Tp12PropertySpecD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp12PropertySpecC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp12PropertySpecC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp12PropertySpecD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp12PropertySpecD2Ev@Base 0.9.1
  _ZN2Tp12ProtocolInfo19normalizeContactUriERK7QString@Base 0.9.1
  _ZN2Tp12ProtocolInfo21normalizeVCardAddressERK7QStringS3_@Base 0.9.1
  _ZN2Tp12ProtocolInfoC1ERKS0_@Base 0.9.1
@@ -217,15 +217,15 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp12ProtocolInfoD1Ev@Base 0.9.1
  _ZN2Tp12ProtocolInfoD2Ev@Base 0.9.1
  _ZN2Tp12ProtocolInfoaSERKS0_@Base 0.9.1
- _ZN2Tp12ServicePointD1Ev@Base 0.9.1
- _ZN2Tp12ServicePointD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp12ServicePointD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp12ServicePointD2Ev@Base 0.9.1
  _ZN2Tp12enabledDebugEv@Base 0.9.1
- _ZN2Tp13CallMemberMapC1ERKS0_@Base 0.9.1
- _ZN2Tp13CallMemberMapC2ERKS0_@Base 0.9.1
- _ZN2Tp13CallMemberMapD1Ev@Base 0.9.1
- _ZN2Tp13CallMemberMapD2Ev@Base 0.9.1
- _ZN2Tp13CandidatePairD1Ev@Base 0.9.1
- _ZN2Tp13CandidatePairD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp13CallMemberMapC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp13CallMemberMapC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp13CallMemberMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp13CallMemberMapD2Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp13CandidatePairD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp13CandidatePairD2Ev@Base 0.9.1
  _ZN2Tp13PendingString11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp13PendingString11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp13PendingString16staticMetaObjectE@Base 0.9.1
@@ -265,12 +265,12 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp14AccountManagerD0Ev@Base 0.9.1
  _ZN2Tp14AccountManagerD1Ev@Base 0.9.1
  _ZN2Tp14AccountManagerD2Ev@Base 0.9.1
- _ZN2Tp14CapabilityPairD1Ev@Base 0.9.1
- _ZN2Tp14CapabilityPairD2Ev@Base 0.9.1
- _ZN2Tp14ChannelDetailsC1ERKS0_@Base 0.9.1
- _ZN2Tp14ChannelDetailsC2ERKS0_@Base 0.9.1
- _ZN2Tp14ChannelDetailsD1Ev@Base 0.9.1
- _ZN2Tp14ChannelDetailsD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14CapabilityPairD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14CapabilityPairD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14ChannelDetailsC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14ChannelDetailsC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp14ChannelDetailsD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp14ChannelDetailsD2Ev@Base 0.9.1
  _ZN2Tp14ChannelFactory11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp14ChannelFactory11qt_metacastEPKc@Base 0.9.1
  (optional=templinst)_ZN2Tp14ChannelFactory12SubclassCtorINS_11CallChannelEED0Ev@Base 0.9.1
@@ -402,16 +402,18 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp14ContactManagerD0Ev@Base 0.9.1
  _ZN2Tp14ContactManagerD1Ev@Base 0.9.1
  _ZN2Tp14ContactManagerD2Ev@Base 0.9.1
- _ZN2Tp14CurrencyAmountC1ERKS0_@Base 0.9.1
- _ZN2Tp14CurrencyAmountC2ERKS0_@Base 0.9.1
- _ZN2Tp14CurrencyAmountD1Ev@Base 0.9.1
- _ZN2Tp14CurrencyAmountD2Ev@Base 0.9.1
- _ZN2Tp14DBusTubeMemberD1Ev@Base 0.9.1
- _ZN2Tp14DBusTubeMemberD2Ev@Base 0.9.1
- _ZN2Tp14HandleOwnerMapC1ERKS0_@Base 0.9.1
- _ZN2Tp14HandleOwnerMapC2ERKS0_@Base 0.9.1
- _ZN2Tp14ObjectPathListC1ERKS0_@Base 0.9.1
- _ZN2Tp14ObjectPathListC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14CurrencyAmountC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14CurrencyAmountC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14CurrencyAmountD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14CurrencyAmountD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14DBusTubeMemberD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14DBusTubeMemberD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14HandleOwnerMapC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14HandleOwnerMapC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14ObjectPathListC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14ObjectPathListC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=!amd64 !i386)_ZN2Tp14ObjectPathListD1Ev@Base 0.9.1
+ (optional=inline|arch=!amd64 !i386)_ZN2Tp14ObjectPathListD2Ev@Base 0.9.1
  _ZN2Tp14PendingAccount11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp14PendingAccount11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp14PendingAccount16staticMetaObjectE@Base 0.9.1
@@ -472,17 +474,19 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp14SimpleObserverD0Ev@Base 0.9.1
  _ZN2Tp14SimpleObserverD1Ev@Base 0.9.1
  _ZN2Tp14SimpleObserverD2Ev@Base 0.9.1
- _ZN2Tp14SimplePresenceC1ERKS0_@Base 0.9.1
- _ZN2Tp14SimplePresenceC2ERKS0_@Base 0.9.1
- _ZN2Tp14SimplePresenceD1Ev@Base 0.9.1
- _ZN2Tp14SimplePresenceD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14SimplePresenceC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=armhf mips mipsel)_ZN2Tp14SimplePresenceC1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp14SimplePresenceC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=armhf mips mipsel)_ZN2Tp14SimplePresenceC2Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp14SimplePresenceD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp14SimplePresenceD2Ev@Base 0.9.1
  _ZN2Tp14enableWarningsEb@Base 0.9.1
  _ZN2Tp14enabledWarningEv@Base 0.9.1
- _ZN2Tp15CallStateReasonC1ERKS0_@Base 0.9.1
- _ZN2Tp15CallStateReasonC2ERKS0_@Base 0.9.1
- _ZN2Tp15CallStateReasonD1Ev@Base 0.9.1
- _ZN2Tp15CallStateReasonD2Ev@Base 0.9.1
- _ZN2Tp15CallStateReasonaSERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp15CallStateReasonC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp15CallStateReasonC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp15CallStateReasonD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp15CallStateReasonD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp15CallStateReasonaSERKS0_@Base 0.9.1
  _ZN2Tp15ClientRegistrar11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp15ClientRegistrar11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp15ClientRegistrar14registerClientERKNS_9SharedPtrINS_14AbstractClientEEERK7QStringb@Base 0.9.1
@@ -558,12 +562,12 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp15RoomListChannelD0Ev@Base 0.9.1
  _ZN2Tp15RoomListChannelD1Ev@Base 0.9.1
  _ZN2Tp15RoomListChannelD2Ev@Base 0.9.1
- _ZN2Tp15SUSocketAddressD1Ev@Base 0.9.1
- _ZN2Tp15SUSocketAddressD2Ev@Base 0.9.1
- _ZN2Tp15SocketAddressIPD1Ev@Base 0.9.1
- _ZN2Tp15SocketAddressIPD2Ev@Base 0.9.1
- _ZN2Tp15StringStringMapD1Ev@Base 0.9.1
- _ZN2Tp15StringStringMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp15SUSocketAddressD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp15SUSocketAddressD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp15SocketAddressIPD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp15SocketAddressIPD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp15StringStringMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp15StringStringMapD2Ev@Base 0.9.1
  _ZN2Tp16CapabilitiesBase31updateRequestableChannelClassesERK5QListINS_23RequestableChannelClassEE@Base 0.9.1
  _ZN2Tp16CapabilitiesBaseC1ERK5QListINS_23RequestableChannelClassEEb@Base 0.9.1
  _ZN2Tp16CapabilitiesBaseC1ERKNS_31RequestableChannelClassSpecListEb@Base 0.9.1
@@ -579,8 +583,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16CapabilitiesBaseD1Ev@Base 0.9.1
  _ZN2Tp16CapabilitiesBaseD2Ev@Base 0.9.1
  _ZN2Tp16CapabilitiesBaseaSERKS0_@Base 0.9.1
- _ZN2Tp16CapabilityChangeD1Ev@Base 0.9.1
- _ZN2Tp16CapabilityChangeD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp16CapabilityChangeD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp16CapabilityChangeD2Ev@Base 0.9.1
  _ZN2Tp16ChannelClassSpec11setPropertyERK7QStringRK8QVariant@Base 0.9.1
  _ZN2Tp16ChannelClassSpec12textChatroomERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec13contactSearchERK4QMapI7QString8QVariantE@Base 0.9.1
@@ -621,10 +625,10 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16ChannelClassSpecD1Ev@Base 0.9.1
  _ZN2Tp16ChannelClassSpecD2Ev@Base 0.9.1
  _ZN2Tp16ChannelClassSpecaSERKS0_@Base 0.9.1
- _ZN2Tp16ContactInfoFieldC1ERKS0_@Base 0.9.1
- _ZN2Tp16ContactInfoFieldC2ERKS0_@Base 0.9.1
- _ZN2Tp16ContactInfoFieldD1Ev@Base 0.9.1
- _ZN2Tp16ContactInfoFieldD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386 sparc)_ZN2Tp16ContactInfoFieldC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386 sparc)_ZN2Tp16ContactInfoFieldC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp16ContactInfoFieldD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp16ContactInfoFieldD2Ev@Base 0.9.1
  _ZN2Tp16ContactMessenger11messageSentERKNS_7MessageE6QFlagsINS_18MessageSendingFlagEERK7QStringRKNS_9SharedPtrINS_11TextChannelEEE@Base 0.9.1
  _ZN2Tp16ContactMessenger11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp16ContactMessenger11qt_metacastEPKc@Base 0.9.1
@@ -637,6 +641,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16ContactMessengerD0Ev@Base 0.9.1
  _ZN2Tp16ContactMessengerD1Ev@Base 0.9.1
  _ZN2Tp16ContactMessengerD2Ev@Base 0.9.1
+ (optional=inline|arch=sparc)_ZN2Tp16ContactSearchMapD1Ev@Base 0.9.1
+ (optional=inline|arch=sparc)_ZN2Tp16ContactSearchMapD2Ev@Base 0.9.1
  _ZN2Tp16DBusProxyFactory11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp16DBusProxyFactory11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp16DBusProxyFactory16staticMetaObjectE@Base 0.9.1
@@ -645,8 +651,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16DBusProxyFactoryD0Ev@Base 0.9.1
  _ZN2Tp16DBusProxyFactoryD1Ev@Base 0.9.1
  _ZN2Tp16DBusProxyFactoryD2Ev@Base 0.9.1
- _ZN2Tp16LocalPendingInfoD1Ev@Base 0.9.1
- _ZN2Tp16LocalPendingInfoD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp16LocalPendingInfoD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp16LocalPendingInfoD2Ev@Base 0.9.1
  _ZN2Tp16PendingComposite11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp16PendingComposite11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp16PendingComposite16staticMetaObjectE@Base 0.9.1
@@ -669,10 +675,12 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16PendingOperationD0Ev@Base 0.9.1
  _ZN2Tp16PendingOperationD1Ev@Base 0.9.1
  _ZN2Tp16PendingOperationD2Ev@Base 0.9.1
- _ZN2Tp16ServicePointInfoC1ERKS0_@Base 0.9.1
- _ZN2Tp16ServicePointInfoC2ERKS0_@Base 0.9.1
- _ZN2Tp16ServicePointInfoD1Ev@Base 0.9.1
- _ZN2Tp16ServicePointInfoD2Ev@Base 0.9.1
+ (optional=inline|arch=!amd64 !i386)_ZN2Tp16PresenceSpecListD1Ev@Base 0.9.1
+ (optional=inline|arch=!amd64 !i386)_ZN2Tp16PresenceSpecListD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp16ServicePointInfoC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp16ServicePointInfoC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp16ServicePointInfoD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp16ServicePointInfoD2Ev@Base 0.9.1
  _ZN2Tp16StreamTubeClient10tubeClosedERKNS_9SharedPtrINS_7AccountEEERKNS1_INS_25IncomingStreamTubeChannelEEERK7QStringSC_@Base 0.9.1
  _ZN2Tp16StreamTubeClient11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp16StreamTubeClient11qt_metacastEPKc@Base 0.9.1
@@ -736,8 +744,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16StreamTubeServerD0Ev@Base 0.9.1
  _ZN2Tp16StreamTubeServerD1Ev@Base 0.9.1
  _ZN2Tp16StreamTubeServerD2Ev@Base 0.9.1
- _ZN2Tp16StringVariantMapD1Ev@Base 0.9.1
- _ZN2Tp16StringVariantMapD2Ev@Base 0.9.1
+ (optional=inline|arch=!armhf !ia64 !sparc)_ZN2Tp16StringVariantMapD1Ev@Base 0.9.1
+ (optional=inline|arch=!armhf !ia64 !sparc)_ZN2Tp16StringVariantMapD2Ev@Base 0.9.1
  _ZN2Tp16setDebugCallbackEPFvRK7QStringS2_9QtMsgTypeS2_E@Base 0.9.1
  _ZN2Tp17AbstractInterface10invalidateEPNS_9DBusProxyERK7QStringS5_@Base 0.9.1
  _ZN2Tp17AbstractInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -773,12 +781,12 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp17ConnectionManagerD0Ev@Base 0.9.1
  _ZN2Tp17ConnectionManagerD1Ev@Base 0.9.1
  _ZN2Tp17ConnectionManagerD2Ev@Base 0.9.1
- _ZN2Tp17ContactCapabilityD1Ev@Base 0.9.1
- _ZN2Tp17ContactCapabilityD2Ev@Base 0.9.1
- _ZN2Tp17MultipleStatusMapD1Ev@Base 0.9.1
- _ZN2Tp17MultipleStatusMapD2Ev@Base 0.9.1
- _ZN2Tp17NotDelegatedErrorD1Ev@Base 0.9.1
- _ZN2Tp17NotDelegatedErrorD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp17ContactCapabilityD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp17ContactCapabilityD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp17MultipleStatusMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp17MultipleStatusMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp17NotDelegatedErrorD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp17NotDelegatedErrorD2Ev@Base 0.9.1
  _ZN2Tp17PendingConnection11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp17PendingConnection11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp17PendingConnection16staticMetaObjectE@Base 0.9.1
@@ -825,10 +833,10 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp17ReferencedHandlesD1Ev@Base 0.9.1
  _ZN2Tp17ReferencedHandlesD2Ev@Base 0.9.1
  _ZN2Tp17ReferencedHandlesaSERKS0_@Base 0.9.1
- _ZN2Tp17SocketAddressIPv4D1Ev@Base 0.9.1
- _ZN2Tp17SocketAddressIPv4D2Ev@Base 0.9.1
- _ZN2Tp17SocketAddressIPv6D1Ev@Base 0.9.1
- _ZN2Tp17SocketAddressIPv6D2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp17SocketAddressIPv4D1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp17SocketAddressIPv4D2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp17SocketAddressIPv6D1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp17SocketAddressIPv6D2Ev@Base 0.9.1
  _ZN2Tp17StatefulDBusProxy11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp17StatefulDBusProxy11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp17StatefulDBusProxy14uniqueNameFromERK15QDBusConnectionRK7QString@Base 0.9.1
@@ -903,12 +911,12 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp18PendingSendMessageD0Ev@Base 0.9.1
  _ZN2Tp18PendingSendMessageD1Ev@Base 0.9.1
  _ZN2Tp18PendingSendMessageD2Ev@Base 0.9.1
- _ZN2Tp18PendingTextMessageD1Ev@Base 0.9.1
- _ZN2Tp18PendingTextMessageD2Ev@Base 0.9.1
- _ZN2Tp18RTPHeaderExtensionC1ERKS0_@Base 0.9.1
- _ZN2Tp18RTPHeaderExtensionC2ERKS0_@Base 0.9.1
- _ZN2Tp18RTPHeaderExtensionD1Ev@Base 0.9.1
- _ZN2Tp18RTPHeaderExtensionD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp18PendingTextMessageD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp18PendingTextMessageD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp18RTPHeaderExtensionC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp18RTPHeaderExtensionC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp18RTPHeaderExtensionD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp18RTPHeaderExtensionD2Ev@Base 0.9.1
  _ZN2Tp18SimpleCallObserver11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp18SimpleCallObserver11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp18SimpleCallObserver16staticMetaObjectE@Base 0.9.1
@@ -939,8 +947,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp18StatelessDBusProxyD0Ev@Base 0.9.1
  _ZN2Tp18StatelessDBusProxyD1Ev@Base 0.9.1
  _ZN2Tp18StatelessDBusProxyD2Ev@Base 0.9.1
- _ZN2Tp18SupportedSocketMapD1Ev@Base 0.9.1
- _ZN2Tp18SupportedSocketMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp18SupportedSocketMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp18SupportedSocketMapD2Ev@Base 0.9.1
  _ZN2Tp18escapeAsIdentifierERK7QString@Base 0.9.1
  _ZN2Tp19ChannelRequestHints7setHintERK7QStringS3_RK8QVariant@Base 0.9.1
  _ZN2Tp19ChannelRequestHintsC1ERK4QMapI7QString8QVariantE@Base 0.9.1
@@ -990,22 +998,22 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp19FixedFeatureFactoryD0Ev@Base 0.9.1
  _ZN2Tp19FixedFeatureFactoryD1Ev@Base 0.9.1
  _ZN2Tp19FixedFeatureFactoryD2Ev@Base 0.9.1
- _ZN2Tp19HandleIdentifierMapC1ERKS0_@Base 0.9.1
- _ZN2Tp19HandleIdentifierMapC2ERKS0_@Base 0.9.1
- _ZN2Tp19HandleIdentifierMapD1Ev@Base 0.9.1
- _ZN2Tp19HandleIdentifierMapD2Ev@Base 0.9.1
- _ZN2Tp19HandlerCapabilitiesC1ERKS0_@Base 0.9.1
- _ZN2Tp19HandlerCapabilitiesC2ERKS0_@Base 0.9.1
- _ZN2Tp19HandlerCapabilitiesD1Ev@Base 0.9.1
- _ZN2Tp19HandlerCapabilitiesD2Ev@Base 0.9.1
- _ZN2Tp19RTCPFeedbackMessageC1ERKS0_@Base 0.9.1
- _ZN2Tp19RTCPFeedbackMessageC2ERKS0_@Base 0.9.1
- _ZN2Tp19RTCPFeedbackMessageD1Ev@Base 0.9.1
- _ZN2Tp19RTCPFeedbackMessageD2Ev@Base 0.9.1
- _ZN2Tp19SimpleStatusSpecMapC1ERKS0_@Base 0.9.1
- _ZN2Tp19SimpleStatusSpecMapC2ERKS0_@Base 0.9.1
- _ZN2Tp19SimpleStatusSpecMapD1Ev@Base 0.9.1
- _ZN2Tp19SimpleStatusSpecMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386 mips mipsel)_ZN2Tp19HandleIdentifierMapC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386 mips mipsel)_ZN2Tp19HandleIdentifierMapC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp19HandleIdentifierMapD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp19HandleIdentifierMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp19HandlerCapabilitiesC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp19HandlerCapabilitiesC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp19HandlerCapabilitiesD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp19HandlerCapabilitiesD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp19RTCPFeedbackMessageC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp19RTCPFeedbackMessageC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp19RTCPFeedbackMessageD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp19RTCPFeedbackMessageD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp19SimpleStatusSpecMapC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp19SimpleStatusSpecMapC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp19SimpleStatusSpecMapD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp19SimpleStatusSpecMapD2Ev@Base 0.9.1
  _ZN2Tp19StreamedMediaStream11FeatureCoreE@Base 0.9.1
  _ZN2Tp19StreamedMediaStream11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp19StreamedMediaStream11qt_metacastEPKc@Base 0.9.1
@@ -1021,14 +1029,16 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp19StreamedMediaStreamD0Ev@Base 0.9.1
  _ZN2Tp19StreamedMediaStreamD1Ev@Base 0.9.1
  _ZN2Tp19StreamedMediaStreamD2Ev@Base 0.9.1
- _ZN2Tp20ChannelOriginatorMapC1ERKS0_@Base 0.9.1
- _ZN2Tp20ChannelOriginatorMapC2ERKS0_@Base 0.9.1
- _ZN2Tp20ChannelOriginatorMapD1Ev@Base 0.9.1
- _ZN2Tp20ChannelOriginatorMapD2Ev@Base 0.9.1
- _ZN2Tp20ContactAttributesMapC1ERKS0_@Base 0.9.1
- _ZN2Tp20ContactAttributesMapC2ERKS0_@Base 0.9.1
- _ZN2Tp20ContactAttributesMapD1Ev@Base 0.9.1
- _ZN2Tp20ContactAttributesMapD2Ev@Base 0.9.1
+ (optional=inline|arch=!amd64 !i386)_ZN2Tp20ChannelClassSpecListD1Ev@Base 0.9.1
+ (optional=inline|arch=!amd64 !i386)_ZN2Tp20ChannelClassSpecListD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20ChannelOriginatorMapC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20ChannelOriginatorMapC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20ChannelOriginatorMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20ChannelOriginatorMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20ContactAttributesMapC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20ContactAttributesMapC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20ContactAttributesMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20ContactAttributesMapD2Ev@Base 0.9.1
  _ZN2Tp20ContactSearchChannel10stopSearchEv@Base 0.9.1
  _ZN2Tp20ContactSearchChannel11FeatureCoreE@Base 0.9.1
  _ZN2Tp20ContactSearchChannel11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -1079,10 +1089,10 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp20StreamedMediaChannelD0Ev@Base 0.9.1
  _ZN2Tp20StreamedMediaChannelD1Ev@Base 0.9.1
  _ZN2Tp20StreamedMediaChannelD2Ev@Base 0.9.1
- _ZN2Tp20VCardFieldAddressMapC1ERKS0_@Base 0.9.1
- _ZN2Tp20VCardFieldAddressMapC2ERKS0_@Base 0.9.1
- _ZN2Tp20VCardFieldAddressMapD1Ev@Base 0.9.1
- _ZN2Tp20VCardFieldAddressMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20VCardFieldAddressMapC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20VCardFieldAddressMapC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20VCardFieldAddressMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp20VCardFieldAddressMapD2Ev@Base 0.9.1
  _ZN2Tp21AbstractClientHandler10addRequestERKNS_9SharedPtrINS_14ChannelRequestEEE@Base 0.9.1
  _ZN2Tp21AbstractClientHandler11HandlerInfoC1ERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp21AbstractClientHandler11HandlerInfoC1ERKS1_@Base 0.9.1
@@ -1122,10 +1132,10 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp21CaptchaAuthenticationD0Ev@Base 0.9.1
  _ZN2Tp21CaptchaAuthenticationD1Ev@Base 0.9.1
  _ZN2Tp21CaptchaAuthenticationD2Ev@Base 0.9.1
- _ZN2Tp21MediaDescriptionOfferC1ERKS0_@Base 0.9.1
- _ZN2Tp21MediaDescriptionOfferC2ERKS0_@Base 0.9.1
- _ZN2Tp21MediaDescriptionOfferD1Ev@Base 0.9.1
- _ZN2Tp21MediaDescriptionOfferD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp21MediaDescriptionOfferC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp21MediaDescriptionOfferC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp21MediaDescriptionOfferD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp21MediaDescriptionOfferD2Ev@Base 0.9.1
  _ZN2Tp21PendingChannelRequest11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp21PendingChannelRequest11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp21PendingChannelRequest16staticMetaObjectE@Base 0.9.1
@@ -1134,10 +1144,10 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp21PendingChannelRequestD0Ev@Base 0.9.1
  _ZN2Tp21PendingChannelRequestD1Ev@Base 0.9.1
  _ZN2Tp21PendingChannelRequestD2Ev@Base 0.9.1
- _ZN2Tp21ProtocolPropertiesMapC1ERKS0_@Base 0.9.1
- _ZN2Tp21ProtocolPropertiesMapC2ERKS0_@Base 0.9.1
- _ZN2Tp21ProtocolPropertiesMapD1Ev@Base 0.9.1
- _ZN2Tp21ProtocolPropertiesMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp21ProtocolPropertiesMapC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp21ProtocolPropertiesMapC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp21ProtocolPropertiesMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp21ProtocolPropertiesMapD2Ev@Base 0.9.1
  _ZN2Tp22AbstractClientApproverC1ERKNS_20ChannelClassSpecListE@Base 0.9.1
  _ZN2Tp22AbstractClientApproverC2ERKNS_20ChannelClassSpecListE@Base 0.9.1
  _ZN2Tp22AbstractClientApproverD0Ev@Base 0.9.1
@@ -1157,25 +1167,25 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp22AbstractClientObserverD2Ev@Base 0.9.1
  _ZN2Tp22ConnectionCapabilitiesC1ERK5QListINS_23RequestableChannelClassEE@Base 0.9.1
  _ZN2Tp22ConnectionCapabilitiesC1ERKNS_31RequestableChannelClassSpecListE@Base 0.9.1
- _ZN2Tp22ConnectionCapabilitiesC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp22ConnectionCapabilitiesC1ERKS0_@Base 0.9.1
  _ZN2Tp22ConnectionCapabilitiesC1Ev@Base 0.9.1
  _ZN2Tp22ConnectionCapabilitiesC2ERK5QListINS_23RequestableChannelClassEE@Base 0.9.1
  _ZN2Tp22ConnectionCapabilitiesC2ERKNS_31RequestableChannelClassSpecListE@Base 0.9.1
- _ZN2Tp22ConnectionCapabilitiesC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp22ConnectionCapabilitiesC2ERKS0_@Base 0.9.1
  _ZN2Tp22ConnectionCapabilitiesC2Ev@Base 0.9.1
  _ZN2Tp22ConnectionCapabilitiesD0Ev@Base 0.9.1
  _ZN2Tp22ConnectionCapabilitiesD1Ev@Base 0.9.1
  _ZN2Tp22ConnectionCapabilitiesD2Ev@Base 0.9.1
- _ZN2Tp22ContactCapabilitiesMapD1Ev@Base 0.9.1
- _ZN2Tp22ContactCapabilitiesMapD2Ev@Base 0.9.1
- _ZN2Tp22ContactSearchResultMapD1Ev@Base 0.9.1
- _ZN2Tp22ContactSearchResultMapD2Ev@Base 0.9.1
- _ZN2Tp22ContactSendingStateMapC1ERKS0_@Base 0.9.1
- _ZN2Tp22ContactSendingStateMapC2ERKS0_@Base 0.9.1
- _ZN2Tp22ContactSendingStateMapD1Ev@Base 0.9.1
- _ZN2Tp22ContactSendingStateMapD2Ev@Base 0.9.1
- _ZN2Tp22ContactSubscriptionMapD1Ev@Base 0.9.1
- _ZN2Tp22ContactSubscriptionMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp22ContactCapabilitiesMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp22ContactCapabilitiesMapD2Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp22ContactSearchResultMapD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp22ContactSearchResultMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp22ContactSendingStateMapC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp22ContactSendingStateMapC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp22ContactSendingStateMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp22ContactSendingStateMapD2Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp22ContactSubscriptionMapD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp22ContactSubscriptionMapD2Ev@Base 0.9.1
  _ZN2Tp22HandledChannelNotifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp22HandledChannelNotifier11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp22HandledChannelNotifier12handledAgainERK9QDateTimeRKNS_19ChannelRequestHintsE@Base 0.9.1
@@ -1190,22 +1200,22 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp22OptionalInterfaceCacheC2EP7QObject@Base 0.9.1
  _ZN2Tp22OptionalInterfaceCacheD1Ev@Base 0.9.1
  _ZN2Tp22OptionalInterfaceCacheD2Ev@Base 0.9.1
- _ZN2Tp23MediaSessionHandlerInfoC1ERKS0_@Base 0.9.1
- _ZN2Tp23MediaSessionHandlerInfoC2ERKS0_@Base 0.9.1
- _ZN2Tp23MediaSessionHandlerInfoD1Ev@Base 0.9.1
- _ZN2Tp23MediaSessionHandlerInfoD2Ev@Base 0.9.1
- _ZN2Tp23MediaStreamHandlerCodecC1ERKS0_@Base 0.9.1
- _ZN2Tp23MediaStreamHandlerCodecC2ERKS0_@Base 0.9.1
- _ZN2Tp23MediaStreamHandlerCodecD1Ev@Base 0.9.1
- _ZN2Tp23MediaStreamHandlerCodecD2Ev@Base 0.9.1
- _ZN2Tp23RequestableChannelClassC1ERKS0_@Base 0.9.1
- _ZN2Tp23RequestableChannelClassC2ERKS0_@Base 0.9.1
- _ZN2Tp23RequestableChannelClassD1Ev@Base 0.9.1
- _ZN2Tp23RequestableChannelClassD2Ev@Base 0.9.1
- _ZN2Tp23TLSCertificateRejectionC1ERKS0_@Base 0.9.1
- _ZN2Tp23TLSCertificateRejectionC2ERKS0_@Base 0.9.1
- _ZN2Tp23TLSCertificateRejectionD1Ev@Base 0.9.1
- _ZN2Tp23TLSCertificateRejectionD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp23MediaSessionHandlerInfoC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp23MediaSessionHandlerInfoC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp23MediaSessionHandlerInfoD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp23MediaSessionHandlerInfoD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp23MediaStreamHandlerCodecC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp23MediaStreamHandlerCodecC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp23MediaStreamHandlerCodecD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp23MediaStreamHandlerCodecD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp23RequestableChannelClassC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp23RequestableChannelClassC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp23RequestableChannelClassD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp23RequestableChannelClassD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp23TLSCertificateRejectionC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp23TLSCertificateRejectionC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp23TLSCertificateRejectionD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp23TLSCertificateRejectionD2Ev@Base 0.9.1
  _ZN2Tp24ChannelDispatchOperation10handleWithERK7QString@Base 0.9.1
  _ZN2Tp24ChannelDispatchOperation11FeatureCoreE@Base 0.9.1
  _ZN2Tp24ChannelDispatchOperation11channelLostERKNS_9SharedPtrINS_7ChannelEEERK7QStringS8_@Base 0.9.1
@@ -1260,12 +1270,12 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp25OutgoingStreamTubeChannelD0Ev@Base 0.9.1
  _ZN2Tp25OutgoingStreamTubeChannelD1Ev@Base 0.9.1
  _ZN2Tp25OutgoingStreamTubeChannelD2Ev@Base 0.9.1
- _ZN2Tp25QualifiedPropertyValueMapD1Ev@Base 0.9.1
- _ZN2Tp25QualifiedPropertyValueMapD2Ev@Base 0.9.1
- _ZN2Tp26AddressingNormalizationMapC1ERKS0_@Base 0.9.1
- _ZN2Tp26AddressingNormalizationMapC2ERKS0_@Base 0.9.1
- _ZN2Tp26AddressingNormalizationMapD1Ev@Base 0.9.1
- _ZN2Tp26AddressingNormalizationMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp25QualifiedPropertyValueMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp25QualifiedPropertyValueMapD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp26AddressingNormalizationMapC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp26AddressingNormalizationMapC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp26AddressingNormalizationMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp26AddressingNormalizationMapD2Ev@Base 0.9.1
  _ZN2Tp27IncomingFileTransferChannel10acceptFileEyP9QIODevice@Base 0.9.1
  _ZN2Tp27IncomingFileTransferChannel10uriDefinedERK7QString@Base 0.9.1
  _ZN2Tp27IncomingFileTransferChannel11FeatureCoreE@Base 0.9.1
@@ -1279,14 +1289,14 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp27IncomingFileTransferChannelD0Ev@Base 0.9.1
  _ZN2Tp27IncomingFileTransferChannelD1Ev@Base 0.9.1
  _ZN2Tp27IncomingFileTransferChannelD2Ev@Base 0.9.1
- _ZN2Tp27MediaStreamHandlerCandidateC1ERKS0_@Base 0.9.1
- _ZN2Tp27MediaStreamHandlerCandidateC2ERKS0_@Base 0.9.1
- _ZN2Tp27MediaStreamHandlerCandidateD1Ev@Base 0.9.1
- _ZN2Tp27MediaStreamHandlerCandidateD2Ev@Base 0.9.1
- _ZN2Tp27MediaStreamHandlerTransportC1ERKS0_@Base 0.9.1
- _ZN2Tp27MediaStreamHandlerTransportC2ERKS0_@Base 0.9.1
- _ZN2Tp27MediaStreamHandlerTransportD1Ev@Base 0.9.1
- _ZN2Tp27MediaStreamHandlerTransportD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp27MediaStreamHandlerCandidateC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp27MediaStreamHandlerCandidateC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp27MediaStreamHandlerCandidateD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp27MediaStreamHandlerCandidateD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp27MediaStreamHandlerTransportC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp27MediaStreamHandlerTransportC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp27MediaStreamHandlerTransportD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp27MediaStreamHandlerTransportD2Ev@Base 0.9.1
  _ZN2Tp27OutgoingFileTransferChannel11FeatureCoreE@Base 0.9.1
  _ZN2Tp27OutgoingFileTransferChannel11provideFileEP9QIODevice@Base 0.9.1
  _ZN2Tp27OutgoingFileTransferChannel11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -1351,12 +1361,12 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp27ServerAuthenticationChannelD0Ev@Base 0.9.1
  _ZN2Tp27ServerAuthenticationChannelD1Ev@Base 0.9.1
  _ZN2Tp27ServerAuthenticationChannelD2Ev@Base 0.9.1
- _ZN2Tp28ObjectImmutablePropertiesMapC1ERKS0_@Base 0.9.1
- _ZN2Tp28ObjectImmutablePropertiesMapC2ERKS0_@Base 0.9.1
- _ZN2Tp28ObjectImmutablePropertiesMapD1Ev@Base 0.9.1
- _ZN2Tp28ObjectImmutablePropertiesMapD2Ev@Base 0.9.1
- _ZN2Tp31RequestableChannelClassSpecListD1Ev@Base 0.9.1
- _ZN2Tp31RequestableChannelClassSpecListD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp28ObjectImmutablePropertiesMapC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp28ObjectImmutablePropertiesMapC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp28ObjectImmutablePropertiesMapD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp28ObjectImmutablePropertiesMapD2Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp31RequestableChannelClassSpecListD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp31RequestableChannelClassSpecListD2Ev@Base 0.9.1
  _ZN2Tp37FileTransferChannelCreationProperties14setContentHashENS_12FileHashTypeERK7QString@Base 0.9.1
  _ZN2Tp37FileTransferChannelCreationProperties14setDescriptionERK7QString@Base 0.9.1
  _ZN2Tp37FileTransferChannelCreationProperties23setLastModificationTimeERK9QDateTime@Base 0.9.1
@@ -1372,32 +1382,35 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp37FileTransferChannelCreationPropertiesD1Ev@Base 0.9.1
  _ZN2Tp37FileTransferChannelCreationPropertiesD2Ev@Base 0.9.1
  _ZN2Tp37FileTransferChannelCreationPropertiesaSERKS0_@Base 0.9.1
- _ZN2Tp4MailD1Ev@Base 0.9.1
- _ZN2Tp4MailD2Ev@Base 0.9.1
- _ZN2Tp5CodecC1ERKS0_@Base 0.9.1
- _ZN2Tp5CodecC2ERKS0_@Base 0.9.1
- _ZN2Tp5CodecD1Ev@Base 0.9.1
- _ZN2Tp5CodecD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp4MailD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp4MailD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp5CodecC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp5CodecC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp5CodecD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp5CodecD2Ev@Base 0.9.1
  _ZN2Tp5Debug19invokeDebugCallbackEv@Base 0.9.1
- (optional=templinst)_ZN2Tp5DebuglsINS_10HandleTypeEEERS0_T_@Base 0.9.1
- (optional=templinst)_ZN2Tp5DebuglsINS_16ConnectionStatusEEERS0_T_@Base 0.9.1
- (optional=templinst)_ZN2Tp5DebuglsINS_22ConnectionStatusReasonEEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=!amd64 !i386)_ZN2Tp5DebuglsI11QStringListEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=!amd64 !i386)_ZN2Tp5DebuglsI4QSetI7QStringEEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=!amd64 !i386)_ZN2Tp5DebuglsI7QStringEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=amd64 i386)_ZN2Tp5DebuglsINS_10HandleTypeEEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=amd64 i386)_ZN2Tp5DebuglsINS_16ConnectionStatusEEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=amd64 i386)_ZN2Tp5DebuglsINS_22ConnectionStatusReasonEEERS0_T_@Base 0.9.1
  (optional=templinst)_ZN2Tp5DebuglsINS_7FeatureEEERS0_T_@Base 0.9.1
- (optional=templinst)_ZN2Tp5DebuglsINS_8FeaturesEEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=!ia64 !mips !mipsel)_ZN2Tp5DebuglsINS_8FeaturesEEERS0_T_@Base 0.9.1
  (optional=templinst)_ZN2Tp5DebuglsINS_8UIntListEEERS0_T_@Base 0.9.1
- (optional=templinst)_ZN2Tp5DebuglsIPKNS_14ContactManagerEEERS0_T_@Base 0.9.1
- (optional=templinst)_ZN2Tp5DebuglsIPKNS_7ContactEEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=amd64 i386)_ZN2Tp5DebuglsIPKNS_14ContactManagerEEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=amd64 i386)_ZN2Tp5DebuglsIPKNS_7ContactEEERS0_T_@Base 0.9.1
  (optional=templinst)_ZN2Tp5DebuglsIPKcEERS0_T_@Base 0.9.1
- (optional=templinst)_ZN2Tp5DebuglsIPNS_10ConnectionEEERS0_T_@Base 0.9.1
- (optional=templinst)_ZN2Tp5DebuglsIPNS_7ContactEEERS0_T_@Base 0.9.1
- (optional=templinst)_ZN2Tp5DebuglsIcEERS0_T_@Base 0.9.1
- (optional=templinst)_ZN2Tp5DebuglsIiEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=amd64 i386)_ZN2Tp5DebuglsIPNS_10ConnectionEEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=amd64 i386)_ZN2Tp5DebuglsIPNS_7ContactEEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=amd64 i386)_ZN2Tp5DebuglsIcEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=amd64 i386)_ZN2Tp5DebuglsIiEERS0_T_@Base 0.9.1
  (optional=templinst)_ZN2Tp5DebuglsIjEERS0_T_@Base 0.9.1
- _ZN2Tp6AvatarC1ERKS0_@Base 0.9.1
- _ZN2Tp6AvatarC2ERKS0_@Base 0.9.1
- _ZN2Tp6AvatarD1Ev@Base 0.9.1
- _ZN2Tp6AvatarD2Ev@Base 0.9.1
- _ZN2Tp6AvataraSERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp6AvatarC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp6AvatarC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp6AvatarD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp6AvatarD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp6AvataraSERKS0_@Base 0.9.1
  _ZN2Tp6Client15ClientInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client15ClientInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client15ClientInterface11qt_metacastEPKc@Base 0.9.1
@@ -3255,8 +3268,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp7FeatureD1Ev@Base 0.9.1
  _ZN2Tp7FeatureD2Ev@Base 0.9.1
  _ZN2Tp7FeatureaSERKS0_@Base 0.9.1
- _ZN2Tp7MailURLC1ERKS0_@Base 0.9.1
- _ZN2Tp7MailURLC2ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp7MailURLC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp7MailURLC2ERKS0_@Base 0.9.1
  _ZN2Tp7MessageC1ENS_22ChannelTextMessageTypeERK7QString@Base 0.9.1
  _ZN2Tp7MessageC1ERKS0_@Base 0.9.1
  _ZN2Tp7MessageC2ENS_22ChannelTextMessageTypeERK7QString@Base 0.9.1
@@ -3287,10 +3300,10 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp7ProfileD0Ev@Base 0.9.1
  _ZN2Tp7ProfileD1Ev@Base 0.9.1
  _ZN2Tp7ProfileD2Ev@Base 0.9.1
- _ZN2Tp8FeaturesC1ERKS0_@Base 0.9.1
- _ZN2Tp8FeaturesC2ERKS0_@Base 0.9.1
- _ZN2Tp8FeaturesD1Ev@Base 0.9.1
- _ZN2Tp8FeaturesD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 armhf)_ZN2Tp8FeaturesC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 armhf)_ZN2Tp8FeaturesC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp8FeaturesD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp8FeaturesD2Ev@Base 0.9.1
  _ZN2Tp8Presence16setStatusMessageERK7QString@Base 0.9.1
  _ZN2Tp8Presence2xaERK7QString@Base 0.9.1
  _ZN2Tp8Presence3brbERK7QString@Base 0.9.1
@@ -3312,24 +3325,24 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp8PresenceD1Ev@Base 0.9.1
  _ZN2Tp8PresenceD2Ev@Base 0.9.1
  _ZN2Tp8PresenceaSERKS0_@Base 0.9.1
- _ZN2Tp8RoomInfoC1ERKS0_@Base 0.9.1
- _ZN2Tp8RoomInfoC2ERKS0_@Base 0.9.1
- _ZN2Tp8RoomInfoD1Ev@Base 0.9.1
- _ZN2Tp8RoomInfoD2Ev@Base 0.9.1
- _ZN2Tp8TubeInfoC1ERKS0_@Base 0.9.1
- _ZN2Tp8TubeInfoC2ERKS0_@Base 0.9.1
- _ZN2Tp8TubeInfoD1Ev@Base 0.9.1
- _ZN2Tp8TubeInfoD2Ev@Base 0.9.1
- _ZN2Tp8UIntListC1ERKS0_@Base 0.9.1
- _ZN2Tp8UIntListC2ERKS0_@Base 0.9.1
- _ZN2Tp8UIntListD1Ev@Base 0.9.1
- _ZN2Tp8UIntListD2Ev@Base 0.9.1
- _ZN2Tp9AliasPairD1Ev@Base 0.9.1
- _ZN2Tp9AliasPairD2Ev@Base 0.9.1
- _ZN2Tp9CandidateC1ERKS0_@Base 0.9.1
- _ZN2Tp9CandidateC2ERKS0_@Base 0.9.1
- _ZN2Tp9CandidateD1Ev@Base 0.9.1
- _ZN2Tp9CandidateD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp8RoomInfoC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp8RoomInfoC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp8RoomInfoD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp8RoomInfoD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp8TubeInfoC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp8TubeInfoC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp8TubeInfoD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp8TubeInfoD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp8UIntListC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp8UIntListC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp8UIntListD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp8UIntListD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp9AliasPairD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp9AliasPairD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp9CandidateC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp9CandidateC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp9CandidateD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp9CandidateD2Ev@Base 0.9.1
  _ZN2Tp9DBusProxy10invalidateERK10QDBusError@Base 0.9.1
  _ZN2Tp9DBusProxy10invalidateERK7QStringS3_@Base 0.9.1
  _ZN2Tp9DBusProxy10setBusNameERK7QString@Base 0.9.1
@@ -3342,14 +3355,14 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp9DBusProxyD0Ev@Base 0.9.1
  _ZN2Tp9DBusProxyD1Ev@Base 0.9.1
  _ZN2Tp9DBusProxyD2Ev@Base 0.9.1
- _ZN2Tp9FieldSpecC1ERKS0_@Base 0.9.1
- _ZN2Tp9FieldSpecC2ERKS0_@Base 0.9.1
- _ZN2Tp9FieldSpecD1Ev@Base 0.9.1
- _ZN2Tp9FieldSpecD2Ev@Base 0.9.1
- _ZN2Tp9ParamSpecC1ERKS0_@Base 0.9.1
- _ZN2Tp9ParamSpecC2ERKS0_@Base 0.9.1
- _ZN2Tp9ParamSpecD1Ev@Base 0.9.1
- _ZN2Tp9ParamSpecD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp9FieldSpecC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp9FieldSpecC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp9FieldSpecD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp9FieldSpecD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp9ParamSpecC1ERKS0_@Base 0.9.1
+ (optional=inline|arch=amd64 i386)_ZN2Tp9ParamSpecC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp9ParamSpecD1Ev@Base 0.9.1
+ (optional=inline)_ZN2Tp9ParamSpecD2Ev@Base 0.9.1
  _ZN2TpeqERKNS_10StatusSpecES2_@Base 0.9.1
  _ZN2TpeqERKNS_11CaptchaInfoES2_@Base 0.9.1
  _ZN2TpeqERKNS_11ChannelInfoES2_@Base 0.9.1
