@@ -175,6 +175,10 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp11enableDebugEb@Base 0.9.1
  (optional=inline)_ZN2Tp12ChannelClassD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp12ChannelClassD2Ev@Base 0.9.1
+ _ZN2Tp12DebugMessageC1ERKS0_@Base 0.9.3-1
+ _ZN2Tp12DebugMessageC2ERKS0_@Base 0.9.3-1
+ _ZN2Tp12DebugMessageD1Ev@Base 0.9.3-1
+ _ZN2Tp12DebugMessageD2Ev@Base 0.9.3-1
  (optional=inline|arch=amd64 i386)_ZN2Tp12HTTPPostDataC1ERKS0_@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp12HTTPPostDataC2ERKS0_@Base 0.9.1
  (optional=inline)_ZN2Tp12HTTPPostDataD1Ev@Base 0.9.1
@@ -195,6 +199,18 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp12PendingReadyD0Ev@Base 0.9.1
  _ZN2Tp12PendingReadyD1Ev@Base 0.9.1
  _ZN2Tp12PendingReadyD2Ev@Base 0.9.1
+ _ZN2Tp12PresenceSpec2xaE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
+ _ZN2Tp12PresenceSpec3brbE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
+ _ZN2Tp12PresenceSpec3dndE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
+ _ZN2Tp12PresenceSpec4awayE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
+ _ZN2Tp12PresenceSpec4busyE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
+ _ZN2Tp12PresenceSpec4chatE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
+ _ZN2Tp12PresenceSpec4pstnE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
+ _ZN2Tp12PresenceSpec5errorE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
+ _ZN2Tp12PresenceSpec6hiddenE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
+ _ZN2Tp12PresenceSpec7offlineE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
+ _ZN2Tp12PresenceSpec7unknownE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
+ _ZN2Tp12PresenceSpec9availableE6QFlagsINS0_16SimpleStatusFlagEE@Base 0.9.3-1
  _ZN2Tp12PresenceSpecC1ERK7QStringRKNS_16SimpleStatusSpecE@Base 0.9.1
  _ZN2Tp12PresenceSpecC1ERKS0_@Base 0.9.1
  _ZN2Tp12PresenceSpecC1Ev@Base 0.9.1
@@ -226,6 +242,19 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=inline|arch=amd64 i386)_ZN2Tp13CallMemberMapD2Ev@Base 0.9.1
  (optional=inline)_ZN2Tp13CandidatePairD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp13CandidatePairD2Ev@Base 0.9.1
+ _ZN2Tp13DebugReceiver11FeatureCoreE@Base 0.9.3-1
+ _ZN2Tp13DebugReceiver11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.3-1
+ _ZN2Tp13DebugReceiver11qt_metacastEPKc@Base 0.9.3-1
+ _ZN2Tp13DebugReceiver13fetchMessagesEv@Base 0.9.3-1
+ _ZN2Tp13DebugReceiver15newDebugMessageERKNS_12DebugMessageE@Base 0.9.3-1
+ _ZN2Tp13DebugReceiver16staticMetaObjectE@Base 0.9.3-1
+ _ZN2Tp13DebugReceiver20setMonitoringEnabledEb@Base 0.9.3-1
+ _ZN2Tp13DebugReceiver6createERK7QStringRK15QDBusConnection@Base 0.9.3-1
+ _ZN2Tp13DebugReceiverC1ERK15QDBusConnectionRK7QString@Base 0.9.3-1
+ _ZN2Tp13DebugReceiverC2ERK15QDBusConnectionRK7QString@Base 0.9.3-1
+ _ZN2Tp13DebugReceiverD0Ev@Base 0.9.3-1
+ _ZN2Tp13DebugReceiverD1Ev@Base 0.9.3-1
+ _ZN2Tp13DebugReceiverD2Ev@Base 0.9.3-1
  _ZN2Tp13PendingString11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp13PendingString11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp13PendingString16staticMetaObjectE@Base 0.9.1
@@ -288,6 +317,12 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=templinst)_ZN2Tp14ChannelFactory12SubclassCtorINS_20StreamedMediaChannelEED0Ev@Base 0.9.1
  (optional=templinst)_ZN2Tp14ChannelFactory12SubclassCtorINS_20StreamedMediaChannelEED1Ev@Base 0.9.1
  (optional=templinst)_ZN2Tp14ChannelFactory12SubclassCtorINS_20StreamedMediaChannelEED2Ev@Base 0.9.1
+ _ZN2Tp14ChannelFactory12SubclassCtorINS_23IncomingDBusTubeChannelEED0Ev@Base 0.9.3-1
+ _ZN2Tp14ChannelFactory12SubclassCtorINS_23IncomingDBusTubeChannelEED1Ev@Base 0.9.3-1
+ _ZN2Tp14ChannelFactory12SubclassCtorINS_23IncomingDBusTubeChannelEED2Ev@Base 0.9.3-1
+ _ZN2Tp14ChannelFactory12SubclassCtorINS_23OutgoingDBusTubeChannelEED0Ev@Base 0.9.3-1
+ _ZN2Tp14ChannelFactory12SubclassCtorINS_23OutgoingDBusTubeChannelEED1Ev@Base 0.9.3-1
+ _ZN2Tp14ChannelFactory12SubclassCtorINS_23OutgoingDBusTubeChannelEED2Ev@Base 0.9.3-1
  (optional=templinst)_ZN2Tp14ChannelFactory12SubclassCtorINS_25IncomingStreamTubeChannelEED0Ev@Base 0.9.1
  (optional=templinst)_ZN2Tp14ChannelFactory12SubclassCtorINS_25IncomingStreamTubeChannelEED1Ev@Base 0.9.1
  (optional=templinst)_ZN2Tp14ChannelFactory12SubclassCtorINS_25IncomingStreamTubeChannelEED2Ev@Base 0.9.1
@@ -320,13 +355,19 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp14ChannelFactory27addFeaturesForTextChatroomsERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory29addFeaturesForContactSearchesERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory30setConstructorForTextChatroomsERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZN2Tp14ChannelFactory31addFeaturesForIncomingDBusTubesERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.3
+ _ZN2Tp14ChannelFactory31addFeaturesForOutgoingDBusTubesERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZN2Tp14ChannelFactory32addFeaturesForStreamedMediaCallsERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory32setConstructorForContactSearchesERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory33addFeaturesForIncomingStreamTubesERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory33addFeaturesForOutgoingStreamTubesERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory34addFeaturesForServerAuthenticationERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZN2Tp14ChannelFactory34setConstructorForIncomingDBusTubesERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.3
+ _ZN2Tp14ChannelFactory34setConstructorForOutgoingDBusTubesERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZN2Tp14ChannelFactory35addFeaturesForIncomingFileTransfersERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZN2Tp14ChannelFactory35addFeaturesForIncomingRoomDBusTubesERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZN2Tp14ChannelFactory35addFeaturesForOutgoingFileTransfersERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZN2Tp14ChannelFactory35addFeaturesForOutgoingRoomDBusTubesERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZN2Tp14ChannelFactory35setConstructorForStreamedMediaCallsERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory36setConstructorForIncomingStreamTubesERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory36setConstructorForOutgoingStreamTubesERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.1
@@ -334,7 +375,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp14ChannelFactory37addFeaturesForOutgoingRoomStreamTubesERKNS_8FeaturesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory37setConstructorForServerAuthenticationERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory38setConstructorForIncomingFileTransfersERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZN2Tp14ChannelFactory38setConstructorForIncomingRoomDBusTubesERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZN2Tp14ChannelFactory38setConstructorForOutgoingFileTransfersERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZN2Tp14ChannelFactory38setConstructorForOutgoingRoomDBusTubesERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZN2Tp14ChannelFactory40setConstructorForIncomingRoomStreamTubesERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory40setConstructorForOutgoingRoomStreamTubesERKNS_9SharedPtrIKNS0_11ConstructorEEERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp14ChannelFactory6createERK15QDBusConnection@Base 0.9.1
@@ -502,6 +545,19 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp15ClientRegistrarD0Ev@Base 0.9.1
  _ZN2Tp15ClientRegistrarD1Ev@Base 0.9.1
  _ZN2Tp15ClientRegistrarD2Ev@Base 0.9.1
+ _ZN2Tp15DBusTubeChannel11FeatureCoreE@Base 0.9.3
+ _ZN2Tp15DBusTubeChannel11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.3
+ _ZN2Tp15DBusTubeChannel11qt_metacastEPKc@Base 0.9.3
+ _ZN2Tp15DBusTubeChannel12busNameAddedERK7QStringRKNS_9SharedPtrINS_7ContactEEE@Base 0.9.3
+ _ZN2Tp15DBusTubeChannel14busNameRemovedERK7QStringRKNS_9SharedPtrINS_7ContactEEE@Base 0.9.3
+ _ZN2Tp15DBusTubeChannel16staticMetaObjectE@Base 0.9.3
+ _ZN2Tp15DBusTubeChannel24FeatureBusNameMonitoringE@Base 0.9.3
+ _ZN2Tp15DBusTubeChannel6createERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS6_8QVariantE@Base 0.9.3
+ _ZN2Tp15DBusTubeChannelC1ERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS6_8QVariantE@Base 0.9.3
+ _ZN2Tp15DBusTubeChannelC2ERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS6_8QVariantE@Base 0.9.3
+ _ZN2Tp15DBusTubeChannelD0Ev@Base 0.9.3
+ _ZN2Tp15DBusTubeChannelD1Ev@Base 0.9.3
+ _ZN2Tp15DBusTubeChannelD2Ev@Base 0.9.3
  _ZN2Tp15PendingCaptchas11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp15PendingCaptchas11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp15PendingCaptchas16staticMetaObjectE@Base 0.9.1
@@ -589,13 +645,17 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16ChannelClassSpec12textChatroomERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec13contactSearchERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec13unsetPropertyERK7QString@Base 0.9.1
+ _ZN2Tp16ChannelClassSpec16incomingDBusTubeERK7QStringRK4QMapIS1_8QVariantE@Base 0.9.3
+ _ZN2Tp16ChannelClassSpec16outgoingDBusTubeERK7QStringRK4QMapIS1_8QVariantE@Base 0.9.3
  _ZN2Tp16ChannelClassSpec15unnamedTextChatERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec17streamedMediaCallERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec18incomingStreamTubeERK7QStringRK4QMapIS1_8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec18outgoingStreamTubeERK7QStringRK4QMapIS1_8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec18videoCallWithAudioERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec20incomingFileTransferERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZN2Tp16ChannelClassSpec20incomingRoomDBusTubeERK7QStringRK4QMapIS1_8QVariantE@Base 0.9.3
  _ZN2Tp16ChannelClassSpec20outgoingFileTransferERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZN2Tp16ChannelClassSpec20outgoingRoomDBusTubeERK7QStringRK4QMapIS1_8QVariantE@Base 0.9.3
  _ZN2Tp16ChannelClassSpec20serverAuthenticationERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec22incomingRoomStreamTubeERK7QStringRK4QMapIS1_8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec22outgoingRoomStreamTubeERK7QStringRK4QMapIS1_8QVariantE@Base 0.9.1
@@ -609,6 +669,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16ChannelClassSpec8roomListERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec8textChatERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpec9audioCallERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZN2Tp16ChannelClassSpec9mediaCallERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZN2Tp16ChannelClassSpec9videoCallERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpecC1ERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZN2Tp16ChannelClassSpecC1ERK7QStringNS_10HandleTypeERK4QMapIS1_8QVariantE@Base 0.9.1
@@ -812,8 +873,14 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp17PendingVariantMapD0Ev@Base 0.9.1
  _ZN2Tp17PendingVariantMapD1Ev@Base 0.9.1
  _ZN2Tp17PendingVariantMapD2Ev@Base 0.9.1
+ _ZN2Tp17ProtocolParameterC1ERK7QStringRK14QDBusSignature6QFlagsINS_16ConnMgrParamFlagEE8QVariant@Base 0.9.3
+ _ZN2Tp17ProtocolParameterC1ERK7QStringS3_6QFlagsINS_16ConnMgrParamFlagEE8QVariant@Base 0.9.3
+ _ZN2Tp17ProtocolParameterC1ERKNS_9ParamSpecE@Base 0.9.3
  _ZN2Tp17ProtocolParameterC1ERKS0_@Base 0.9.1
  _ZN2Tp17ProtocolParameterC1Ev@Base 0.9.1
+ _ZN2Tp17ProtocolParameterC2ERK7QStringRK14QDBusSignature6QFlagsINS_16ConnMgrParamFlagEE8QVariant@Base 0.9.3
+ _ZN2Tp17ProtocolParameterC2ERK7QStringS3_6QFlagsINS_16ConnMgrParamFlagEE8QVariant@Base 0.9.3
+ _ZN2Tp17ProtocolParameterC2ERKNS_9ParamSpecE@Base 0.9.3
  _ZN2Tp17ProtocolParameterC2ERKS0_@Base 0.9.1
  _ZN2Tp17ProtocolParameterC2Ev@Base 0.9.1
  _ZN2Tp17ProtocolParameterD1Ev@Base 0.9.1
@@ -917,6 +984,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=inline|arch=amd64 i386)_ZN2Tp18RTPHeaderExtensionC2ERKS0_@Base 0.9.1
  (optional=inline)_ZN2Tp18RTPHeaderExtensionD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp18RTPHeaderExtensionD2Ev@Base 0.9.1
+ _ZN2Tp18SimpleCallObserver11callStartedERKNS_9SharedPtrINS_11CallChannelEEE@Base 0.9.3
  _ZN2Tp18SimpleCallObserver11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp18SimpleCallObserver11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp18SimpleCallObserver16staticMetaObjectE@Base 0.9.1
@@ -925,6 +993,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp18SimpleCallObserver6createERKNS_9SharedPtrINS_7AccountEEENS0_13CallDirectionE@Base 0.9.1
  _ZN2Tp18SimpleCallObserver6createERKNS_9SharedPtrINS_7AccountEEERK7QStringNS0_13CallDirectionE@Base 0.9.1
  _ZN2Tp18SimpleCallObserver6createERKNS_9SharedPtrINS_7AccountEEERKNS1_INS_7ContactEEENS0_13CallDirectionE@Base 0.9.1
+ _ZN2Tp18SimpleCallObserver9callEndedERKNS_9SharedPtrINS_11CallChannelEEERK7QStringS8_@Base 0.9.3
  _ZN2Tp18SimpleCallObserverD0Ev@Base 0.9.1
  _ZN2Tp18SimpleCallObserverD1Ev@Base 0.9.1
  _ZN2Tp18SimpleCallObserverD2Ev@Base 0.9.1
@@ -1062,6 +1131,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp20ContactSearchChannelD0Ev@Base 0.9.1
  _ZN2Tp20ContactSearchChannelD1Ev@Base 0.9.1
  _ZN2Tp20ContactSearchChannelD2Ev@Base 0.9.1
+ _ZN2Tp20DBusTubeParticipantsD1Ev@Base 0.9.3
+ _ZN2Tp20DBusTubeParticipantsD2Ev@Base 0.9.3
  _ZN2Tp20StreamedMediaChannel10acceptCallEv@Base 0.9.1
  _ZN2Tp20StreamedMediaChannel10hangupCallEv@Base 0.9.1
  _ZN2Tp20StreamedMediaChannel11FeatureCoreE@Base 0.9.1
@@ -1202,12 +1273,39 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp22OptionalInterfaceCacheD2Ev@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp23MediaSessionHandlerInfoC1ERKS0_@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp23MediaSessionHandlerInfoC2ERKS0_@Base 0.9.1
+ _ZN2Tp22checkValidProtocolNameERK7QString@Base 0.9.3
+ _ZN2Tp23IncomingDBusTubeChannel10acceptTubeEb@Base 0.9.3
+ _ZN2Tp23IncomingDBusTubeChannel11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.3
+ _ZN2Tp23IncomingDBusTubeChannel11qt_metacastEPKc@Base 0.9.3
+ _ZN2Tp23IncomingDBusTubeChannel16staticMetaObjectE@Base 0.9.3
+ _ZN2Tp23IncomingDBusTubeChannel6createERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS6_8QVariantE@Base 0.9.3
+ _ZN2Tp23IncomingDBusTubeChannelC1ERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS6_8QVariantE@Base 0.9.3
+ _ZN2Tp23IncomingDBusTubeChannelC2ERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS6_8QVariantE@Base 0.9.3
+ _ZN2Tp23IncomingDBusTubeChannelD0Ev@Base 0.9.3
+ _ZN2Tp23IncomingDBusTubeChannelD1Ev@Base 0.9.3
+ _ZN2Tp23IncomingDBusTubeChannelD2Ev@Base 0.9.3
  (optional=inline)_ZN2Tp23MediaSessionHandlerInfoD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp23MediaSessionHandlerInfoD2Ev@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp23MediaStreamHandlerCodecC1ERKS0_@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp23MediaStreamHandlerCodecC2ERKS0_@Base 0.9.1
  (optional=inline)_ZN2Tp23MediaStreamHandlerCodecD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp23MediaStreamHandlerCodecD2Ev@Base 0.9.1
+ _ZN2Tp23OutgoingDBusTubeChannel11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.3
+ _ZN2Tp23OutgoingDBusTubeChannel11qt_metacastEPKc@Base 0.9.3
+ _ZN2Tp23OutgoingDBusTubeChannel16staticMetaObjectE@Base 0.9.3
+ _ZN2Tp23OutgoingDBusTubeChannel6createERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS6_8QVariantE@Base 0.9.3
+ _ZN2Tp23OutgoingDBusTubeChannel9offerTubeERK4QMapI7QString8QVariantEb@Base 0.9.3
+ _ZN2Tp23OutgoingDBusTubeChannelC1ERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS6_8QVariantE@Base 0.9.3
+ _ZN2Tp23OutgoingDBusTubeChannelC2ERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS6_8QVariantE@Base 0.9.3
+ _ZN2Tp23OutgoingDBusTubeChannelD0Ev@Base 0.9.3
+ _ZN2Tp23OutgoingDBusTubeChannelD1Ev@Base 0.9.3
+ _ZN2Tp23OutgoingDBusTubeChannelD2Ev@Base 0.9.3
+ _ZN2Tp23PendingDebugMessageList11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.3
+ _ZN2Tp23PendingDebugMessageList11qt_metacastEPKc@Base 0.9.3
+ _ZN2Tp23PendingDebugMessageList16staticMetaObjectE@Base 0.9.3
+ _ZN2Tp23PendingDebugMessageListD0Ev@Base 0.9.3
+ _ZN2Tp23PendingDebugMessageListD1Ev@Base 0.9.3
+ _ZN2Tp23PendingDebugMessageListD2Ev@Base 0.9.3
  (optional=inline|arch=amd64 i386)_ZN2Tp23RequestableChannelClassC1ERKS0_@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp23RequestableChannelClassC2ERKS0_@Base 0.9.1
  (optional=inline)_ZN2Tp23RequestableChannelClassD1Ev@Base 0.9.1
@@ -1270,6 +1368,12 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp25OutgoingStreamTubeChannelD0Ev@Base 0.9.1
  _ZN2Tp25OutgoingStreamTubeChannelD1Ev@Base 0.9.1
  _ZN2Tp25OutgoingStreamTubeChannelD2Ev@Base 0.9.1
+ _ZN2Tp25PendingDBusTubeConnection11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.3
+ _ZN2Tp25PendingDBusTubeConnection11qt_metacastEPKc@Base 0.9.3
+ _ZN2Tp25PendingDBusTubeConnection16staticMetaObjectE@Base 0.9.3
+ _ZN2Tp25PendingDBusTubeConnectionD0Ev@Base 0.9.3
+ _ZN2Tp25PendingDBusTubeConnectionD1Ev@Base 0.9.3
+ _ZN2Tp25PendingDBusTubeConnectionD2Ev@Base 0.9.3
  (optional=inline|arch=amd64 i386)_ZN2Tp25QualifiedPropertyValueMapD1Ev@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp25QualifiedPropertyValueMapD2Ev@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp26AddressingNormalizationMapC1ERKS0_@Base 0.9.1
@@ -1339,6 +1443,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp27RequestableChannelClassSpec34conferenceTextChatroomWithInviteesEv@Base 0.9.1
  _ZN2Tp27RequestableChannelClassSpec39conferenceStreamedMediaCallWithInviteesEv@Base 0.9.1
  _ZN2Tp27RequestableChannelClassSpec39contactSearchWithSpecificServerAndLimitEv@Base 0.9.1
+ _ZN2Tp27RequestableChannelClassSpec8dbusTubeERK7QString@Base 0.9.3
  _ZN2Tp27RequestableChannelClassSpec8textChatEv@Base 0.9.1
  _ZN2Tp27RequestableChannelClassSpec9audioCallEv@Base 0.9.1
  _ZN2Tp27RequestableChannelClassSpec9videoCallEv@Base 0.9.1
@@ -1361,10 +1466,12 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp27ServerAuthenticationChannelD0Ev@Base 0.9.1
  _ZN2Tp27ServerAuthenticationChannelD1Ev@Base 0.9.1
  _ZN2Tp27ServerAuthenticationChannelD2Ev@Base 0.9.1
+ _ZN2Tp27parseValueWithDBusSignatureERK7QStringS2_@Base 0.9.3
  (optional=inline|arch=amd64 i386)_ZN2Tp28ObjectImmutablePropertiesMapC1ERKS0_@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp28ObjectImmutablePropertiesMapC2ERKS0_@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp28ObjectImmutablePropertiesMapD1Ev@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp28ObjectImmutablePropertiesMapD2Ev@Base 0.9.1
+ _ZN2Tp28variantTypeFromDBusSignatureERK7QString@Base 0.9.3
  (optional=inline)_ZN2Tp31RequestableChannelClassSpecListD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp31RequestableChannelClassSpecListD2Ev@Base 0.9.1
  _ZN2Tp37FileTransferChannelCreationProperties14setContentHashENS_12FileHashTypeERK7QString@Base 0.9.1
@@ -1411,6 +1518,20 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=inline)_ZN2Tp6AvatarD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp6AvatarD2Ev@Base 0.9.1
  (optional=inline|arch=amd64 i386)_ZN2Tp6AvataraSERKS0_@Base 0.9.1
+ _ZN2Tp6Client14DebugInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.3
+ _ZN2Tp6Client14DebugInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.3
+ _ZN2Tp6Client14DebugInterface11qt_metacastEPKc@Base 0.9.3
+ _ZN2Tp6Client14DebugInterface15NewDebugMessageEdRK7QStringjS4_@Base 0.9.3
+ _ZN2Tp6Client14DebugInterface16staticMetaObjectE@Base 0.9.3
+ _ZN2Tp6Client14DebugInterfaceC1EPNS_9DBusProxyE@Base 0.9.3
+ _ZN2Tp6Client14DebugInterfaceC1ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.3
+ _ZN2Tp6Client14DebugInterfaceC1ERK7QStringS4_P7QObject@Base 0.9.3
+ _ZN2Tp6Client14DebugInterfaceC2EPNS_9DBusProxyE@Base 0.9.3
+ _ZN2Tp6Client14DebugInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.3
+ _ZN2Tp6Client14DebugInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.3
+ _ZN2Tp6Client14DebugInterfaceD0Ev@Base 0.9.3
+ _ZN2Tp6Client14DebugInterfaceD1Ev@Base 0.9.3
+ _ZN2Tp6Client14DebugInterfaceD2Ev@Base 0.9.3
  _ZN2Tp6Client15ClientInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client15ClientInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client15ClientInterface11qt_metacastEPKc@Base 0.9.1
@@ -3074,6 +3195,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp7Account13createChannelERK4QMapI7QString8QVariantERK9QDateTimeRKS2_RKNS_19ChannelRequestHintsE@Base 0.9.1
  _ZN2Tp7Account13ensureChannelERK4QMapI7QString8QVariantERK9QDateTimeRKS2_RKNS_19ChannelRequestHintsE@Base 0.9.1
  _ZN2Tp7Account14FeatureProfileE@Base 0.9.1
+ _ZN2Tp7Account14createDBusTubeERK7QStringS3_RK9QDateTimeS3_RKNS_19ChannelRequestHintsE@Base 0.9.3
+ _ZN2Tp7Account14createDBusTubeERKNS_9SharedPtrINS_7ContactEEERK7QStringRK9QDateTimeS8_RKNS_19ChannelRequestHintsE@Base 0.9.3
  _ZN2Tp7Account14ensureTextChatERK7QStringRK9QDateTimeS3_RKNS_19ChannelRequestHintsE@Base 0.9.1
  _ZN2Tp7Account14ensureTextChatERKNS_9SharedPtrINS_7ContactEEERK9QDateTimeRK7QStringRKNS_19ChannelRequestHintsE@Base 0.9.1
  _ZN2Tp7Account14profileChangedERKNS_9SharedPtrINS_7ProfileEEE@Base 0.9.1
@@ -3112,6 +3235,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp7Account22currentPresenceChangedERKNS_8PresenceE@Base 0.9.1
  _ZN2Tp7Account22ensureAndHandleChannelERK4QMapI7QString8QVariantERK9QDateTime@Base 0.9.1
  _ZN2Tp7Account23connectionStatusChangedENS_16ConnectionStatusE@Base 0.9.1
+ _ZN2Tp7Account23createAndHandleDBusTubeERK7QStringS3_RK9QDateTime@Base 0.9.3
+ _ZN2Tp7Account23createAndHandleDBusTubeERKNS_9SharedPtrINS_7ContactEEERK7QStringRK9QDateTime@Base 0.9.3
  _ZN2Tp7Account23ensureAndHandleTextChatERK7QStringRK9QDateTime@Base 0.9.1
  _ZN2Tp7Account23ensureAndHandleTextChatERKNS_9SharedPtrINS_7ContactEEERK9QDateTime@Base 0.9.1
  _ZN2Tp7Account23ensureStreamedMediaCallERK7QStringRK9QDateTimeS3_RKNS_19ChannelRequestHintsE@Base 0.9.1
@@ -3238,8 +3363,11 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp7Contact17infoFieldsChangedERKNS0_10InfoFieldsE@Base 0.9.1
  _ZN2Tp7Contact17requestAvatarDataEv@Base 0.9.1
  _ZN2Tp7Contact18FeatureAvatarTokenE@Base 0.9.1
+ _ZN2Tp7Contact18FeatureClientTypesE@Base 0.9.3
  _ZN2Tp7Contact18avatarTokenChangedERK7QString@Base 0.9.1
  _ZN2Tp7Contact18blockStatusChangedEb@Base 0.9.1
+ _ZN2Tp7Contact18clientTypesChangedERK11QStringList@Base 0.9.3
+ _ZN2Tp7Contact18requestClientTypesEv@Base 0.9.3
  _ZN2Tp7Contact19FeatureCapabilitiesE@Base 0.9.1
  _ZN2Tp7Contact19FeatureRosterGroupsE@Base 0.9.1
  _ZN2Tp7Contact19blockAndReportAbuseEv@Base 0.9.1
@@ -3307,8 +3435,10 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp8Presence16setStatusMessageERK7QString@Base 0.9.1
  _ZN2Tp8Presence2xaERK7QString@Base 0.9.1
  _ZN2Tp8Presence3brbERK7QString@Base 0.9.1
+ _ZN2Tp8Presence3dndERK7QString@Base 0.9.3
  _ZN2Tp8Presence4awayERK7QString@Base 0.9.1
  _ZN2Tp8Presence4busyERK7QString@Base 0.9.1
+ _ZN2Tp8Presence4chatERK7QString@Base 0.9.3
  _ZN2Tp8Presence6hiddenERK7QString@Base 0.9.1
  _ZN2Tp8Presence7offlineERK7QString@Base 0.9.1
  _ZN2Tp8Presence9availableERK7QString@Base 0.9.1
@@ -3367,6 +3497,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2TpeqERKNS_11CaptchaInfoES2_@Base 0.9.1
  _ZN2TpeqERKNS_11ChannelInfoES2_@Base 0.9.1
  _ZN2TpeqERKNS_11MailAddressES2_@Base 0.9.1
+ _ZN2TpeqERKNS_12DebugMessageES2_@Base 0.9.3
  _ZN2TpeqERKNS_12HTTPPostDataES2_@Base 0.9.1
  _ZN2TpeqERKNS_12PropertySpecES2_@Base 0.9.1
  _ZN2TpeqERKNS_12ServicePointES2_@Base 0.9.1
@@ -3424,6 +3555,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2TplsER13QDBusArgumentRKNS_11CaptchaInfoE@Base 0.9.1
  _ZN2TplsER13QDBusArgumentRKNS_11ChannelInfoE@Base 0.9.1
  _ZN2TplsER13QDBusArgumentRKNS_11MailAddressE@Base 0.9.1
+ _ZN2TplsER13QDBusArgumentRKNS_12DebugMessageE@Base 0.9.3
  _ZN2TplsER13QDBusArgumentRKNS_12HTTPPostDataE@Base 0.9.1
  _ZN2TplsER13QDBusArgumentRKNS_12PropertySpecE@Base 0.9.1
  _ZN2TplsER13QDBusArgumentRKNS_12ServicePointE@Base 0.9.1
@@ -3481,6 +3613,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2TprsERK13QDBusArgumentRNS_11CaptchaInfoE@Base 0.9.1
  _ZN2TprsERK13QDBusArgumentRNS_11ChannelInfoE@Base 0.9.1
  _ZN2TprsERK13QDBusArgumentRNS_11MailAddressE@Base 0.9.1
+ _ZN2TprsERK13QDBusArgumentRNS_12DebugMessageE@Base 0.9.3
  _ZN2TprsERK13QDBusArgumentRNS_12HTTPPostDataE@Base 0.9.1
  _ZN2TprsERK13QDBusArgumentRNS_12PropertySpecE@Base 0.9.1
  _ZN2TprsERK13QDBusArgumentRNS_12ServicePointE@Base 0.9.1
@@ -3659,6 +3792,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp12ProtocolInfo4nameEv@Base 0.9.1
  _ZNK2Tp12ProtocolInfo6cmNameEv@Base 0.9.1
  _ZNK2Tp12ProtocolInfo8iconNameEv@Base 0.9.1
+ _ZNK2Tp13DebugReceiver10metaObjectEv@Base 0.9.3
  _ZNK2Tp13PendingString10metaObjectEv@Base 0.9.1
  _ZNK2Tp13PendingString6resultEv@Base 0.9.1
  _ZNK2Tp14AbstractClient12isRegisteredEv@Base 0.9.1
@@ -3683,10 +3817,14 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp14AccountManager16accountsForPathsERK11QStringList@Base 0.9.1
  _ZNK2Tp14AccountManager16disabledAccountsEv@Base 0.9.1
  _ZNK2Tp14AccountManager16textChatAccountsEv@Base 0.9.1
+ _ZNK2Tp14AccountManager17audioCallAccountsEv@Base 0.9.3
  _ZNK2Tp14AccountManager17connectionFactoryEv@Base 0.9.1
+ _ZNK2Tp14AccountManager17videoCallAccountsEv@Base 0.9.3
  _ZNK2Tp14AccountManager18accountsByProtocolERK7QString@Base 0.9.1
+ _ZNK2Tp14AccountManager20accountForObjectPathERK7QString@Base 0.9.3
  _ZNK2Tp14AccountManager20fileTransferAccountsEv@Base 0.9.1
  _ZNK2Tp14AccountManager20textChatroomAccountsEv@Base 0.9.1
+ _ZNK2Tp14AccountManager22accountsForObjectPathsERK11QStringList@Base 0.9.3
  _ZNK2Tp14AccountManager25streamedMediaCallAccountsEv@Base 0.9.1
  _ZNK2Tp14AccountManager26supportedAccountPropertiesEv@Base 0.9.1
  _ZNK2Tp14AccountManager30streamedMediaAudioCallAccountsEv@Base 0.9.1
@@ -3700,6 +3838,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=templinst)_ZNK2Tp14ChannelFactory12SubclassCtorINS_15RoomListChannelEE9constructERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS9_8QVariantE@Base 0.9.1
  (optional=templinst)_ZNK2Tp14ChannelFactory12SubclassCtorINS_20ContactSearchChannelEE9constructERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS9_8QVariantE@Base 0.9.1
  (optional=templinst)_ZNK2Tp14ChannelFactory12SubclassCtorINS_20StreamedMediaChannelEE9constructERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS9_8QVariantE@Base 0.9.1
+ _ZNK2Tp14ChannelFactory12SubclassCtorINS_23IncomingDBusTubeChannelEE9constructERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS9_8QVariantE@Base 0.9.3
+ _ZNK2Tp14ChannelFactory12SubclassCtorINS_23OutgoingDBusTubeChannelEE9constructERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS9_8QVariantE@Base 0.9.3
  (optional=templinst)_ZNK2Tp14ChannelFactory12SubclassCtorINS_25IncomingStreamTubeChannelEE9constructERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS9_8QVariantE@Base 0.9.1
  (optional=templinst)_ZNK2Tp14ChannelFactory12SubclassCtorINS_25OutgoingStreamTubeChannelEE9constructERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS9_8QVariantE@Base 0.9.1
  (optional=templinst)_ZNK2Tp14ChannelFactory12SubclassCtorINS_27IncomingFileTransferChannelEE9constructERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS9_8QVariantE@Base 0.9.1
@@ -3718,21 +3858,29 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp14ChannelFactory24featuresForTextChatroomsERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory26featuresForContactSearchesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory27constructorForTextChatroomsERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZNK2Tp14ChannelFactory28featuresForIncomingDBusTubesERK4QMapI7QString8QVariantE@Base 0.9.3
+ _ZNK2Tp14ChannelFactory28featuresForOutgoingDBusTubesERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZNK2Tp14ChannelFactory29constructorForContactSearchesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory29featuresForStreamedMediaCallsERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory30featuresForIncomingStreamTubesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory30featuresForOutgoingStreamTubesERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZNK2Tp14ChannelFactory31constructorForIncomingDBusTubesERK4QMapI7QString8QVariantE@Base 0.9.3
+ _ZNK2Tp14ChannelFactory31constructorForOutgoingDBusTubesERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZNK2Tp14ChannelFactory31featuresForServerAuthenticationERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory32constructorForStreamedMediaCallsERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory32featuresForIncomingFileTransfersERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZNK2Tp14ChannelFactory32featuresForIncomingRoomDBusTubesERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZNK2Tp14ChannelFactory32featuresForOutgoingFileTransfersERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZNK2Tp14ChannelFactory32featuresForOutgoingRoomDBusTubesERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZNK2Tp14ChannelFactory33constructorForIncomingStreamTubesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory33constructorForOutgoingStreamTubesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory34constructorForServerAuthenticationERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory34featuresForIncomingRoomStreamTubesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory34featuresForOutgoingRoomStreamTubesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory35constructorForIncomingFileTransfersERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZNK2Tp14ChannelFactory35constructorForIncomingRoomDBusTubesERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZNK2Tp14ChannelFactory35constructorForOutgoingFileTransfersERK4QMapI7QString8QVariantE@Base 0.9.1
+ _ZNK2Tp14ChannelFactory35constructorForOutgoingRoomDBusTubesERK4QMapI7QString8QVariantE@Base 0.9.3
  _ZNK2Tp14ChannelFactory37constructorForIncomingRoomStreamTubesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory37constructorForOutgoingRoomStreamTubesERK4QMapI7QString8QVariantE@Base 0.9.1
  _ZNK2Tp14ChannelFactory5proxyERKNS_9SharedPtrINS_10ConnectionEEERK7QStringRK4QMapIS6_8QVariantE@Base 0.9.1
@@ -3813,6 +3961,11 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp15ClientRegistrar14dbusConnectionEv@Base 0.9.1
  _ZNK2Tp15ClientRegistrar17connectionFactoryEv@Base 0.9.1
  _ZNK2Tp15ClientRegistrar17registeredClientsEv@Base 0.9.1
+ _ZNK2Tp15DBusTubeChannel10metaObjectEv@Base 0.9.3
+ _ZNK2Tp15DBusTubeChannel11serviceNameEv@Base 0.9.3
+ _ZNK2Tp15DBusTubeChannel19contactsForBusNamesEv@Base 0.9.3
+ _ZNK2Tp15DBusTubeChannel32supportsRestrictingToCurrentUserEv@Base 0.9.3
+ _ZNK2Tp15DBusTubeChannel7addressEv@Base 0.9.3
  _ZNK2Tp15PendingCaptchas10metaObjectEv@Base 0.9.1
  _ZNK2Tp15PendingCaptchas11captchaListEv@Base 0.9.1
  _ZNK2Tp15PendingCaptchas24requiresMultipleCaptchasEv@Base 0.9.1
@@ -3954,6 +4107,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp17PendingVariantMap6resultEv@Base 0.9.1
  _ZNK2Tp17ProtocolParameter10isRequiredEv@Base 0.9.1
  _ZNK2Tp17ProtocolParameter12defaultValueEv@Base 0.9.1
+ _ZNK2Tp17ProtocolParameter13bareParameterEv@Base 0.9.3
  _ZNK2Tp17ProtocolParameter13dbusSignatureEv@Base 0.9.1
  _ZNK2Tp17ProtocolParameter25isRequiredForRegistrationEv@Base 0.9.1
  _ZNK2Tp17ProtocolParameter4nameEv@Base 0.9.1
@@ -4017,6 +4171,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp18SimpleCallObserver10metaObjectEv@Base 0.9.1
  _ZNK2Tp18SimpleCallObserver17contactIdentifierEv@Base 0.9.1
  _ZNK2Tp18SimpleCallObserver18streamedMediaCallsEv@Base 0.9.1
+ _ZNK2Tp18SimpleCallObserver5callsEv@Base 0.9.3
  _ZNK2Tp18SimpleCallObserver7accountEv@Base 0.9.1
  _ZNK2Tp18SimpleCallObserver9directionEv@Base 0.9.1
  _ZNK2Tp18SimpleTextObserver10metaObjectEv@Base 0.9.1
@@ -4029,7 +4184,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp19ChannelRequestHints7isValidEv@Base 0.9.1
  _ZNK2Tp19ChannelRequestHints8allHintsEv@Base 0.9.1
  _ZNK2Tp19ContactCapabilities11streamTubesERK7QString@Base 0.9.1
+ _ZNK2Tp19ContactCapabilities16dbusTubeServicesEv@Base 0.9.3
  _ZNK2Tp19ContactCapabilities18streamTubeServicesEv@Base 0.9.1
+ _ZNK2Tp19ContactCapabilities9dbusTubesERK7QString@Base 0.9.3
  _ZNK2Tp19FileTransferChannel10isFinishedEv@Base 0.9.1
  _ZNK2Tp19FileTransferChannel10metaObjectEv@Base 0.9.1
  _ZNK2Tp19FileTransferChannel11contentHashEv@Base 0.9.1
@@ -4108,11 +4265,16 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp22ConnectionCapabilities33contactSearchesWithSpecificServerEv@Base 0.9.1
  _ZNK2Tp22ConnectionCapabilities35conferenceTextChatroomsWithInviteesEv@Base 0.9.1
  _ZNK2Tp22ConnectionCapabilities40conferenceStreamedMediaCallsWithInviteesEv@Base 0.9.1
+ _ZNK2Tp22ConnectionCapabilities9dbusTubesEv@Base 0.9.3
  _ZNK2Tp22HandledChannelNotifier10metaObjectEv@Base 0.9.1
  _ZNK2Tp22HandledChannelNotifier7channelEv@Base 0.9.1
  _ZNK2Tp22OptionalInterfaceCache5cacheEPNS_17AbstractInterfaceE@Base 0.9.1
  _ZNK2Tp22OptionalInterfaceCache5proxyEv@Base 0.9.1
  _ZNK2Tp22OptionalInterfaceCache9getCachedERK7QString@Base 0.9.1
+ _ZNK2Tp23IncomingDBusTubeChannel10metaObjectEv@Base 0.9.3
+ _ZNK2Tp23OutgoingDBusTubeChannel10metaObjectEv@Base 0.9.3
+ _ZNK2Tp23PendingDebugMessageList10metaObjectEv@Base 0.9.3
+ _ZNK2Tp23PendingDebugMessageList6resultEv@Base 0.9.3
  _ZNK2Tp24ChannelDispatchOperation10connectionEv@Base 0.9.1
  _ZNK2Tp24ChannelDispatchOperation10metaObjectEv@Base 0.9.1
  _ZNK2Tp24ChannelDispatchOperation13baseInterfaceEv@Base 0.9.1
@@ -4135,6 +4297,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp25OutgoingStreamTubeChannel22contactsForConnectionsEv@Base 0.9.1
  _ZNK2Tp25OutgoingStreamTubeChannel25connectionsForCredentialsEv@Base 0.9.1
  _ZNK2Tp25OutgoingStreamTubeChannel29connectionsForSourceAddressesEv@Base 0.9.1
+ _ZNK2Tp25PendingDBusTubeConnection10metaObjectEv@Base 0.9.3
+ _ZNK2Tp25PendingDBusTubeConnection16allowsOtherUsersEv@Base 0.9.3
+ _ZNK2Tp25PendingDBusTubeConnection7addressEv@Base 0.9.3
  _ZNK2Tp27IncomingFileTransferChannel10metaObjectEv@Base 0.9.1
  _ZNK2Tp27OutgoingFileTransferChannel10metaObjectEv@Base 0.9.1
  _ZNK2Tp27PendingStreamTubeConnection10metaObjectEv@Base 0.9.1
@@ -4173,6 +4338,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp37FileTransferChannelCreationProperties4sizeEv@Base 0.9.1
  _ZNK2Tp37FileTransferChannelCreationProperties6hasUriEv@Base 0.9.1
  _ZNK2Tp37FileTransferChannelCreationPropertieseqERKS0_@Base 0.9.1
+ _ZNK2Tp6Client14DebugInterface10metaObjectEv@Base 0.9.3
  _ZNK2Tp6Client15ClientInterface10metaObjectEv@Base 0.9.1
  _ZNK2Tp6Client16AccountInterface10metaObjectEv@Base 0.9.1
  _ZNK2Tp6Client16ChannelInterface10metaObjectEv@Base 0.9.1
@@ -4355,6 +4521,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp7Contact10infoFieldsEv@Base 0.9.1
  _ZNK2Tp7Contact10metaObjectEv@Base 0.9.1
  _ZNK2Tp7Contact11avatarTokenEv@Base 0.9.1
+ _ZNK2Tp7Contact11clientTypesEv@Base 0.9.3
  _ZNK2Tp7Contact12capabilitiesEv@Base 0.9.1
  _ZNK2Tp7Contact12publishStateEv@Base 0.9.1
  _ZNK2Tp7Contact14actualFeaturesEv@Base 0.9.1
@@ -4444,6 +4611,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTIN2Tp11TubeChannelE@Base 0.9.1
  _ZTIN2Tp12LocationInfoE@Base 0.9.1
  _ZTIN2Tp12PendingReadyE@Base 0.9.1
+ _ZTIN2Tp13DebugReceiverE@Base 0.9.3
  _ZTIN2Tp13PendingStringE@Base 0.9.1
  _ZTIN2Tp14AbstractClientE@Base 0.9.1
  _ZTIN2Tp14AccountFactoryE@Base 0.9.1
@@ -4454,6 +4622,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTIN2Tp14ChannelFactory12SubclassCtorINS_15RoomListChannelEEE@Base 0.9.1
  _ZTIN2Tp14ChannelFactory12SubclassCtorINS_20ContactSearchChannelEEE@Base 0.9.1
  _ZTIN2Tp14ChannelFactory12SubclassCtorINS_20StreamedMediaChannelEEE@Base 0.9.1
+ _ZTIN2Tp14ChannelFactory12SubclassCtorINS_23IncomingDBusTubeChannelEEE@Base 0.9.3
+ _ZTIN2Tp14ChannelFactory12SubclassCtorINS_23OutgoingDBusTubeChannelEEE@Base 0.9.3
  _ZTIN2Tp14ChannelFactory12SubclassCtorINS_25IncomingStreamTubeChannelEEE@Base 0.9.1
  _ZTIN2Tp14ChannelFactory12SubclassCtorINS_25OutgoingStreamTubeChannelEEE@Base 0.9.1
  _ZTIN2Tp14ChannelFactory12SubclassCtorINS_27IncomingFileTransferChannelEEE@Base 0.9.1
@@ -4473,6 +4643,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTIN2Tp14ProfileManagerE@Base 0.9.1
  _ZTIN2Tp14SimpleObserverE@Base 0.9.1
  _ZTIN2Tp15ClientRegistrarE@Base 0.9.1
+ _ZTIN2Tp15DBusTubeChannelE@Base 0.9.3
  _ZTIN2Tp15PendingCaptchasE@Base 0.9.1
  _ZTIN2Tp15PendingContactsE@Base 0.9.1
  _ZTIN2Tp15ReadinessHelperE@Base 0.9.1
@@ -4515,16 +4686,21 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTIN2Tp22ConnectionCapabilitiesE@Base 0.9.1
  _ZTIN2Tp22HandledChannelNotifierE@Base 0.9.1
  _ZTIN2Tp22OptionalInterfaceCacheE@Base 0.9.1
+ _ZTIN2Tp23IncomingDBusTubeChannelE@Base 0.9.3
+ _ZTIN2Tp23OutgoingDBusTubeChannelE@Base 0.9.3
+ _ZTIN2Tp23PendingDebugMessageListE@Base 0.9.3
  _ZTIN2Tp24ChannelDispatchOperationE@Base 0.9.1
  _ZTIN2Tp24PendingContactAttributesE@Base 0.9.1
  _ZTIN2Tp25ConnectionManagerLowlevelE@Base 0.9.1
  _ZTIN2Tp25IncomingStreamTubeChannelE@Base 0.9.1
  _ZTIN2Tp25OutgoingStreamTubeChannelE@Base 0.9.1
+ _ZTIN2Tp25PendingDBusTubeConnectionE@Base 0.9.3
  _ZTIN2Tp27IncomingFileTransferChannelE@Base 0.9.1
  _ZTIN2Tp27OutgoingFileTransferChannelE@Base 0.9.1
  _ZTIN2Tp27PendingStreamTubeConnectionE@Base 0.9.1
  _ZTIN2Tp27PendingStreamedMediaStreamsE@Base 0.9.1
  _ZTIN2Tp27ServerAuthenticationChannelE@Base 0.9.1
+ _ZTIN2Tp6Client14DebugInterfaceE@Base 0.9.3
  _ZTIN2Tp6Client15ClientInterfaceE@Base 0.9.1
  _ZTIN2Tp6Client16AccountInterfaceE@Base 0.9.1
  _ZTIN2Tp6Client16ChannelInterfaceE@Base 0.9.1
@@ -4634,6 +4810,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTSN2Tp11TubeChannelE@Base 0.9.1
  _ZTSN2Tp12LocationInfoE@Base 0.9.1
  _ZTSN2Tp12PendingReadyE@Base 0.9.1
+ _ZTSN2Tp13DebugReceiverE@Base 0.9.3
  _ZTSN2Tp13PendingStringE@Base 0.9.1
  _ZTSN2Tp14AbstractClientE@Base 0.9.1
  _ZTSN2Tp14AccountFactoryE@Base 0.9.1
@@ -4644,6 +4821,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTSN2Tp14ChannelFactory12SubclassCtorINS_15RoomListChannelEEE@Base 0.9.1
  _ZTSN2Tp14ChannelFactory12SubclassCtorINS_20ContactSearchChannelEEE@Base 0.9.1
  _ZTSN2Tp14ChannelFactory12SubclassCtorINS_20StreamedMediaChannelEEE@Base 0.9.1
+ _ZTSN2Tp14ChannelFactory12SubclassCtorINS_23IncomingDBusTubeChannelEEE@Base 0.9.3
+ _ZTSN2Tp14ChannelFactory12SubclassCtorINS_23OutgoingDBusTubeChannelEEE@Base 0.9.3
  _ZTSN2Tp14ChannelFactory12SubclassCtorINS_25IncomingStreamTubeChannelEEE@Base 0.9.1
  _ZTSN2Tp14ChannelFactory12SubclassCtorINS_25OutgoingStreamTubeChannelEEE@Base 0.9.1
  _ZTSN2Tp14ChannelFactory12SubclassCtorINS_27IncomingFileTransferChannelEEE@Base 0.9.1
@@ -4663,6 +4842,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTSN2Tp14ProfileManagerE@Base 0.9.1
  _ZTSN2Tp14SimpleObserverE@Base 0.9.1
  _ZTSN2Tp15ClientRegistrarE@Base 0.9.1
+ _ZTSN2Tp15DBusTubeChannelE@Base 0.9.3
  _ZTSN2Tp15PendingCaptchasE@Base 0.9.1
  _ZTSN2Tp15PendingContactsE@Base 0.9.1
  _ZTSN2Tp15ReadinessHelperE@Base 0.9.1
@@ -4705,16 +4885,21 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTSN2Tp22ConnectionCapabilitiesE@Base 0.9.1
  _ZTSN2Tp22HandledChannelNotifierE@Base 0.9.1
  _ZTSN2Tp22OptionalInterfaceCacheE@Base 0.9.1
+ _ZTSN2Tp23IncomingDBusTubeChannelE@Base 0.9.3
+ _ZTSN2Tp23OutgoingDBusTubeChannelE@Base 0.9.3
+ _ZTSN2Tp23PendingDebugMessageListE@Base 0.9.3
  _ZTSN2Tp24ChannelDispatchOperationE@Base 0.9.1
  _ZTSN2Tp24PendingContactAttributesE@Base 0.9.1
  _ZTSN2Tp25ConnectionManagerLowlevelE@Base 0.9.1
  _ZTSN2Tp25IncomingStreamTubeChannelE@Base 0.9.1
  _ZTSN2Tp25OutgoingStreamTubeChannelE@Base 0.9.1
+ _ZTSN2Tp25PendingDBusTubeConnectionE@Base 0.9.3
  _ZTSN2Tp27IncomingFileTransferChannelE@Base 0.9.1
  _ZTSN2Tp27OutgoingFileTransferChannelE@Base 0.9.1
  _ZTSN2Tp27PendingStreamTubeConnectionE@Base 0.9.1
  _ZTSN2Tp27PendingStreamedMediaStreamsE@Base 0.9.1
  _ZTSN2Tp27ServerAuthenticationChannelE@Base 0.9.1
+ _ZTSN2Tp6Client14DebugInterfaceE@Base 0.9.3
  _ZTSN2Tp6Client15ClientInterfaceE@Base 0.9.1
  _ZTSN2Tp6Client16AccountInterfaceE@Base 0.9.1
  _ZTSN2Tp6Client16ChannelInterfaceE@Base 0.9.1
@@ -4827,6 +5012,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTVN2Tp11TubeChannelE@Base 0.9.1
  _ZTVN2Tp12LocationInfoE@Base 0.9.1
  _ZTVN2Tp12PendingReadyE@Base 0.9.1
+ _ZTVN2Tp13DebugReceiverE@Base 0.9.3
  _ZTVN2Tp13PendingStringE@Base 0.9.1
  _ZTVN2Tp14AbstractClientE@Base 0.9.1
  _ZTVN2Tp14AccountFactoryE@Base 0.9.1
@@ -4837,6 +5023,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTVN2Tp14ChannelFactory12SubclassCtorINS_15RoomListChannelEEE@Base 0.9.1
  _ZTVN2Tp14ChannelFactory12SubclassCtorINS_20ContactSearchChannelEEE@Base 0.9.1
  _ZTVN2Tp14ChannelFactory12SubclassCtorINS_20StreamedMediaChannelEEE@Base 0.9.1
+ _ZTVN2Tp14ChannelFactory12SubclassCtorINS_23IncomingDBusTubeChannelEEE@Base 0.9.3
+ _ZTVN2Tp14ChannelFactory12SubclassCtorINS_23OutgoingDBusTubeChannelEEE@Base 0.9.3
  _ZTVN2Tp14ChannelFactory12SubclassCtorINS_25IncomingStreamTubeChannelEEE@Base 0.9.1
  _ZTVN2Tp14ChannelFactory12SubclassCtorINS_25OutgoingStreamTubeChannelEEE@Base 0.9.1
  _ZTVN2Tp14ChannelFactory12SubclassCtorINS_27IncomingFileTransferChannelEEE@Base 0.9.1
@@ -4856,6 +5044,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTVN2Tp14ProfileManagerE@Base 0.9.1
  _ZTVN2Tp14SimpleObserverE@Base 0.9.1
  _ZTVN2Tp15ClientRegistrarE@Base 0.9.1
+ _ZTVN2Tp15DBusTubeChannelE@Base 0.9.3
  _ZTVN2Tp15PendingCaptchasE@Base 0.9.1
  _ZTVN2Tp15PendingContactsE@Base 0.9.1
  _ZTVN2Tp15ReadinessHelperE@Base 0.9.1
@@ -4897,16 +5086,21 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTVN2Tp22AbstractClientObserverE@Base 0.9.1
  _ZTVN2Tp22ConnectionCapabilitiesE@Base 0.9.1
  _ZTVN2Tp22HandledChannelNotifierE@Base 0.9.1
+ _ZTVN2Tp23IncomingDBusTubeChannelE@Base 0.9.3
+ _ZTVN2Tp23OutgoingDBusTubeChannelE@Base 0.9.3
+ _ZTVN2Tp23PendingDebugMessageListE@Base 0.9.3
  _ZTVN2Tp24ChannelDispatchOperationE@Base 0.9.1
  _ZTVN2Tp24PendingContactAttributesE@Base 0.9.1
  _ZTVN2Tp25ConnectionManagerLowlevelE@Base 0.9.1
  _ZTVN2Tp25IncomingStreamTubeChannelE@Base 0.9.1
  _ZTVN2Tp25OutgoingStreamTubeChannelE@Base 0.9.1
+ _ZTVN2Tp25PendingDBusTubeConnectionE@Base 0.9.3
  _ZTVN2Tp27IncomingFileTransferChannelE@Base 0.9.1
  _ZTVN2Tp27OutgoingFileTransferChannelE@Base 0.9.1
  _ZTVN2Tp27PendingStreamTubeConnectionE@Base 0.9.1
  _ZTVN2Tp27PendingStreamedMediaStreamsE@Base 0.9.1
  _ZTVN2Tp27ServerAuthenticationChannelE@Base 0.9.1
+ _ZTVN2Tp6Client14DebugInterfaceE@Base 0.9.3
  _ZTVN2Tp6Client15ClientInterfaceE@Base 0.9.1
  _ZTVN2Tp6Client16AccountInterfaceE@Base 0.9.1
  _ZTVN2Tp6Client16ChannelInterfaceE@Base 0.9.1
@@ -5004,6 +5198,22 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTVN2Tp7ContactE@Base 0.9.1
  _ZTVN2Tp7ProfileE@Base 0.9.1
  _ZTVN2Tp9DBusProxyE@Base 0.9.1
+ _ZThn16_N2Tp13DebugReceiverD0Ev@Base 0.9.3
+ _ZThn16_N2Tp13DebugReceiverD1Ev@Base 0.9.3
+ _ZThn16_N2Tp15DBusTubeChannelD0Ev@Base 0.9.3
+ _ZThn16_N2Tp15DBusTubeChannelD1Ev@Base 0.9.3
+ _ZThn16_N2Tp23IncomingDBusTubeChannelD0Ev@Base 0.9.3
+ _ZThn16_N2Tp23IncomingDBusTubeChannelD1Ev@Base 0.9.3
+ _ZThn16_N2Tp23OutgoingDBusTubeChannelD0Ev@Base 0.9.3
+ _ZThn16_N2Tp23OutgoingDBusTubeChannelD1Ev@Base 0.9.3
+ _ZThn40_N2Tp13DebugReceiverD0Ev@Base 0.9.3
+ _ZThn40_N2Tp13DebugReceiverD1Ev@Base 0.9.3
+ _ZThn40_N2Tp15DBusTubeChannelD0Ev@Base 0.9.3
+ _ZThn40_N2Tp15DBusTubeChannelD1Ev@Base 0.9.3
+ _ZThn40_N2Tp23IncomingDBusTubeChannelD0Ev@Base 0.9.3
+ _ZThn40_N2Tp23IncomingDBusTubeChannelD1Ev@Base 0.9.3
+ _ZThn40_N2Tp23OutgoingDBusTubeChannelD0Ev@Base 0.9.3
+ _ZThn40_N2Tp23OutgoingDBusTubeChannelD1Ev@Base 0.9.3
  (c++)"non-virtual thunk to Tp::Account::~Account()@Base" 0.9.1
  (c++)"non-virtual thunk to Tp::AccountFactory::~AccountFactory()@Base" 0.9.1
  (c++)"non-virtual thunk to Tp::AccountManager::~AccountManager()@Base" 0.9.1
