@@ -1,1 +1,2 @@
 fvisibility-inlines-hidden.patch
+link-against-gobject.patch
