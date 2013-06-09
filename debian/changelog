@@ -1,3 +1,9 @@
+telepathy-qt (0.9.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Diane Trout <diane@ghic.org>  Sat, 08 Jun 2013 23:23:32 -0700
+
 telepathy-qt (0.9.1-4) unstable; urgency=low
 
   * Add extra (optional=inline) markings on all inline
