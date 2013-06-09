@@ -70,7 +70,6 @@ Depends: libqt4-dev (>= 4.6.0),
          libtelepathy-qt4-farstream2 (= ${binary:Version}),
          libtelepathy-farstream-dev,
          pkg-config (>= 0.21),
-         ${shlibs:Depends},
          ${misc:Depends}
 Suggests: libtelepathy-qt4-doc
 Description: Qt 4 Telepathy library (headers and static library)

@@ -5,6 +5,7 @@ telepathy-qt (0.9.3-1) UNRELEASED; urgency=low
   * Remove fix_ftbfs_gcc47.patch applied upstream.
   * Update libtelepathy-qt4-2.symbols.
   * Remove git-buildpackage directory configuration options.
+  * Remove uneeded shlib:Depends from libtelepathy-qt4-dev control .
 
  -- Diane Trout <diane@ghic.org>  Sat, 08 Jun 2013 23:23:32 -0700
 
