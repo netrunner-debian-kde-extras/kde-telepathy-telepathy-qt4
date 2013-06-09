@@ -4,9 +4,9 @@ Author: George Kiagiadakis <george.kiagiadakis@collabora.com>
 
 --- a/cmake/modules/TelepathyDefaults.cmake
 +++ b/cmake/modules/TelepathyDefaults.cmake
-@@ -47,6 +47,11 @@
-         set(VISIBILITY_HIDDEN_FLAGS)
-     endif (CXX_FVISIBILITY_HIDDEN)
+@@ -52,6 +52,11 @@
+         set(VISIBILITY_HIDDEN_FLAGS "${VISIBILITY_HIDDEN_FLAGS} -fvisibility-inlines-hidden")
+     endif (CXX_FVISIBILITY_INLINES_HIDDEN)
  
 +    CHECK_CXX_ACCEPTS_FLAG("-fvisibility-inlines-hidden" CXX_FVISIBILITY_INLINES_HIDDEN)
 +    if (CXX_FVISIBILITY_INLINES_HIDDEN)
