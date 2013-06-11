@@ -1,12 +1,13 @@
 Source: telepathy-qt
 Section: libs
 Priority: optional
-Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Simon McVittie <smcv@debian.org>,
            George Goldberg <george.goldberg@collabora.co.uk>,
            Jonny Lamb <jonny@debian.org>,
            Adam Conrad <adconrad@0c3.net>,
-           George Kiagiadakis <kiagiadakis.george@gmail.com>
+           George Kiagiadakis <kiagiadakis.george@gmail.com>,
+           Michał Zając <quintasan@kubuntu.org>
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1~),
                cmake,

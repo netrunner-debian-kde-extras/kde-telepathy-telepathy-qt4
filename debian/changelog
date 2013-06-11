@@ -1,5 +1,6 @@
 telepathy-qt (0.9.3-1) UNRELEASED; urgency=low
 
+  [ Diane Trout ]
   * New upstream release.
   * Bump libfarstream-0.1-dev, libtelepathy-farstream-dev, libtelepathy-glib-dev dependencies.
   * Remove fix_ftbfs_gcc47.patch applied upstream.
@@ -11,7 +12,8 @@ telepathy-qt (0.9.3-1) UNRELEASED; urgency=low
     used by libtelepathy-qt4-farstream.
 
   [ Michał Zając ]
-  * Drop fvisibility-inlines-hidden.patch - went upstream 
+  * Drop fvisibility-inlines-hidden.patch - went upstream
+  * Change the Maintainer, ACKed by Simon McVittie
 
  -- Diane Trout <diane@ghic.org>  Sat, 08 Jun 2013 23:23:32 -0700
 
