@@ -14,10 +14,11 @@ telepathy-qt (0.9.3-1) UNRELEASED; urgency=low
 
   [ Michał Zając ]
   * Drop fvisibility-inlines-hidden.patch - went upstream
-  * Change the Maintainer, ACKed by Simon McVittie
+  * Change the Maintainer, ACKed by Simon McVittie:
+    - Change the Maintainers field to the KDE extras team.
+    - Update the Uploaders.
   * Update symbols file
   * Updated Vcs-* fields
-  * Cleaned up Uploaders field
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove upstream stuff from the repo. We are going to keep only debian/ on
