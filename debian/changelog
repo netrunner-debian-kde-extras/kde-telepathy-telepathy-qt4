@@ -1,5 +1,7 @@
 telepathy-qt (0.9.3-1) UNRELEASED; urgency=low
 
+  * Team upload.
+
   [ Diane Trout ]
   * New upstream release.
   * Bump libfarstream-0.1-dev, libtelepathy-farstream-dev, libtelepathy-glib-dev dependencies.
