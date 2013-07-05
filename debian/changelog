@@ -4,7 +4,8 @@ telepathy-qt (0.9.3-1) UNRELEASED; urgency=low
 
   [ Diane Trout ]
   * New upstream release.
-  * Bump libfarstream-0.1-dev, libtelepathy-farstream-dev, libtelepathy-glib-dev dependencies.
+  * Bump libfarstream-0.1-dev, libtelepathy-farstream-dev,
+         libtelepathy-glib-dev dependencies.
   * Remove fix_ftbfs_gcc47.patch applied upstream.
   * Update libtelepathy-qt4-2.symbols.
   * Remove git-buildpackage directory configuration options.
@@ -13,6 +14,7 @@ telepathy-qt (0.9.3-1) UNRELEASED; urgency=low
   * Add patch link-against-gobject.patch to provide g_object symbols
     used by libtelepathy-qt4-farstream.
   * Add myself to Uploaders.
+  * Update Vcs-* fields to canonical URIs.
 
   [ Michał Zając ]
   * Drop fvisibility-inlines-hidden.patch - went upstream
