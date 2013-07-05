@@ -23,7 +23,7 @@ Build-Depends: debhelper (>= 9),
 # * python-dbus and python-gobject can safely be removed if you don't care
 #   about running the regression tests
 # * doxygen and graphviz should be Build-Depends-Indep if #478524 is fixed
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/telepathy-qt4.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/telepathy-qt4.git
 Homepage: http://telepathy.freedesktop.org/wiki/
