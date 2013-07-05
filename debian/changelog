@@ -16,6 +16,7 @@ telepathy-qt (0.9.3-1) UNRELEASED; urgency=low
   * Add myself to Uploaders.
   * Update Vcs-* fields to canonical URIs.
   * Update Standards-Version: 3.9.4. No changes needed.
+  * Add Multi-Arch: same to libtelepathy-qt4-dbg.
 
   [ Michał Zając ]
   * Drop fvisibility-inlines-hidden.patch - went upstream
