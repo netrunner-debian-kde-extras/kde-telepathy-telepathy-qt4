@@ -1,5 +1,9 @@
 telepathy-qt (0.9.3-2) UNRELEASED; urgency=low
 
+  [ Diane Trout ]
+  * Add fix_storing_avatars.patch. Fixes issue storing avatars
+    multiple times.
+
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Thu, 18 Jul 2013 19:29:10 -0300
 
 telepathy-qt (0.9.3-1) unstable; urgency=low
