@@ -1,0 +1,28 @@
+Author: David Edmundson <kde@davidedmundson.co.uk>
+Description: Recent cmake has changed the argument count to
+ qt4_create_moc_command, we need to adjust accordingly.
+ Reviewed-by: Dario Freddi <dario.freddi@ispirata.com>
+Origin: upstream, http://cgit.freedesktop.org/telepathy/telepathy-qt/commit/?id=05fe3f4980bbc6b016e25dcf07e44afe29e377c0
+--- a/cmake/modules/FindQt.cmake
++++ b/cmake/modules/FindQt.cmake
+@@ -74,10 +74,18 @@ ENDMACRO(QT_GET_MOC_FLAGS)
+ 
+ MACRO(QT_CREATE_MOC_COMMAND infile outfile moc_flags moc_options)
+   IF(QT_VERSION_MAJOR MATCHES 4)
+-    QT4_CREATE_MOC_COMMAND(${infile} ${outfile} "${moc_flags}" "${moc_options}")
++    IF(CMAKE_VERSION VERSION_GREATER 2.8.11.20130607)
++      QT4_CREATE_MOC_COMMAND(${infile} ${outfile} "${moc_flags}" "${moc_options}" "")
++    ELSE(CMAKE_VERSION VERSION_GREATER 2.8.11.20130607)
++      QT4_CREATE_MOC_COMMAND(${infile} ${outfile} "${moc_flags}" "${moc_options}")
++    ENDIF(CMAKE_VERSION VERSION_GREATER 2.8.11.20130607)
+   ELSE(QT_VERSION_MAJOR MATCHES 4)
+     IF(QT_VERSION_MAJOR MATCHES 5)
+-      QT5_CREATE_MOC_COMMAND(${infile} ${outfile} "${moc_flags}" "${moc_options}")
++      IF(CMAKE_VERSION VERSION_GREATER 2.8.11.20130607)
++        QT5_CREATE_MOC_COMMAND(${infile} ${outfile} "${moc_flags}" "${moc_options}" "")
++      ELSE(CMAKE_VERSION VERSION_GREATER 2.8.11.20130607)
++        QT5_CREATE_MOC_COMMAND(${infile} ${outfile} "${moc_flags}" "${moc_options}")
++      ENDIF(CMAKE_VERSION VERSION_GREATER 2.8.11.20130607)
+     ENDIF(QT_VERSION_MAJOR MATCHES 5)
+   ENDIF(QT_VERSION_MAJOR MATCHES 4)
+ ENDMACRO(QT_CREATE_MOC_COMMAND)

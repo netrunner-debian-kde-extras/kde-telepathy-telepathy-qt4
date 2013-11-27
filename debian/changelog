@@ -4,6 +4,7 @@ telepathy-qt (0.9.3-2) UNRELEASED; urgency=low
   * Add fix_storing_avatars.patch. Fixes issue storing avatars
     multiple times.
   * Remove python compiled byte-code during debian auto_clean target.
+  * Add create_moc_command.patch to work around a change in a recent cmake macro.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Thu, 18 Jul 2013 19:29:10 -0300
 
