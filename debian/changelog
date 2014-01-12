@@ -1,3 +1,9 @@
+telepathy-qt (0.9.3-3) UNRELEASED; urgency=low
+
+  * Remove version requirement from pkg-config dependency (Closes: #734489)
+
+ -- Diane Trout <diane@ghic.org>  Sun, 12 Jan 2014 11:09:28 -0800
+
 telepathy-qt (0.9.3-2) unstable; urgency=low
 
   * Add fix_storing_avatars.patch. Fixes issue storing avatars
