@@ -3,7 +3,7 @@
 include /usr/share/dpkg/architecture.mk
 
 %:
-	dh $@ --parallel
+	dh $@ --parallel --dbg-package=libtelepathy-qt4-dbg --list-missing
 
 override_dh_auto_configure:
 	dh_auto_configure -- -DDISABLE_WERROR=ON -DHAVE_DOT=YES \
@@ -17,12 +17,6 @@ endif
 
 # Do not run tests, as they fall into race conditions sometimes
 override_dh_auto_test:
-
-override_dh_strip:
-	dh_strip --dbg-package=libtelepathy-qt4-dbg
-
-override_dh_install:
-	dh_install --list-missing
 
 # -i is for the doc package, which doesn't depend on the shared library
 override_dh_installdocs:
