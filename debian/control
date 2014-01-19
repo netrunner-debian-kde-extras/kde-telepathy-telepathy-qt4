@@ -6,6 +6,7 @@ Uploaders: Michał Zając <quintasan@kubuntu.org>,
            Diane Trout <diane@ghic.org>
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1~),
+               pkg-kde-tools (>= 0.12),
                cmake,
                doxygen,
                graphviz,

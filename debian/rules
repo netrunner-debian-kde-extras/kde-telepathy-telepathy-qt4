@@ -3,7 +3,7 @@
 include /usr/share/dpkg/architecture.mk
 
 %:
-	dh $@ --parallel --dbg-package=libtelepathy-qt4-dbg --list-missing
+	dh $@ --with pkgkde_symbolshelper --parallel --dbg-package=libtelepathy-qt4-dbg --list-missing
 
 override_dh_auto_configure:
 	dh_auto_configure -- -DDISABLE_WERROR=ON -DHAVE_DOT=YES \
