@@ -6,6 +6,7 @@ telepathy-qt (0.9.3-3) UNRELEASED; urgency=low
   * Simplify debian/rules by removing override_dh_strip and override_dh_install
     and passing their arguments to the default dh rule.
   * Explicitly use pkg-kde-tools for its symbol helper utilities.
+  * Explicitly force build type RelWithDebInfo
 
  -- Diane Trout <diane@ghic.org>  Sun, 12 Jan 2014 11:09:28 -0800
 
