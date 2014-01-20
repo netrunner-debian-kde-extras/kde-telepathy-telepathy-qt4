@@ -3,8 +3,6 @@ telepathy-qt (0.9.3-3) UNRELEASED; urgency=low
   * Remove version requirement from pkg-config dependency (Closes: #734489)
   * Update Standards-Version to 3.9.5. No Changes needed.
   * Update debian/libtelepathy-qt4-2.symbols for 0.9.3 symbols.
-  * Simplify debian/rules by removing override_dh_strip and override_dh_install
-    and passing their arguments to the default dh rule.
   * Explicitly use pkg-kde-tools for its symbol helper utilities.
   * Explicitly force build type RelWithDebInfo
 
