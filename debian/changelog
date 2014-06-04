@@ -1,3 +1,9 @@
+telepathy-qt (0.9.3-4) UNRELEASED; urgency=medium
+
+  * Update symbols files for other architectures.
+
+ -- Diane Trout <diane@ghic.org>  Tue, 03 Jun 2014 22:00:26 -0700
+
 telepathy-qt (0.9.3-3) unstable; urgency=low
 
   * Remove version requirement from pkg-config dependency (Closes: #734489)
