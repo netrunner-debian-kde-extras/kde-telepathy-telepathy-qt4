@@ -1,3 +1,2 @@
-fix_storing_avatars.patch
 link-against-gobject.patch
 create_moc_command.patch
