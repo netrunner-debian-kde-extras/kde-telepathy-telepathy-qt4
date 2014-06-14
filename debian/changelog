@@ -5,6 +5,7 @@ telepathy-qt (0.9.4-1) UNRELEASED; urgency=medium
   * Remove fix_storing_avatars.patch. Applied upstream.
   * Remove create_moc_command.patch. Applied upstream.
   * Remove link-against-gobject.patch. Seems unnecessary.
+  * Update libtelepathy-qt4-2 symbols file.
 
  -- Diane Trout <diane@ghic.org>  Sat, 14 Jun 2014 10:17:26 -0700
 
