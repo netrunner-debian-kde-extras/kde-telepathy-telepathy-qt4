@@ -3,6 +3,7 @@ telepathy-qt (0.9.4-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Verify upstream pgp signature.
   * Remove fix_storing_avatars.patch. Applied upstream.
+  * Remove create_moc_command.patch. Applied upstream.
 
  -- Diane Trout <diane@ghic.org>  Sat, 14 Jun 2014 10:17:26 -0700
 
