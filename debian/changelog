@@ -1,4 +1,4 @@
-telepathy-qt (0.9.4+repack-1) UNSTABLE; urgency=medium
+telepathy-qt (0.9.4+dfsg-1) UNSTABLE; urgency=medium
 
   * New upstream release.
   * Verify upstream pgp signature.
