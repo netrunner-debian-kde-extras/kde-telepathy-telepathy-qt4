@@ -1,7 +1,7 @@
 #!/bin/sh
-if uscan --help | grep -q -- --repack-compression ; then
+if uscan --help | grep -q -- --repack ; then
     echo "Use new enhanced uscan"
-    uscan --verbose --force-download --repack-compression xz
+    uscan --verbose --force-download --repack --compression xz
     exit
 fi
 
