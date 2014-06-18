@@ -1,4 +1,4 @@
-telepathy-qt (0.9.4-1) UNRELEASED; urgency=medium
+telepathy-qt (0.9.4+repack-1) UNSTABLE; urgency=medium
 
   * New upstream release.
   * Verify upstream pgp signature.
@@ -6,6 +6,7 @@ telepathy-qt (0.9.4-1) UNRELEASED; urgency=medium
   * Remove create_moc_command.patch. Applied upstream.
   * Remove link-against-gobject.patch. Seems unnecessary.
   * Update libtelepathy-qt4-2 symbols file.
+  * Add get-orig-source target to repack upstream to remove minified jquery.js
 
  -- Diane Trout <diane@ghic.org>  Sat, 14 Jun 2014 10:17:26 -0700
 

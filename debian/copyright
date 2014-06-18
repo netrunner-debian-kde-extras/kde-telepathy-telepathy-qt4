@@ -5,6 +5,8 @@ Upstream-Contact:
     irc://irc.freenode.net/telepathy
     http://telepathy.freedesktop.org/
 Upstream-Source: http://telepathy.freedesktop.org/releases/telepathy-qt/
+Files-Excluded:
+    doc/html/jquery.js
 
 Files: *
 Copyright: © 2008-2012 Collabora Ltd.

@@ -1,3 +1,4 @@
 version=3
-opts=pgpsigurlmangle=s/$/.asc/ \
-http://telepathy.freedesktop.org/releases/telepathy-qt/telepathy-qt-(.*).tar.gz
+opts=pgpsigurlmangle=s/$/.asc/,dversionmangle=s/[~\+]repack// \
+http://telepathy.freedesktop.org/releases/telepathy-qt/telepathy-qt-(.*).tar.gz \
+    debian debian/get-orig-source

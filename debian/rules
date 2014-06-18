@@ -34,3 +34,6 @@ override_dh_installdocs:
 override_dh_auto_clean:
 	dh_auto_clean
 	find . -name '*.pyc' -exec rm {} \;
+
+get-orig-source:
+	. debian/get-orig-source
