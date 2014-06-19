@@ -8,7 +8,8 @@ telepathy-qt (0.9.4+dfsg-1) UNSTABLE; urgency=medium
   * Update libtelepathy-qt4-2 symbols file.
   * Add get-orig-source target to repack upstream to remove minified jquery.js
   * Add improve-doxygen-build.patch to fix issues with doxygen build process
-  * Add qt4-dev-tools and qt4-doc-html to build-depends so we can rebuild documentation.
+  * Add qt4-dev-tools and qt4-doc-html to build-depends so we can
+    rebuild documentation.
 
  -- Diane Trout <diane@ghic.org>  Sat, 14 Jun 2014 10:17:26 -0700
 
