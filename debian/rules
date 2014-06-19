@@ -8,13 +8,12 @@ include /usr/share/dpkg/architecture.mk
 override_dh_auto_configure:
 	dh_auto_configure -- -DDISABLE_WERROR=ON -DHAVE_DOT=YES \
 	                     -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" \
-	                     -DCMAKE_BUILD_TYPE=RelWithDebInfo
+	                     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+	                     -DQT_DOC_DIR=/usr/share/qt4/doc
 
-ifeq (,$(findstring nodocs,$(DEB_BUILD_OPTIONS)))
 override_dh_auto_build:
 	dh_auto_build --parallel
 	dh_auto_build -- doxygen-doc
-endif
 
 # Do not run tests, as they fall into race conditions sometimes
 override_dh_auto_test:
