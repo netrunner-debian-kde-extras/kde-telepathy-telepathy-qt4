@@ -10,7 +10,7 @@ telepathy-qt (0.9.4+dfsg-1) UNSTABLE; urgency=medium
   * Add improve-doxygen-build.patch to fix issues with doxygen build process
   * Add qt4-dev-tools and qt4-doc-html to build-depends so we can
     rebuild documentation.
-  * Install documentation from build directroy.
+  * Install documentation from build directory.
   * Clean up doxygen documentation tree.
   * Specify location of local Qt documentation.
 
