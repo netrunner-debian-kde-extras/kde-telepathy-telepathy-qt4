@@ -7,6 +7,7 @@ telepathy-qt (0.9.4+dfsg-1) UNSTABLE; urgency=medium
   * Remove link-against-gobject.patch. Seems unnecessary.
   * Update libtelepathy-qt4-2 symbols file.
   * Add get-orig-source target to repack upstream to remove minified jquery.js
+  * Add improve-doxygen-build.patch to fix issues with doxygen build process
 
  -- Diane Trout <diane@ghic.org>  Sat, 14 Jun 2014 10:17:26 -0700
 
