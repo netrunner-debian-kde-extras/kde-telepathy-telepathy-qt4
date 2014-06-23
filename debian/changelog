@@ -1,6 +1,9 @@
 telepathy-qt (0.9.4+dfsg-2) UNRELEASED; urgency=medium
 
   * Add update-doxygen.patch to remove deprecated tags.
+  * replace dh_doxygen with directly searching for doxygen .map and .md5s
+    The dh_doxygen version wasn't finding the unneeded files and was
+    causing the build to fail.
 
  -- Diane Trout <diane@ghic.org>  Sun, 22 Jun 2014 22:49:18 -0700
 
