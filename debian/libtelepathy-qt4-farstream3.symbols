@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 0.9.1 amd64
-libtelepathy-qt4-farstream.so.2 libtelepathy-qt4-farstream2 #MINVER#
+libtelepathy-qt4-farstream.so.3 libtelepathy-qt4-farstream3 #MINVER#
 * Build-Depends-Package: libtelepathy-qt4-dev
  _ZN2Tp9Farstream13createChannelERKNS_9SharedPtrINS_11CallChannelEEE@Base 0.9.1
  _ZN2Tp9Farstream14PendingChannel11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1

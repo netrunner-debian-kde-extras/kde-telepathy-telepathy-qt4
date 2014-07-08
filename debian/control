@@ -31,7 +31,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/telepathy-qt4
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/telepathy-qt4.git
 Homepage: http://telepathy.freedesktop.org/wiki/
 
-Package: libtelepathy-qt4-2
+Package: libtelepathy-qt4-3
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -45,11 +45,11 @@ Description: Telepathy framework - Qt 4 library
  differences between protocols to provide a unified interface for
  applications.
 
-Package: libtelepathy-qt4-farstream2
+Package: libtelepathy-qt4-farstream3
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: libtelepathy-qt4-2 (= ${binary:Version}),
+Depends: libtelepathy-qt4-3 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
 Description: Telepathy/Farsight integration - Qt 4 library
@@ -66,8 +66,8 @@ Package: libtelepathy-qt4-dev
 Architecture: any
 Section: libdevel
 Depends: libqt4-dev (>= 4.6.0),
-         libtelepathy-qt4-2 (= ${binary:Version}),
-         libtelepathy-qt4-farstream2 (= ${binary:Version}),
+         libtelepathy-qt4-3 (= ${binary:Version}),
+         libtelepathy-qt4-farstream3 (= ${binary:Version}),
          libtelepathy-farstream-dev,
          pkg-config (>= 0.21),
          ${misc:Depends}
@@ -86,9 +86,9 @@ Architecture: any
 Multi-Arch: same
 Section: debug
 Priority: extra
-Depends: libtelepathy-qt4-2 (= ${binary:Version}),
+Depends: libtelepathy-qt4-3 (= ${binary:Version}),
          ${misc:Depends}
-Suggests: libtelepathy-qt4-farstream2 (= ${binary:Version})
+Suggests: libtelepathy-qt4-farstream3 (= ${binary:Version})
 Description: Qt 4 Telepathy library (debug symbols)
  This package contains support for debugging programs that use telepathy-qt4,
  a Qt-based library for Telepathy components.

@@ -28,7 +28,7 @@ override_dh_install:
 
 # -i is for the doc package, which doesn't depend on the shared library
 override_dh_installdocs:
-	dh_installdocs -a --link-doc=libtelepathy-qt4-2
+	dh_installdocs -a --link-doc=libtelepathy-qt4-3
 	dh_installdocs -i
 	dh_doxygen -i
 
