@@ -1,3 +1,9 @@
+telepathy-qt (0.9.4+dfsg-3+farstream3) UNRELEASED; urgency=medium
+
+  * Add farstream3.patch to build against farstream3.
+
+ -- Diane Trout <diane@ghic.org>  Mon, 07 Jul 2014 22:36:28 -0700
+
 telepathy-qt (0.9.4+dfsg-3) unstable; urgency=medium
 
   * Move building documentation to override_dh_auto_build-indep target.

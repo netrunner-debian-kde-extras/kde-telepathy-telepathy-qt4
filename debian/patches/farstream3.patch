@@ -1,0 +1,109 @@
+Author: Diane Trout <diane@ghic.org>, Alin Elena <alinm.elena@gmail.com>
+Description: Modify telepathy-qt to link against gstreamer 1.0 & farstream 0.3
+ This is available from https://github.com/davidedmundson/telepathy-qt/commits/farstream-0.2-port
+ as commits 47df2f7b2e and 5bb2ac3180
+
+--- a/cmake/modules/FindFarstream.cmake
++++ b/cmake/modules/FindFarstream.cmake
+@@ -23,9 +23,9 @@
+     # in the find_path() and find_library() calls
+     find_package(PkgConfig)
+     if (FARSTREAM_MIN_VERSION)
+-        PKG_CHECK_MODULES(PC_FARSTREAM farstream-0.1>=${FARSTREAM_MIN_VERSION})
++        PKG_CHECK_MODULES(PC_FARSTREAM farstream-0.2>=${FARSTREAM_MIN_VERSION})
+     else (FARSTREAM_MIN_VERSION)
+-        PKG_CHECK_MODULES(PC_FARSTREAM farstream-0.1)
++        PKG_CHECK_MODULES(PC_FARSTREAM farstream-0.2)
+     endif (FARSTREAM_MIN_VERSION)
+     set(FARSTREAM_DEFINITIONS ${PC_FARSTREAM_CFLAGS_OTHER})
+ endif (NOT WIN32)
+@@ -34,10 +34,10 @@
+    PATHS
+    ${PC_FARSTREAM_INCLUDEDIR}
+    ${PC_FARSTREAM_INCLUDE_DIRS}
+-   PATH_SUFFIXES farstream-0.1
++   PATH_SUFFIXES farstream-0.2
+    )
+ 
+-find_library(FARSTREAM_LIBRARIES NAMES farstream-0.1
++find_library(FARSTREAM_LIBRARIES NAMES farstream-0.2
+    PATHS
+    ${PC_FARSTREAM_LIBDIR}
+    ${PC_FARSTREAM_LIBRARY_DIRS}
+--- a/cmake/modules/FindGStreamer.cmake
++++ b/cmake/modules/FindGStreamer.cmake
+@@ -24,7 +24,7 @@
+    # use pkg-config to get the directories and then use these values
+    # in the FIND_PATH() and FIND_LIBRARY() calls
+    FIND_PACKAGE(PkgConfig)
+-   PKG_CHECK_MODULES(PC_GSTREAMER gstreamer-0.10)
++   PKG_CHECK_MODULES(PC_GSTREAMER gstreamer-1.0)
+    #MESSAGE(STATUS "DEBUG: GStreamer include directory = ${GSTREAMER_INCLUDE_DIRS}")
+    #MESSAGE(STATUS "DEBUG: GStreamer link directory = ${GSTREAMER_LIBRARY_DIRS}")
+    #MESSAGE(STATUS "DEBUG: GStreamer CFlags = ${GSTREAMER_CFLAGS_OTHER}")
+@@ -35,26 +35,21 @@
+    PATHS
+    ${PC_GSTREAMER_INCLUDEDIR}
+    ${PC_GSTREAMER_INCLUDE_DIRS}
+-   PATH_SUFFIXES gstreamer-0.10
++   PATH_SUFFIXES gstreamer-1.0
+    )
+ 
+-FIND_LIBRARY(GSTREAMER_LIBRARIES NAMES gstreamer-0.10
++FIND_LIBRARY(GSTREAMER_LIBRARIES NAMES gstreamer-1.0
+    PATHS
+    ${PC_GSTREAMER_LIBDIR}
+    ${PC_GSTREAMER_LIBRARY_DIRS}
+    )
+ 
+-FIND_LIBRARY(GSTREAMER_BASE_LIBRARY NAMES gstbase-0.10
++FIND_LIBRARY(GSTREAMER_BASE_LIBRARY NAMES gstbase-1.0
+    PATHS
+    ${PC_GSTREAMER_LIBDIR}
+    ${PC_GSTREAMER_LIBRARY_DIRS}
+    )
+ 
+-FIND_LIBRARY(GSTREAMER_INTERFACE_LIBRARY NAMES gstinterfaces-0.10
+-   PATHS
+-   ${PC_GSTREAMER_LIBDIR}
+-   ${PC_GSTREAMER_LIBRARY_DIRS}
+-   )
+ 
+ IF (GSTREAMER_INCLUDE_DIR)
+    #MESSAGE(STATUS "DEBUG: Found GStreamer include dir: ${GSTREAMER_INCLUDE_DIR}")
+@@ -68,13 +63,8 @@
+    MESSAGE(STATUS "GStreamer: WARNING: library not found")
+ ENDIF (GSTREAMER_LIBRARIES)
+ 
+-IF (GSTREAMER_INTERFACE_LIBRARY)
+-   #MESSAGE(STATUS "DEBUG: Found GStreamer interface library: ${GSTREAMER_INTERFACE_LIBRARY}")
+-ELSE (GSTREAMER_INTERFACE_LIBRARY)
+-   MESSAGE(STATUS "GStreamer: WARNING: interface library not found")
+-ENDIF (GSTREAMER_INTERFACE_LIBRARY)
+ 
+ INCLUDE(FindPackageHandleStandardArgs)
+-FIND_PACKAGE_HANDLE_STANDARD_ARGS(GStreamer  DEFAULT_MSG  GSTREAMER_LIBRARIES GSTREAMER_INCLUDE_DIR GSTREAMER_BASE_LIBRARY GSTREAMER_INTERFACE_LIBRARY)
++FIND_PACKAGE_HANDLE_STANDARD_ARGS(GStreamer  DEFAULT_MSG  GSTREAMER_LIBRARIES GSTREAMER_INCLUDE_DIR GSTREAMER_BASE_LIBRARY)
+ 
+-MARK_AS_ADVANCED(GSTREAMER_INCLUDE_DIR GSTREAMER_LIBRARIES GSTREAMER_BASE_LIBRARY GSTREAMER_INTERFACE_LIBRARY)
++MARK_AS_ADVANCED(GSTREAMER_INCLUDE_DIR GSTREAMER_LIBRARIES GSTREAMER_BASE_LIBRARY)
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -98,7 +98,7 @@
+ # This value contains the library's SOVERSION. This value is to be increased everytime an API/ABI break
+ # occurs, and will be used for the SOVERSION of the generated shared libraries.
+ if (${QT_VERSION_MAJOR} EQUAL 4)
+-    set(TP_QT_ABI_VERSION 2)
++    set(TP_QT_ABI_VERSION 3)
+ else (${QT_VERSION_MAJOR} EQUAL 4)
+     set(TP_QT_ABI_VERSION 0)
+ endif (${QT_VERSION_MAJOR} EQUAL 4)
+@@ -210,7 +210,7 @@
+ 
+ if(ENABLE_FARSTREAM)
+     # Find tp-farstream
+-    set(FARSTREAM_MIN_VERSION "0.1.0")
++    set(FARSTREAM_MIN_VERSION "0.2.0")
+     find_package(Farstream)
+     macro_log_feature(FARSTREAM_FOUND "Farstream"
+                       "A Framework for dealing with audio/video conferencing protocols"
