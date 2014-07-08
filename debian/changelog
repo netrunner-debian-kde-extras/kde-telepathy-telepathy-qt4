@@ -2,6 +2,7 @@ telepathy-qt (0.9.4+dfsg-3+farstream3) UNRELEASED; urgency=medium
 
   * Add farstream3.patch to build against farstream3.
   * Update build-depends to use gstreamer 1.0
+  * Update build-depends to use farstream3
 
  -- Diane Trout <diane@ghic.org>  Mon, 07 Jul 2014 22:36:28 -0700
 
