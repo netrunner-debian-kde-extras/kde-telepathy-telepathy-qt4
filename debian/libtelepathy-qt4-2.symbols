@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.9.4 amd64
+# SymbolsHelper-Confirmed: 0.9.5 amd64
 libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
 * Build-Depends-Package: libtelepathy-qt4-dev
  _ZN2Tp10AccountSet11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -604,8 +604,15 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp15ReceivedMessage15DeliveryDetailsD1Ev@Base 0.9.1
  _ZN2Tp15ReceivedMessage15DeliveryDetailsD2Ev@Base 0.9.1
  _ZN2Tp15ReceivedMessage15DeliveryDetailsaSERKS1_@Base 0.9.1
+ _ZN2Tp15ReceivedMessage15setForceNonTextEv@Base 0.9.5
+ _ZN2Tp15ReceivedMessage17clearSenderHandleEv@Base 0.9.5
+ _ZN2Tp15ReceivedMessage9setSenderERKNS_9SharedPtrINS_7ContactEEE@Base 0.9.5
+ _ZN2Tp15ReceivedMessageC1ERK5QListINS_11MessagePartEERKNS_9SharedPtrINS_11TextChannelEEE@Base 0.9.5
  _ZN2Tp15ReceivedMessageC1ERKS0_@Base 0.9.1
+ _ZN2Tp15ReceivedMessageC1Ev@Base 0.9.5
+ _ZN2Tp15ReceivedMessageC2ERK5QListINS_11MessagePartEERKNS_9SharedPtrINS_11TextChannelEEE@Base 0.9.5
  _ZN2Tp15ReceivedMessageC2ERKS0_@Base 0.9.1
+ _ZN2Tp15ReceivedMessageC2Ev@Base 0.9.5
  _ZN2Tp15ReceivedMessageD1Ev@Base 0.9.1
  _ZN2Tp15ReceivedMessageD2Ev@Base 0.9.1
  _ZN2Tp15ReceivedMessageaSERKS0_@Base 0.9.1
@@ -4077,6 +4084,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp15ReadinessHelper7isReadyERKNS_7FeatureEP7QStringS5_@Base 0.9.1
  _ZNK2Tp15ReadinessHelper7isReadyERKNS_8FeaturesEP7QStringS5_@Base 0.9.1
  _ZNK2Tp15ReceivedMessage12isScrollbackEv@Base 0.9.1
+ _ZNK2Tp15ReceivedMessage12senderHandleEv@Base 0.9.5
  _ZNK2Tp15ReceivedMessage13isFromChannelERKNS_9SharedPtrINS_11TextChannelEEE@Base 0.9.1
  _ZNK2Tp15ReceivedMessage14senderNicknameEv@Base 0.9.1
  _ZNK2Tp15ReceivedMessage15DeliveryDetails12debugMessageEv@Base 0.9.1
@@ -4094,7 +4102,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZNK2Tp15ReceivedMessage16isDeliveryReportEv@Base 0.9.1
  _ZNK2Tp15ReceivedMessage6senderEv@Base 0.9.1
  _ZNK2Tp15ReceivedMessage8receivedEv@Base 0.9.1
+ _ZNK2Tp15ReceivedMessage8senderIdEv@Base 0.9.5
  _ZNK2Tp15ReceivedMessage9isRescuedEv@Base 0.9.1
+ _ZNK2Tp15ReceivedMessage9pendingIdEv@Base 0.9.5
  _ZNK2Tp15RoomListChannel10metaObjectEv@Base 0.9.1
  _ZNK2Tp16CapabilitiesBase10audioCallsEv@Base 0.9.1
  _ZNK2Tp16CapabilitiesBase10videoCallsEv@Base 0.9.1
