@@ -2,6 +2,9 @@ telepathy-qt (0.9.5+dfsg-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update build-depends to use gstreamer 1.0
+  * Add libtelepathy-qt4-service.a to -dev.install,
+    it's currently being distributed as a static library while
+    the API is being stabilized.
 
  -- Diane Trout <diane@ghic.org>  Mon, 07 Jul 2014 22:36:28 -0700
 

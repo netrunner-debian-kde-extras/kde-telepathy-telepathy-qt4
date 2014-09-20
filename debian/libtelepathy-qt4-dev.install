@@ -1,4 +1,5 @@
 usr/lib/*/*.so
+usr/lib/*/libtelepathy-qt4-service.a
 usr/lib/*/pkgconfig/*.pc
 usr/lib/*/cmake/*
 usr/include/telepathy-qt4
