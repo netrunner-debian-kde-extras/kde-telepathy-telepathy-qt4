@@ -6,6 +6,7 @@ telepathy-qt (0.9.5+dfsg-1) UNRELEASED; urgency=medium
     it's currently being distributed as a static library while
     the API is being stabilized.
   * Update libtelepathy-qt4-2.symbols file for new version.
+  * Update libtelepathy-qt4-farstream2.symbols for new version.
   * Update libfarstream to 0.2 (>= 0.2.3)
   * Update libtelepathy-farstream-dev build-depends to 0.6
 
