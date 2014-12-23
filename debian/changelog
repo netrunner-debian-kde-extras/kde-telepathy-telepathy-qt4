@@ -10,6 +10,10 @@ telepathy-qt (0.9.5+dfsg-1) UNRELEASED; urgency=medium
   * Update libfarstream to 0.2 (>= 0.2.3)
   * Update libtelepathy-farstream-dev build-depends to 0.6
   * Adjust libtelepathy-qt4-dev.install paths to only install qt4 versions
+  * Build qt5 version adding the following packages.
+    - libtelepathy-qt5-0
+    - libtelepathy-qt5-farstream0
+    - libtelepathy-qt5-dev
 
  -- Diane Trout <diane@ghic.org>  Mon, 07 Jul 2014 22:36:28 -0700
 
