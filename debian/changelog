@@ -1,4 +1,4 @@
-telepathy-qt (0.9.5+dfsg-1) UNRELEASED; urgency=medium
+telepathy-qt (0.9.5+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
   * Update build-depends to use gstreamer 1.0
