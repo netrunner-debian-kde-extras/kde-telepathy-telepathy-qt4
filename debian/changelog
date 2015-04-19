@@ -6,6 +6,7 @@ telepathy-qt (0.9.5+dfsg-2) UNRELEASED; urgency=medium
       the pre-built documentation.
     - I added a limitation against using libssl1.0.0 >= 1.0.2
       from experimental because of changed symbols
+  * Update standards-version to 3.9.6, no changes needed.
 
  -- Diane Trout <diane@ghic.org>  Mon, 09 Mar 2015 20:22:04 -0700
 
