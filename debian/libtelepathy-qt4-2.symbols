@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.9.5 amd64
+# SymbolsHelper-Confirmed: 0.9.5 amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x
 libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
 * Build-Depends-Package: libtelepathy-qt4-dev
  _ZN2Tp10AccountSet11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -173,8 +173,6 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp11TubeChannelD1Ev@Base 0.9.1
  _ZN2Tp11TubeChannelD2Ev@Base 0.9.1
  _ZN2Tp11enableDebugEb@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp12ChannelClassD1Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp12ChannelClassD2Ev@Base 0.9.1
  _ZN2Tp12DebugMessageD1Ev@Base 0.9.3
  _ZN2Tp12DebugMessageD2Ev@Base 0.9.3
  (optional=gccinternal|arch=i386)_ZN2Tp12HTTPPostDataC1ERKS0_@Base 0.9.1
@@ -523,9 +521,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=inline)_ZN2Tp14SimplePresenceD2Ev@Base 0.9.1
  _ZN2Tp14enableWarningsEb@Base 0.9.1
  _ZN2Tp14enabledWarningEv@Base 0.9.1
- (optional=inline|arch=amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x)_ZN2Tp15CallStateReasonC1ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp15CallStateReasonC1ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=armel mips mipsel)_ZN2Tp15CallStateReasonC1Ev@Base 0.9.3
- (optional=inline|arch=amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x)_ZN2Tp15CallStateReasonC2ERKS0_@Base 0.9.1
+ (optional=inline)_ZN2Tp15CallStateReasonC2ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=armel mips mipsel)_ZN2Tp15CallStateReasonC2Ev@Base 0.9.3
  (optional=inline)_ZN2Tp15CallStateReasonD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp15CallStateReasonD2Ev@Base 0.9.1
@@ -694,7 +692,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16ChannelClassSpecD2Ev@Base 0.9.1
  _ZN2Tp16ChannelClassSpecaSERKS0_@Base 0.9.1
  (optional=inline|arch=sparc)_ZN2Tp16ContactInfoFieldC1ERKS0_@Base 0.9.1
+ (arch=armel)_ZN2Tp16ContactInfoFieldC1Ev@Base 0.9.5
  (optional=inline|arch=sparc)_ZN2Tp16ContactInfoFieldC2ERKS0_@Base 0.9.1
+ (arch=armel)_ZN2Tp16ContactInfoFieldC2Ev@Base 0.9.5
  (optional=inline)_ZN2Tp16ContactInfoFieldD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp16ContactInfoFieldD2Ev@Base 0.9.1
  _ZN2Tp16ContactMessenger11messageSentERKNS_7MessageE6QFlagsINS_18MessageSendingFlagEERK7QStringRKNS_9SharedPtrINS_11TextChannelEEE@Base 0.9.1
@@ -743,8 +743,6 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16PendingOperationD0Ev@Base 0.9.1
  _ZN2Tp16PendingOperationD1Ev@Base 0.9.1
  _ZN2Tp16PendingOperationD2Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp16PresenceSpecListD1Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp16PresenceSpecListD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp16ServicePointInfoC1ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp16ServicePointInfoC2ERKS0_@Base 0.9.1
  (optional=inline)_ZN2Tp16ServicePointInfoD1Ev@Base 0.9.1
@@ -812,7 +810,6 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16StreamTubeServerD0Ev@Base 0.9.1
  _ZN2Tp16StreamTubeServerD1Ev@Base 0.9.1
  _ZN2Tp16StreamTubeServerD2Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !sparc)_ZN2Tp16StringVariantMapD1Ev@Base 0.9.1
  (optional=inline|arch=!amd64 !armel !armhf !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !sparc)_ZN2Tp16StringVariantMapD2Ev@Base 0.9.1
  _ZN2Tp16setDebugCallbackEPFvRK7QStringS2_9QtMsgTypeS2_E@Base 0.9.1
  _ZN2Tp17AbstractInterface10invalidateEPNS_9DBusProxyERK7QStringS5_@Base 0.9.1
@@ -853,8 +850,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=gccinternal|arch=i386)_ZN2Tp17ContactCapabilityD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp17MultipleStatusMapD1Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp17MultipleStatusMapD2Ev@Base 0.9.1
- (optional=inline|arch=amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x)_ZN2Tp17NotDelegatedErrorD1Ev@Base 0.9.1
- (optional=inline|arch=amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x)_ZN2Tp17NotDelegatedErrorD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 armhf s390x)_ZN2Tp17NotDelegatedErrorD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 armhf s390x)_ZN2Tp17NotDelegatedErrorD2Ev@Base 0.9.1
  _ZN2Tp17PendingConnection11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp17PendingConnection11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp17PendingConnection16staticMetaObjectE@Base 0.9.1
@@ -1076,10 +1073,10 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp19FixedFeatureFactoryD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386 mips mipsel)_ZN2Tp19HandleIdentifierMapC1ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=i386 mips mipsel)_ZN2Tp19HandleIdentifierMapC2ERKS0_@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp19HandleIdentifierMapD1Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp19HandleIdentifierMapD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp19HandlerCapabilitiesC1ERKS0_@Base 0.9.1
+ (arch=armel)_ZN2Tp19HandlerCapabilitiesC1Ev@Base 0.9.5
  (optional=gccinternal|arch=i386)_ZN2Tp19HandlerCapabilitiesC2ERKS0_@Base 0.9.1
+ (arch=armel)_ZN2Tp19HandlerCapabilitiesC2Ev@Base 0.9.5
  (optional=inline)_ZN2Tp19HandlerCapabilitiesD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp19HandlerCapabilitiesD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp19RTCPFeedbackMessageC1ERKS0_@Base 0.9.1
@@ -1088,8 +1085,6 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=inline)_ZN2Tp19RTCPFeedbackMessageD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp19SimpleStatusSpecMapC1ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp19SimpleStatusSpecMapC2ERKS0_@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp19SimpleStatusSpecMapD1Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp19SimpleStatusSpecMapD2Ev@Base 0.9.1
  _ZN2Tp19StreamedMediaStream11FeatureCoreE@Base 0.9.1
  _ZN2Tp19StreamedMediaStream11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp19StreamedMediaStream11qt_metacastEPKc@Base 0.9.1
@@ -1105,8 +1100,6 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp19StreamedMediaStreamD0Ev@Base 0.9.1
  _ZN2Tp19StreamedMediaStreamD1Ev@Base 0.9.1
  _ZN2Tp19StreamedMediaStreamD2Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp20ChannelClassSpecListD1Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp20ChannelClassSpecListD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp20ChannelOriginatorMapC1ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp20ChannelOriginatorMapC2ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp20ChannelOriginatorMapD1Ev@Base 0.9.1
@@ -1138,8 +1131,6 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp20ContactSearchChannelD0Ev@Base 0.9.1
  _ZN2Tp20ContactSearchChannelD1Ev@Base 0.9.1
  _ZN2Tp20ContactSearchChannelD2Ev@Base 0.9.1
- (optional=gccinternal|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x !sparc)_ZN2Tp20DBusTubeParticipantsD1Ev@Base 0.9.3
- (optional=gccinternal|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x !sparc)_ZN2Tp20DBusTubeParticipantsD2Ev@Base 0.9.3
  _ZN2Tp20StreamedMediaChannel10acceptCallEv@Base 0.9.1
  _ZN2Tp20StreamedMediaChannel10hangupCallEv@Base 0.9.1
  _ZN2Tp20StreamedMediaChannel11FeatureCoreE@Base 0.9.1
@@ -1256,14 +1247,10 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp22ConnectionCapabilitiesD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp22ContactCapabilitiesMapD1Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp22ContactCapabilitiesMapD2Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp22ContactSearchResultMapD1Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp22ContactSearchResultMapD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp22ContactSendingStateMapC1ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp22ContactSendingStateMapC2ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp22ContactSendingStateMapD1Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp22ContactSendingStateMapD2Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp22ContactSubscriptionMapD1Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp22ContactSubscriptionMapD2Ev@Base 0.9.1
  _ZN2Tp22HandledChannelNotifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp22HandledChannelNotifier11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp22HandledChannelNotifier12handledAgainERK9QDateTimeRKNS_19ChannelRequestHintsE@Base 0.9.1
@@ -1405,9 +1392,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=inline)_ZN2Tp27MediaStreamHandlerCandidateD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp27MediaStreamHandlerCandidateD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp27MediaStreamHandlerTransportC1ERKS0_@Base 0.9.1
- (optional=gccinternal|arch=armel)_ZN2Tp27MediaStreamHandlerTransportC1Ev@Base 0.9.3
+ (optional=gccinternal|arch=armel armhf s390x)_ZN2Tp27MediaStreamHandlerTransportC1Ev@Base 0.9.3
  (optional=|arch=i386)_ZN2Tp27MediaStreamHandlerTransportC2ERKS0_@Base 0.9.1
- (optional=gccinternal|arch=armel)_ZN2Tp27MediaStreamHandlerTransportC2Ev@Base 0.9.3
+ (optional=gccinternal|arch=armel armhf s390x)_ZN2Tp27MediaStreamHandlerTransportC2Ev@Base 0.9.3
  (optional=inline)_ZN2Tp27MediaStreamHandlerTransportD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp27MediaStreamHandlerTransportD2Ev@Base 0.9.1
  _ZN2Tp27OutgoingFileTransferChannel11FeatureCoreE@Base 0.9.1
@@ -1481,8 +1468,6 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=gccinternal|arch=i386)_ZN2Tp28ObjectImmutablePropertiesMapD1Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp28ObjectImmutablePropertiesMapD2Ev@Base 0.9.1
  _ZN2Tp28variantTypeFromDBusSignatureERK7QString@Base 0.9.3
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp31RequestableChannelClassSpecListD1Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp31RequestableChannelClassSpecListD2Ev@Base 0.9.1
  _ZN2Tp37FileTransferChannelCreationProperties14setContentHashENS_12FileHashTypeERK7QString@Base 0.9.1
  _ZN2Tp37FileTransferChannelCreationProperties14setDescriptionERK7QString@Base 0.9.1
  _ZN2Tp37FileTransferChannelCreationProperties23setLastModificationTimeERK9QDateTime@Base 0.9.1
@@ -1505,23 +1490,16 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=inline)_ZN2Tp5CodecD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp5CodecD2Ev@Base 0.9.1
  _ZN2Tp5Debug19invokeDebugCallbackEv@Base 0.9.1
- (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp5DebuglsI11QStringListEERS0_T_@Base 0.9.1
- (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp5DebuglsI4QSetI7QStringEEERS0_T_@Base 0.9.1
- (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp5DebuglsI7QStringEERS0_T_@Base 0.9.1
  (optional=templinst|arch=i386)_ZN2Tp5DebuglsINS_10HandleTypeEEERS0_T_@Base 0.9.1
  (optional=templinst|arch=i386)_ZN2Tp5DebuglsINS_16ConnectionStatusEEERS0_T_@Base 0.9.1
  (optional=templinst|arch=i386)_ZN2Tp5DebuglsINS_22ConnectionStatusReasonEEERS0_T_@Base 0.9.1
  (optional=templinst)_ZN2Tp5DebuglsINS_7FeatureEEERS0_T_@Base 0.9.1
  (optional=templinst|arch=!ia64)_ZN2Tp5DebuglsINS_8FeaturesEEERS0_T_@Base 0.9.1
- (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp5DebuglsINS_8UIntListEEERS0_T_@Base 0.9.1
- (optional=templinst|arch=i386)_ZN2Tp5DebuglsIPKNS_14ContactManagerEEERS0_T_@Base 0.9.1
  (optional=templinst|arch=armel)_ZN2Tp5DebuglsIPKNS_7ContactEEERS0_T_@Base 0.9.1
- (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp5DebuglsIPKcEERS0_T_@Base 0.9.1
  (optional=templinst|arch=i386)_ZN2Tp5DebuglsIPNS_10ConnectionEEERS0_T_@Base 0.9.1
  (optional=templinst|arch=armel)_ZN2Tp5DebuglsIPNS_7ContactEEERS0_T_@Base 0.9.1
  (optional=templinst|arch=i386)_ZN2Tp5DebuglsIcEERS0_T_@Base 0.9.1
  (optional=templinst|arch=i386)_ZN2Tp5DebuglsIiEERS0_T_@Base 0.9.1
- (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp5DebuglsIjEERS0_T_@Base 0.9.1
  (optional=inline|arch=armel)_ZN2Tp6AvatarC1ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=armel)_ZN2Tp6AvatarC1Ev@Base 0.9.3
  (optional=inline|arch=armel)_ZN2Tp6AvatarC2ERKS0_@Base 0.9.1
@@ -3509,10 +3487,6 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp7ProfileD0Ev@Base 0.9.1
  _ZN2Tp7ProfileD1Ev@Base 0.9.1
  _ZN2Tp7ProfileD2Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x !sparc)_ZN2Tp8FeaturesC1ERKS0_@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x !sparc)_ZN2Tp8FeaturesC2ERKS0_@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp8FeaturesD1Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp8FeaturesD2Ev@Base 0.9.1
  _ZN2Tp8Presence16setStatusMessageERK7QString@Base 0.9.1
  _ZN2Tp8Presence2xaERK7QString@Base 0.9.1
  _ZN2Tp8Presence3brbERK7QString@Base 0.9.1
@@ -3546,8 +3520,6 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=inline)_ZN2Tp8TubeInfoD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp8UIntListC1ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp8UIntListC2ERKS0_@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp8UIntListD1Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp8UIntListD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp9AliasPairD1Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp9AliasPairD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp9CandidateC1ERKS0_@Base 0.9.1
