@@ -1,3 +1,9 @@
+telepathy-qt (0.9.5+dfsg-3) UNRELEASED; urgency=medium
+
+  * Remove libssl1.0.0 version dependency (Closes #784300)
+
+ -- Diane Trout <diane@ghic.org>  Wed, 06 May 2015 20:29:53 -0700
+
 telepathy-qt (0.9.5+dfsg-2) unstable; urgency=medium
 
   * Updates that should have been included in the 0.9.5+dfsg-1 changelog.
