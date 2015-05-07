@@ -4,7 +4,9 @@ telepathy-qt (0.9.5+dfsg-3) UNRELEASED; urgency=medium
   * Add myself and Michał Zając to the debian/copyright block
   * Disable python-dbus, python-gobject build-depends as they are
     for disabled tests.
-    
+  * Move uscan --repack command out of seperate script and into
+    debian/rules
+
  -- Diane Trout <diane@ghic.org>  Wed, 06 May 2015 20:29:53 -0700
 
 telepathy-qt (0.9.5+dfsg-2) unstable; urgency=medium

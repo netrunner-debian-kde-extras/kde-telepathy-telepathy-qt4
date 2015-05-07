@@ -51,4 +51,4 @@ override_dh_auto_clean:
 	rm -rf $(BUILD_QT5)
 
 get-orig-source:
-	. debian/get-orig-source
+	uscan --verbose --force-download --repack --compression xz
