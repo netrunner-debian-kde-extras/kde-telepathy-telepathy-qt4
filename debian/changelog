@@ -1,6 +1,6 @@
 telepathy-qt (0.9.5+dfsg-3) UNRELEASED; urgency=medium
 
-  * Remove libssl1.0.0 version dependency (Closes #784300)
+  * Remove libssl1.0.0 version dependency (Closes: #784300)
   * Add myself and Michał Zając to the debian/copyright block
   * Disable python-dbus, python-gobject build-depends as they are
     for disabled tests.
