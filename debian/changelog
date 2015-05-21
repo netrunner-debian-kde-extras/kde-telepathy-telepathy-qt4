@@ -1,4 +1,4 @@
-telepathy-qt (0.9.5+dfsg-3) UNRELEASED; urgency=medium
+telepathy-qt (0.9.5+dfsg-3) unstable; urgency=medium
 
   * Remove libssl1.0.0 version dependency (Closes: #784300)
   * Add myself and Michał Zając to the debian/copyright block
@@ -8,7 +8,7 @@ telepathy-qt (0.9.5+dfsg-3) UNRELEASED; urgency=medium
   * Move uscan --repack command out of separate script and into
     debian/rules
 
- -- Diane Trout <diane@ghic.org>  Wed, 06 May 2015 20:29:53 -0700
+ -- Diane Trout <diane@ghic.org>  Thu, 07 May 2015 13:12:05 -0700
 
 telepathy-qt (0.9.5+dfsg-2) unstable; urgency=medium
 
