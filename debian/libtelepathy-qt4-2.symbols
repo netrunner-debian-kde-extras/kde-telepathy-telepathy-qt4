@@ -850,8 +850,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=gccinternal|arch=i386)_ZN2Tp17ContactCapabilityD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp17MultipleStatusMapD1Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp17MultipleStatusMapD2Ev@Base 0.9.1
- (optional=inline|arch=amd64 armhf s390x)_ZN2Tp17NotDelegatedErrorD1Ev@Base 0.9.1
- (optional=inline|arch=amd64 armhf s390x)_ZN2Tp17NotDelegatedErrorD2Ev@Base 0.9.1
+ (optional=inline|arch=amd64 armhf mips mipsel s390x)_ZN2Tp17NotDelegatedErrorD1Ev@Base 0.9.1
+ (optional=inline|arch=amd64 armhf mips mipsel s390x)_ZN2Tp17NotDelegatedErrorD2Ev@Base 0.9.1
  _ZN2Tp17PendingConnection11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp17PendingConnection11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp17PendingConnection16staticMetaObjectE@Base 0.9.1
@@ -1392,9 +1392,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=inline)_ZN2Tp27MediaStreamHandlerCandidateD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp27MediaStreamHandlerCandidateD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp27MediaStreamHandlerTransportC1ERKS0_@Base 0.9.1
- (optional=gccinternal|arch=armel armhf s390x)_ZN2Tp27MediaStreamHandlerTransportC1Ev@Base 0.9.3
+ (optional=gccinternal|arch=armel)_ZN2Tp27MediaStreamHandlerTransportC1Ev@Base 0.9.3
  (optional=|arch=i386)_ZN2Tp27MediaStreamHandlerTransportC2ERKS0_@Base 0.9.1
- (optional=gccinternal|arch=armel armhf s390x)_ZN2Tp27MediaStreamHandlerTransportC2Ev@Base 0.9.3
+ (optional=gccinternal|arch=armel)_ZN2Tp27MediaStreamHandlerTransportC2Ev@Base 0.9.3
  (optional=inline)_ZN2Tp27MediaStreamHandlerTransportD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp27MediaStreamHandlerTransportD2Ev@Base 0.9.1
  _ZN2Tp27OutgoingFileTransferChannel11FeatureCoreE@Base 0.9.1

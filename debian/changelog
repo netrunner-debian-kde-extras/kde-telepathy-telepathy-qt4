@@ -1,3 +1,9 @@
+telepathy-qt (0.9.5+dfsg-4) UNRELEASED; urgency=medium
+
+  * Update telpathy submols files.
+
+ -- Diane Trout <diane@ghic.org>  Thu, 21 May 2015 16:58:06 -0700
+
 telepathy-qt (0.9.5+dfsg-3) unstable; urgency=medium
 
   * Remove libssl1.0.0 version dependency (Closes: #784300)
