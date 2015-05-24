@@ -692,9 +692,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16ChannelClassSpecD2Ev@Base 0.9.1
  _ZN2Tp16ChannelClassSpecaSERKS0_@Base 0.9.1
  (optional=inline|arch=sparc)_ZN2Tp16ContactInfoFieldC1ERKS0_@Base 0.9.1
- (arch=armel)_ZN2Tp16ContactInfoFieldC1Ev@Base 0.9.5
+ (optional=gccinternal|arch=armel)_ZN2Tp16ContactInfoFieldC1Ev@Base 0.9.5
  (optional=inline|arch=sparc)_ZN2Tp16ContactInfoFieldC2ERKS0_@Base 0.9.1
- (arch=armel)_ZN2Tp16ContactInfoFieldC2Ev@Base 0.9.5
+ (optional=gccinternal|arch=armel)_ZN2Tp16ContactInfoFieldC2Ev@Base 0.9.5
  (optional=inline)_ZN2Tp16ContactInfoFieldD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp16ContactInfoFieldD2Ev@Base 0.9.1
  _ZN2Tp16ContactMessenger11messageSentERKNS_7MessageE6QFlagsINS_18MessageSendingFlagEERK7QStringRKNS_9SharedPtrINS_11TextChannelEEE@Base 0.9.1
@@ -1074,9 +1074,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=gccinternal|arch=i386 mips mipsel)_ZN2Tp19HandleIdentifierMapC1ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=i386 mips mipsel)_ZN2Tp19HandleIdentifierMapC2ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp19HandlerCapabilitiesC1ERKS0_@Base 0.9.1
- (arch=armel)_ZN2Tp19HandlerCapabilitiesC1Ev@Base 0.9.5
+ (optional=gccinternal|arch=armel)_ZN2Tp19HandlerCapabilitiesC1Ev@Base 0.9.5
  (optional=gccinternal|arch=i386)_ZN2Tp19HandlerCapabilitiesC2ERKS0_@Base 0.9.1
- (arch=armel)_ZN2Tp19HandlerCapabilitiesC2Ev@Base 0.9.5
+ (optional=gccinternal|arch=armel)_ZN2Tp19HandlerCapabilitiesC2Ev@Base 0.9.5
  (optional=inline)_ZN2Tp19HandlerCapabilitiesD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp19HandlerCapabilitiesD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp19RTCPFeedbackMessageC1ERKS0_@Base 0.9.1
