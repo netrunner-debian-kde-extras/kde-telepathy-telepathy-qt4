@@ -1,4 +1,4 @@
-telepathy-qt (0.9.5+dfsg-6) UNRELEASED; urgency=medium
+telepathy-qt (0.9.5+dfsg-6) unstable; urgency=medium
 
   * Update both symbols files.
     - tagged symbols in qt5 as optional=gccinternal
