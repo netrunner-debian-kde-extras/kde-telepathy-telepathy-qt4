@@ -119,8 +119,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=gccinternal|arch=i386)_ZN2Tp11MailAddressC2ERKS0_@Base 0.9.1
  (optional=inline)_ZN2Tp11MailAddressD1Ev@Base 0.9.1
  (optional=inline)_ZN2Tp11MailAddressD2Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp11MessagePartD1Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !hurd-i386 !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp11MessagePartD2Ev@Base 0.9.1
+ (optional=gccinternal|arch=!amd64 !armel !armhf !hurd-i386 !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp11MessagePartD1Ev@Base 0.9.1
+ (optional=gccinternal|arch=!amd64 !armel !armhf !hurd-i386 !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !s390x)_ZN2Tp11MessagePartD2Ev@Base 0.9.1
  _ZN2Tp11PendingVoid11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp11PendingVoid11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp11PendingVoid16staticMetaObjectE@Base 0.9.1
@@ -623,8 +623,6 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp15RoomListChannelD0Ev@Base 0.9.1
  _ZN2Tp15RoomListChannelD1Ev@Base 0.9.1
  _ZN2Tp15RoomListChannelD2Ev@Base 0.9.1
- (optional=gccinternal|arch=i386)_ZN2Tp15SUSocketAddressD1Ev@Base 0.9.1
- (optional=gccinternal|arch=i386)_ZN2Tp15SUSocketAddressD2Ev@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp15SocketAddressIPD1Ev@Base 0.9.3
  (optional=gccinternal|arch=i386)_ZN2Tp15SocketAddressIPD2Ev@Base 0.9.3
  (optional=gccinternal|arch=i386)_ZN2Tp15StringStringMapD1Ev@Base 0.9.1
@@ -810,7 +808,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp16StreamTubeServerD0Ev@Base 0.9.1
  _ZN2Tp16StreamTubeServerD1Ev@Base 0.9.1
  _ZN2Tp16StreamTubeServerD2Ev@Base 0.9.1
- (optional=inline|arch=!amd64 !armel !armhf !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !sparc)_ZN2Tp16StringVariantMapD2Ev@Base 0.9.1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !sparc)_ZN2Tp16StringVariantMapD2Ev@Base 0.9.1
  _ZN2Tp16setDebugCallbackEPFvRK7QStringS2_9QtMsgTypeS2_E@Base 0.9.1
  _ZN2Tp17AbstractInterface10invalidateEPNS_9DBusProxyERK7QStringS5_@Base 0.9.1
  _ZN2Tp17AbstractInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1

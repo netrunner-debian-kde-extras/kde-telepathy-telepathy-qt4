@@ -1,3 +1,12 @@
+telepathy-qt (0.9.5+dfsg-6) UNRELEASED; urgency=medium
+
+  * Update both symbols files.
+    - tagged symbols in qt5 as optional=gccinternal
+    - changed a couple of symbols in qt4 as gccinternal instead
+      of inline
+
+ -- Diane Trout <diane@ghic.org>  Sun, 24 May 2015 23:32:58 -0700
+
 telepathy-qt (0.9.5+dfsg-5) unstable; urgency=medium
 
   * Update libtelepathy-qt4-2.symbols

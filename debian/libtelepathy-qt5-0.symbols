@@ -481,8 +481,8 @@ libtelepathy-qt5.so.0 libtelepathy-qt5-0 #MINVER#
  _ZN2Tp14SimplePresenceD2Ev@Base 0.0.9.5
  _ZN2Tp14enableWarningsEb@Base 0.0.9.5
  _ZN2Tp14enabledWarningEv@Base 0.0.9.5
- (arch=amd64 armel)_ZN2Tp15CallStateReasonC1ERKS0_@Base 0.9.5
- (arch=amd64 armel)_ZN2Tp15CallStateReasonC2ERKS0_@Base 0.9.5
+ (optional=gccinternal|arch=amd64)_ZN2Tp15CallStateReasonC1ERKS0_@Base 0.9.5
+ (optional=gccinternal|arch=amd64)_ZN2Tp15CallStateReasonC2ERKS0_@Base 0.9.5
  _ZN2Tp15CallStateReasonD1Ev@Base 0.0.9.5
  _ZN2Tp15CallStateReasonD2Ev@Base 0.0.9.5
  _ZN2Tp15ClientRegistrar11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.0.9.5
@@ -784,8 +784,8 @@ libtelepathy-qt5.so.0 libtelepathy-qt5-0 #MINVER#
  _ZN2Tp17ConnectionManagerD0Ev@Base 0.0.9.5
  _ZN2Tp17ConnectionManagerD1Ev@Base 0.0.9.5
  _ZN2Tp17ConnectionManagerD2Ev@Base 0.0.9.5
- (arch=amd64 hurd-i386 i386 kfreebsd-i386)_ZN2Tp17NotDelegatedErrorD1Ev@Base 0.9.5
- (arch=amd64 hurd-i386 i386 kfreebsd-i386)_ZN2Tp17NotDelegatedErrorD2Ev@Base 0.9.5
+ (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-i386)_ZN2Tp17NotDelegatedErrorD1Ev@Base 0.9.5
+ (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-i386)_ZN2Tp17NotDelegatedErrorD2Ev@Base 0.9.5
  _ZN2Tp17PendingConnection11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.0.9.5
  _ZN2Tp17PendingConnection11qt_metacastEPKc@Base 0.0.9.5
  _ZN2Tp17PendingConnection16staticMetaObjectE@Base 0.0.9.5
