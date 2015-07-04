@@ -1,6 +1,7 @@
 telepathy-qt (0.9.6.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update symbols files.
 
  -- Diane Trout <diane@debian.org>  Fri, 03 Jul 2015 15:36:45 -0700
 

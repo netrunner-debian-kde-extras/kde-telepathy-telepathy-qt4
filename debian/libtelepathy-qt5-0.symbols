@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.9.5 amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc ppc64el s390x
+# SymbolsHelper-Confirmed: 0.9.6.1 amd64
 libtelepathy-qt5.so.0 libtelepathy-qt5-0 #MINVER#
  _ZN10QDBusErrorD1Ev@Base 0.0.9.5
  _ZN10QDBusErrorD2Ev@Base 0.0.9.5
@@ -477,6 +477,8 @@ libtelepathy-qt5.so.0 libtelepathy-qt5-0 #MINVER#
  _ZN2Tp14SimpleObserverD0Ev@Base 0.0.9.5
  _ZN2Tp14SimpleObserverD1Ev@Base 0.0.9.5
  _ZN2Tp14SimpleObserverD2Ev@Base 0.0.9.5
+ _ZN2Tp14SimplePresenceC1ERKS0_@Base 0.9.6.1
+ _ZN2Tp14SimplePresenceC2ERKS0_@Base 0.9.6.1
  _ZN2Tp14SimplePresenceD1Ev@Base 0.0.9.5
  _ZN2Tp14SimplePresenceD2Ev@Base 0.0.9.5
  _ZN2Tp14enableWarningsEb@Base 0.0.9.5
@@ -3130,6 +3132,8 @@ libtelepathy-qt5.so.0 libtelepathy-qt5-0 #MINVER#
  _ZN2Tp7Account19FeatureProtocolInfoE@Base 0.0.9.5
  _ZN2Tp7Account19capabilitiesChangedERKNS_22ConnectionCapabilitiesE@Base 0.0.9.5
  _ZN2Tp7Account19createContactSearchERK7QStringjRK9QDateTimeS3_RKNS_19ChannelRequestHintsE@Base 0.0.9.5
+ _ZN2Tp7Account20createConferenceCallERK5QListINS_9SharedPtrINS_7ChannelEEEERK11QStringListRK9QDateTimeRK7QStringRKNS_19ChannelRequestHintsE@Base 0.9.6.1
+ _ZN2Tp7Account20createConferenceCallERK5QListINS_9SharedPtrINS_7ChannelEEEERKS1_INS2_INS_7ContactEEEERK9QDateTimeRK7QStringRKNS_19ChannelRequestHintsE@Base 0.9.6.1
  _ZN2Tp7Account20ensureAudioVideoCallERK7QStringS3_S3_RK9QDateTimeS3_RKNS_19ChannelRequestHintsE@Base 0.0.9.5
  _ZN2Tp7Account20ensureAudioVideoCallERKNS_9SharedPtrINS_7ContactEEERK7QStringS8_RK9QDateTimeS8_RKNS_19ChannelRequestHintsE@Base 0.0.9.5
  _ZN2Tp7Account20setAutomaticPresenceERKNS_8PresenceE@Base 0.0.9.5
@@ -3166,6 +3170,8 @@ libtelepathy-qt5.so.0 libtelepathy-qt5-0 #MINVER#
  _ZN2Tp7Account28ensureStreamedMediaAudioCallERKNS_9SharedPtrINS_7ContactEEERK9QDateTimeRK7QStringRKNS_19ChannelRequestHintsE@Base 0.0.9.5
  _ZN2Tp7Account28ensureStreamedMediaVideoCallERK7QStringbRK9QDateTimeS3_RKNS_19ChannelRequestHintsE@Base 0.0.9.5
  _ZN2Tp7Account28ensureStreamedMediaVideoCallERKNS_9SharedPtrINS_7ContactEEEbRK9QDateTimeRK7QStringRKNS_19ChannelRequestHintsE@Base 0.0.9.5
+ _ZN2Tp7Account29createAndHandleConferenceCallERK5QListINS_9SharedPtrINS_7ChannelEEEERK11QStringListRK9QDateTime@Base 0.9.6.1
+ _ZN2Tp7Account29createAndHandleConferenceCallERK5QListINS_9SharedPtrINS_7ChannelEEEERKS1_INS2_INS_7ContactEEEERK9QDateTime@Base 0.9.6.1
  _ZN2Tp7Account29ensureAndHandleAudioVideoCallERK7QStringS3_S3_RK9QDateTime@Base 0.0.9.5
  _ZN2Tp7Account29ensureAndHandleAudioVideoCallERKNS_9SharedPtrINS_7ContactEEERK7QStringS8_RK9QDateTime@Base 0.0.9.5
  _ZN2Tp7Account32ensureAndHandleStreamedMediaCallERK7QStringRK9QDateTime@Base 0.0.9.5
