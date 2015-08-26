@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.9.6.1 amd64
+# SymbolsHelper-Confirmed: 0.9.6.1 amd64 arm64 armel hppa hurd-i386 i386 mips mipsel ppc64el
 libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
 * Build-Depends-Package: libtelepathy-qt4-dev
  _ZN2Tp10AccountSet11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
