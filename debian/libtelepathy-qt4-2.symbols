@@ -126,9 +126,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp11PendingVoid16staticMetaObjectE@Base 0.9.1
  _ZN2Tp11PendingVoidC1E16QDBusPendingCallRKNS_9SharedPtrINS_10RefCountedEEE@Base 0.9.1
  _ZN2Tp11PendingVoidC2E16QDBusPendingCallRKNS_9SharedPtrINS_10RefCountedEEE@Base 0.9.1
- _ZN2Tp11PendingVoidD0Ev@Base 0.9.1
- _ZN2Tp11PendingVoidD1Ev@Base 0.9.1
- _ZN2Tp11PendingVoidD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp11PendingVoidD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp11PendingVoidD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp11PendingVoidD2Ev@Base 0.9.1
  _ZN2Tp11ReadyObject11becomeReadyERKNS_8FeaturesE@Base 0.9.1
  _ZN2Tp11ReadyObjectC1EPNS_10RefCountedERKNS_7FeatureE@Base 0.9.1
  _ZN2Tp11ReadyObjectC1EPNS_9DBusProxyERKNS_7FeatureE@Base 0.9.1
@@ -173,8 +173,8 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp11TubeChannelD1Ev@Base 0.9.1
  _ZN2Tp11TubeChannelD2Ev@Base 0.9.1
  _ZN2Tp11enableDebugEb@Base 0.9.1
- _ZN2Tp12DebugMessageD1Ev@Base 0.9.3
- _ZN2Tp12DebugMessageD2Ev@Base 0.9.3
+ (optional=gccinternal)_ZN2Tp12DebugMessageD1Ev@Base 0.9.3
+ (optional=gccinternal)_ZN2Tp12DebugMessageD2Ev@Base 0.9.3
  (optional=gccinternal|arch=i386)_ZN2Tp12HTTPPostDataC1ERKS0_@Base 0.9.1
  (optional=gccinternal|arch=i386)_ZN2Tp12HTTPPostDataC2ERKS0_@Base 0.9.1
  (optional=inline)_ZN2Tp12HTTPPostDataD1Ev@Base 0.9.1
@@ -468,9 +468,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp14PendingFailure11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp14PendingFailure11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp14PendingFailure16staticMetaObjectE@Base 0.9.1
- _ZN2Tp14PendingFailureD0Ev@Base 0.9.1
- _ZN2Tp14PendingFailureD1Ev@Base 0.9.1
- _ZN2Tp14PendingFailureD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp14PendingFailureD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp14PendingFailureD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp14PendingFailureD2Ev@Base 0.9.1
  _ZN2Tp14PendingHandles11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp14PendingHandles11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp14PendingHandles16staticMetaObjectE@Base 0.9.1
@@ -480,9 +480,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp14PendingSuccess11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp14PendingSuccess11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp14PendingSuccess16staticMetaObjectE@Base 0.9.1
- _ZN2Tp14PendingSuccessD0Ev@Base 0.9.1
- _ZN2Tp14PendingSuccessD1Ev@Base 0.9.1
- _ZN2Tp14PendingSuccessD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp14PendingSuccessD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp14PendingSuccessD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp14PendingSuccessD2Ev@Base 0.9.1
  _ZN2Tp14PendingVariant11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp14PendingVariant11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp14PendingVariant16staticMetaObjectE@Base 0.9.1
@@ -1495,7 +1495,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  (optional=templinst|arch=!ia64)_ZN2Tp5DebuglsINS_8FeaturesEEERS0_T_@Base 0.9.1
  (optional=templinst|arch=armel)_ZN2Tp5DebuglsIPKNS_7ContactEEERS0_T_@Base 0.9.1
  (optional=templinst|arch=i386)_ZN2Tp5DebuglsIPNS_10ConnectionEEERS0_T_@Base 0.9.1
- (optional=templinst|arch=armel)_ZN2Tp5DebuglsIPNS_7ContactEEERS0_T_@Base 0.9.1
+ (optional=templinst|arch=amd64 armel)_ZN2Tp5DebuglsIPNS_7ContactEEERS0_T_@Base 0.9.1
  (optional=templinst|arch=i386)_ZN2Tp5DebuglsIcEERS0_T_@Base 0.9.1
  (optional=templinst|arch=i386)_ZN2Tp5DebuglsIiEERS0_T_@Base 0.9.1
  (optional=inline|arch=armel)_ZN2Tp6AvatarC1ERKS0_@Base 0.9.1
@@ -1516,9 +1516,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client14DebugInterfaceC2EPNS_9DBusProxyE@Base 0.9.3
  _ZN2Tp6Client14DebugInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.3
  _ZN2Tp6Client14DebugInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.3
- _ZN2Tp6Client14DebugInterfaceD0Ev@Base 0.9.3
- _ZN2Tp6Client14DebugInterfaceD1Ev@Base 0.9.3
- _ZN2Tp6Client14DebugInterfaceD2Ev@Base 0.9.3
+ (optional=gccinternal)_ZN2Tp6Client14DebugInterfaceD0Ev@Base 0.9.3
+ (optional=gccinternal)_ZN2Tp6Client14DebugInterfaceD1Ev@Base 0.9.3
+ (optional=gccinternal)_ZN2Tp6Client14DebugInterfaceD2Ev@Base 0.9.3
  _ZN2Tp6Client15ClientInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client15ClientInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client15ClientInterface11qt_metacastEPKc@Base 0.9.1
@@ -1529,9 +1529,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client15ClientInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client15ClientInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client15ClientInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client15ClientInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client15ClientInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client15ClientInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client15ClientInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client15ClientInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client15ClientInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client16AccountInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client16AccountInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client16AccountInterface11qt_metacastEPKc@Base 0.9.1
@@ -1544,9 +1544,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client16AccountInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client16AccountInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client16AccountInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client16AccountInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client16AccountInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client16AccountInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client16AccountInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client16AccountInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client16AccountInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client16ChannelInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client16ChannelInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client16ChannelInterface11qt_metacastEPKc@Base 0.9.1
@@ -1558,9 +1558,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client16ChannelInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client16ChannelInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client16ChannelInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client16ChannelInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client16ChannelInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client16ChannelInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client16ChannelInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client16ChannelInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client16ChannelInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client17ProtocolInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client17ProtocolInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client17ProtocolInterface11qt_metacastEPKc@Base 0.9.1
@@ -1575,9 +1575,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client17ProtocolInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client17ProtocolInterfaceC2ERKNS0_26ConnectionManagerInterfaceE@Base 0.9.1
  _ZN2Tp6Client17ProtocolInterfaceC2ERKNS0_26ConnectionManagerInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client17ProtocolInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client17ProtocolInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client17ProtocolInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client17ProtocolInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client17ProtocolInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client17ProtocolInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client19CallStreamInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client19CallStreamInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client19CallStreamInterface11qt_metacastEPKc@Base 0.9.1
@@ -1590,9 +1590,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client19CallStreamInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client19CallStreamInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client19CallStreamInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client19CallStreamInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client19CallStreamInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client19CallStreamInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client19CallStreamInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client19CallStreamInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client19CallStreamInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client19ConnectionInterface10NewChannelERK15QDBusObjectPathRK7QStringjjb@Base 0.9.1
  _ZN2Tp6Client19ConnectionInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client19ConnectionInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -1608,9 +1608,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client19ConnectionInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client19ConnectionInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client19ConnectionInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client19ConnectionInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client19ConnectionInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client19ConnectionInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client19ConnectionInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client19ConnectionInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client19ConnectionInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client20CallContentInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client20CallContentInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client20CallContentInterface11qt_metacastEPKc@Base 0.9.1
@@ -1623,9 +1623,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client20CallContentInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client20CallContentInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client20CallContentInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client20CallContentInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client20CallContentInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client20CallContentInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client20CallContentInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client20CallContentInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client20CallContentInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client22ClientHandlerInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client22ClientHandlerInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client22ClientHandlerInterface11qt_metacastEPKc@Base 0.9.1
@@ -1640,9 +1640,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client22ClientHandlerInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client22ClientHandlerInterfaceC2ERKNS0_15ClientInterfaceE@Base 0.9.1
  _ZN2Tp6Client22ClientHandlerInterfaceC2ERKNS0_15ClientInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client22ClientHandlerInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client22ClientHandlerInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client22ClientHandlerInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client22ClientHandlerInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client22ClientHandlerInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client22ClientHandlerInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client23AccountManagerInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client23AccountManagerInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client23AccountManagerInterface11qt_metacastEPKc@Base 0.9.1
@@ -1655,9 +1655,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client23AccountManagerInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client23AccountManagerInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client23AccountManagerInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client23AccountManagerInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client23AccountManagerInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client23AccountManagerInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23AccountManagerInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23AccountManagerInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23AccountManagerInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client23ChannelRequestInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client23ChannelRequestInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client23ChannelRequestInterface11qt_metacastEPKc@Base 0.9.1
@@ -1671,9 +1671,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client23ChannelRequestInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client23ChannelRequestInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client23ChannelRequestInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client23ChannelRequestInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client23ChannelRequestInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client23ChannelRequestInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23ChannelRequestInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23ChannelRequestInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23ChannelRequestInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client23ClientApproverInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client23ClientApproverInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client23ClientApproverInterface11qt_metacastEPKc@Base 0.9.1
@@ -1688,9 +1688,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client23ClientApproverInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client23ClientApproverInterfaceC2ERKNS0_15ClientInterfaceE@Base 0.9.1
  _ZN2Tp6Client23ClientApproverInterfaceC2ERKNS0_15ClientInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client23ClientApproverInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client23ClientApproverInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client23ClientApproverInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23ClientApproverInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23ClientApproverInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23ClientApproverInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client23ClientObserverInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client23ClientObserverInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client23ClientObserverInterface11qt_metacastEPKc@Base 0.9.1
@@ -1705,9 +1705,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client23ClientObserverInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client23ClientObserverInterfaceC2ERKNS0_15ClientInterfaceE@Base 0.9.1
  _ZN2Tp6Client23ClientObserverInterfaceC2ERKNS0_15ClientInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client23ClientObserverInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client23ClientObserverInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client23ClientObserverInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23ClientObserverInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23ClientObserverInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client23ClientObserverInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client24ChannelTypeCallInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client24ChannelTypeCallInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client24ChannelTypeCallInterface11qt_metacastEPKc@Base 0.9.1
@@ -1726,9 +1726,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client24ChannelTypeCallInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client24ChannelTypeCallInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client24ChannelTypeCallInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client24ChannelTypeCallInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client24ChannelTypeCallInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client24ChannelTypeCallInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client24ChannelTypeCallInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client24ChannelTypeCallInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client24ChannelTypeCallInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client24ChannelTypeTextInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client24ChannelTypeTextInterface11LostMessageEv@Base 0.9.1
  _ZN2Tp6Client24ChannelTypeTextInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -1747,9 +1747,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client24ChannelTypeTextInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client24ChannelTypeTextInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client24ChannelTypeTextInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client24ChannelTypeTextInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client24ChannelTypeTextInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client24ChannelTypeTextInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client24ChannelTypeTextInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client24ChannelTypeTextInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client24ChannelTypeTextInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client25ChannelTypeTubesInterface10TubeClosedEj@Base 0.9.1
  _ZN2Tp6Client25ChannelTypeTubesInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client25ChannelTypeTubesInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -1769,9 +1769,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client25ChannelTypeTubesInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client25ChannelTypeTubesInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client25ChannelTypeTubesInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client25ChannelTypeTubesInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client25ChannelTypeTubesInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client25ChannelTypeTubesInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client25ChannelTypeTubesInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client25ChannelTypeTubesInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client25ChannelTypeTubesInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client26ChannelDispatcherInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client26ChannelDispatcherInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client26ChannelDispatcherInterface11qt_metacastEPKc@Base 0.9.1
@@ -1782,9 +1782,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client26ChannelDispatcherInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client26ChannelDispatcherInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client26ChannelDispatcherInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client26ChannelDispatcherInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client26ChannelDispatcherInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client26ChannelDispatcherInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client26ChannelDispatcherInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client26ChannelDispatcherInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client26ChannelDispatcherInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client26ConnectionManagerInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client26ConnectionManagerInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client26ConnectionManagerInterface11qt_metacastEPKc@Base 0.9.1
@@ -1796,9 +1796,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client26ConnectionManagerInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client26ConnectionManagerInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client26ConnectionManagerInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client26ConnectionManagerInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client26ConnectionManagerInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client26ConnectionManagerInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client26ConnectionManagerInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client26ConnectionManagerInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client26ConnectionManagerInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client27CallStreamEndpointInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client27CallStreamEndpointInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client27CallStreamEndpointInterface11qt_metacastEPKc@Base 0.9.1
@@ -1814,9 +1814,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client27CallStreamEndpointInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client27CallStreamEndpointInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client27CallStreamEndpointInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client27CallStreamEndpointInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client27CallStreamEndpointInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client27CallStreamEndpointInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client27CallStreamEndpointInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client27CallStreamEndpointInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client27CallStreamEndpointInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client27MediaStreamHandlerInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client27MediaStreamHandlerInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client27MediaStreamHandlerInterface11qt_metacastEPKc@Base 0.9.1
@@ -1842,9 +1842,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client27MediaStreamHandlerInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client27MediaStreamHandlerInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client27MediaStreamHandlerInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client27MediaStreamHandlerInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client27MediaStreamHandlerInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client27MediaStreamHandlerInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client27MediaStreamHandlerInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client27MediaStreamHandlerInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client27MediaStreamHandlerInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client28ChannelInterfaceSMSInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client28ChannelInterfaceSMSInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client28ChannelInterfaceSMSInterface11qt_metacastEPKc@Base 0.9.1
@@ -1860,9 +1860,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client28ChannelInterfaceSMSInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client28ChannelInterfaceSMSInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client28ChannelInterfaceSMSInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client28ChannelInterfaceSMSInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client28ChannelInterfaceSMSInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client28ChannelInterfaceSMSInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28ChannelInterfaceSMSInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28ChannelInterfaceSMSInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28ChannelInterfaceSMSInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client28ChannelTypeDBusTubeInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client28ChannelTypeDBusTubeInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client28ChannelTypeDBusTubeInterface11qt_metacastEPKc@Base 0.9.1
@@ -1878,9 +1878,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client28ChannelTypeDBusTubeInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client28ChannelTypeDBusTubeInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client28ChannelTypeDBusTubeInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client28ChannelTypeDBusTubeInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client28ChannelTypeDBusTubeInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client28ChannelTypeDBusTubeInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28ChannelTypeDBusTubeInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28ChannelTypeDBusTubeInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28ChannelTypeDBusTubeInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client28ChannelTypeRoomListInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client28ChannelTypeRoomListInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client28ChannelTypeRoomListInterface11qt_metacastEPKc@Base 0.9.1
@@ -1897,9 +1897,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client28ChannelTypeRoomListInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client28ChannelTypeRoomListInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client28ChannelTypeRoomListInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client28ChannelTypeRoomListInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client28ChannelTypeRoomListInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client28ChannelTypeRoomListInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28ChannelTypeRoomListInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28ChannelTypeRoomListInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28ChannelTypeRoomListInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client28MediaSessionHandlerInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client28MediaSessionHandlerInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client28MediaSessionHandlerInterface11qt_metacastEPKc@Base 0.9.1
@@ -1911,9 +1911,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client28MediaSessionHandlerInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client28MediaSessionHandlerInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client28MediaSessionHandlerInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client28MediaSessionHandlerInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client28MediaSessionHandlerInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client28MediaSessionHandlerInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28MediaSessionHandlerInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28MediaSessionHandlerInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28MediaSessionHandlerInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client28PropertiesInterfaceInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client28PropertiesInterfaceInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client28PropertiesInterfaceInterface11qt_metacastEPKc@Base 0.9.1
@@ -1930,9 +1930,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client28PropertiesInterfaceInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client28PropertiesInterfaceInterfaceC2ERKNS_17AbstractInterfaceE@Base 0.9.1
  _ZN2Tp6Client28PropertiesInterfaceInterfaceC2ERKNS_17AbstractInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client28PropertiesInterfaceInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client28PropertiesInterfaceInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client28PropertiesInterfaceInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28PropertiesInterfaceInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28PropertiesInterfaceInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client28PropertiesInterfaceInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceDTMFInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceDTMFInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceDTMFInterface11qt_metacastEPKc@Base 0.9.1
@@ -1950,9 +1950,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client29ChannelInterfaceDTMFInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceDTMFInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceDTMFInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client29ChannelInterfaceDTMFInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client29ChannelInterfaceDTMFInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client29ChannelInterfaceDTMFInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceDTMFInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceDTMFInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceDTMFInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceHoldInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceHoldInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceHoldInterface11qt_metacastEPKc@Base 0.9.1
@@ -1968,9 +1968,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client29ChannelInterfaceHoldInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceHoldInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceHoldInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client29ChannelInterfaceHoldInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client29ChannelInterfaceHoldInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client29ChannelInterfaceHoldInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceHoldInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceHoldInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceHoldInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceRoomInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.4
  _ZN2Tp6Client29ChannelInterfaceRoomInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.4
  _ZN2Tp6Client29ChannelInterfaceRoomInterface11qt_metacastEPKc@Base 0.9.4
@@ -1985,9 +1985,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client29ChannelInterfaceRoomInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.4
  _ZN2Tp6Client29ChannelInterfaceRoomInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.4
  _ZN2Tp6Client29ChannelInterfaceRoomInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.4
- _ZN2Tp6Client29ChannelInterfaceRoomInterfaceD0Ev@Base 0.9.4
- _ZN2Tp6Client29ChannelInterfaceRoomInterfaceD1Ev@Base 0.9.4
- _ZN2Tp6Client29ChannelInterfaceRoomInterfaceD2Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceRoomInterfaceD0Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceRoomInterfaceD1Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceRoomInterfaceD2Ev@Base 0.9.4
  _ZN2Tp6Client29ChannelInterfaceTubeInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceTubeInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceTubeInterface11qt_metacastEPKc@Base 0.9.1
@@ -2003,9 +2003,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client29ChannelInterfaceTubeInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceTubeInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client29ChannelInterfaceTubeInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client29ChannelInterfaceTubeInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client29ChannelInterfaceTubeInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client29ChannelInterfaceTubeInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceTubeInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceTubeInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client29ChannelInterfaceTubeInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client30ChannelInterfaceGroupInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client30ChannelInterfaceGroupInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client30ChannelInterfaceGroupInterface11qt_metacastEPKc@Base 0.9.1
@@ -2027,9 +2027,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client30ChannelInterfaceGroupInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client30ChannelInterfaceGroupInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client30ChannelInterfaceGroupInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client30ChannelInterfaceGroupInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client30ChannelInterfaceGroupInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client30ChannelInterfaceGroupInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client30ChannelInterfaceGroupInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client30ChannelInterfaceGroupInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client30ChannelInterfaceGroupInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client30ChannelTypeStreamTubeInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client30ChannelTypeStreamTubeInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client30ChannelTypeStreamTubeInterface11qt_metacastEPKc@Base 0.9.1
@@ -2047,9 +2047,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client30ChannelTypeStreamTubeInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client30ChannelTypeStreamTubeInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client30ChannelTypeStreamTubeInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client30ChannelTypeStreamTubeInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client30ChannelTypeStreamTubeInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client30ChannelTypeStreamTubeInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client30ChannelTypeStreamTubeInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client30ChannelTypeStreamTubeInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client30ChannelTypeStreamTubeInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client31AccountInterfaceAvatarInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client31AccountInterfaceAvatarInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client31AccountInterfaceAvatarInterface11qt_metacastEPKc@Base 0.9.1
@@ -2065,9 +2065,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client31AccountInterfaceAvatarInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client31AccountInterfaceAvatarInterfaceC2ERKNS0_16AccountInterfaceE@Base 0.9.1
  _ZN2Tp6Client31AccountInterfaceAvatarInterfaceC2ERKNS0_16AccountInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client31AccountInterfaceAvatarInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client31AccountInterfaceAvatarInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client31AccountInterfaceAvatarInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client31AccountInterfaceAvatarInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client31AccountInterfaceAvatarInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client31AccountInterfaceAvatarInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client31ChannelTypeContactListInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client31ChannelTypeContactListInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client31ChannelTypeContactListInterface11qt_metacastEPKc@Base 0.9.1
@@ -2082,9 +2082,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client31ChannelTypeContactListInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client31ChannelTypeContactListInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client31ChannelTypeContactListInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client31ChannelTypeContactListInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client31ChannelTypeContactListInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client31ChannelTypeContactListInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client31ChannelTypeContactListInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client31ChannelTypeContactListInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client31ChannelTypeContactListInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client32AccountInterfaceStorageInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client32AccountInterfaceStorageInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client32AccountInterfaceStorageInterface11qt_metacastEPKc@Base 0.9.1
@@ -2099,9 +2099,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client32AccountInterfaceStorageInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client32AccountInterfaceStorageInterfaceC2ERKNS0_16AccountInterfaceE@Base 0.9.1
  _ZN2Tp6Client32AccountInterfaceStorageInterfaceC2ERKNS0_16AccountInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client32AccountInterfaceStorageInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client32AccountInterfaceStorageInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client32AccountInterfaceStorageInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client32AccountInterfaceStorageInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client32AccountInterfaceStorageInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client32AccountInterfaceStorageInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client32ChannelInterfaceSubjectInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.4
  _ZN2Tp6Client32ChannelInterfaceSubjectInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.4
  _ZN2Tp6Client32ChannelInterfaceSubjectInterface11qt_metacastEPKc@Base 0.9.4
@@ -2116,9 +2116,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client32ChannelInterfaceSubjectInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.4
  _ZN2Tp6Client32ChannelInterfaceSubjectInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.4
  _ZN2Tp6Client32ChannelInterfaceSubjectInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.4
- _ZN2Tp6Client32ChannelInterfaceSubjectInterfaceD0Ev@Base 0.9.4
- _ZN2Tp6Client32ChannelInterfaceSubjectInterfaceD1Ev@Base 0.9.4
- _ZN2Tp6Client32ChannelInterfaceSubjectInterfaceD2Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client32ChannelInterfaceSubjectInterfaceD0Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client32ChannelInterfaceSubjectInterfaceD1Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client32ChannelInterfaceSubjectInterfaceD2Ev@Base 0.9.4
  _ZN2Tp6Client32ChannelTypeFileTransferInterface10URIDefinedERK7QString@Base 0.9.1
  _ZN2Tp6Client32ChannelTypeFileTransferInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client32ChannelTypeFileTransferInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -2137,9 +2137,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client32ChannelTypeFileTransferInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client32ChannelTypeFileTransferInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client32ChannelTypeFileTransferInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client32ChannelTypeFileTransferInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client32ChannelTypeFileTransferInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client32ChannelTypeFileTransferInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client32ChannelTypeFileTransferInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client32ChannelTypeFileTransferInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client32ChannelTypeFileTransferInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client32ClientInterfaceRequestsInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client32ClientInterfaceRequestsInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client32ClientInterfaceRequestsInterface11qt_metacastEPKc@Base 0.9.1
@@ -2154,9 +2154,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client32ClientInterfaceRequestsInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client32ClientInterfaceRequestsInterfaceC2ERKNS0_15ClientInterfaceE@Base 0.9.1
  _ZN2Tp6Client32ClientInterfaceRequestsInterfaceC2ERKNS0_15ClientInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client32ClientInterfaceRequestsInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client32ClientInterfaceRequestsInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client32ClientInterfaceRequestsInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client32ClientInterfaceRequestsInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client32ClientInterfaceRequestsInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client32ClientInterfaceRequestsInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client33CallContentInterfaceDTMFInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client33CallContentInterfaceDTMFInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client33CallContentInterfaceDTMFInterface11qt_metacastEPKc@Base 0.9.1
@@ -2174,9 +2174,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client33CallContentInterfaceDTMFInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client33CallContentInterfaceDTMFInterfaceC2ERKNS0_20CallContentInterfaceE@Base 0.9.1
  _ZN2Tp6Client33CallContentInterfaceDTMFInterfaceC2ERKNS0_20CallContentInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client33CallContentInterfaceDTMFInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client33CallContentInterfaceDTMFInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client33CallContentInterfaceDTMFInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33CallContentInterfaceDTMFInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33CallContentInterfaceDTMFInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33CallContentInterfaceDTMFInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client33CallStreamInterfaceMediaInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client33CallStreamInterfaceMediaInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client33CallStreamInterfaceMediaInterface11qt_metacastEPKc@Base 0.9.1
@@ -2200,9 +2200,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client33CallStreamInterfaceMediaInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client33CallStreamInterfaceMediaInterfaceC2ERKNS0_19CallStreamInterfaceE@Base 0.9.1
  _ZN2Tp6Client33CallStreamInterfaceMediaInterfaceC2ERKNS0_19CallStreamInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client33CallStreamInterfaceMediaInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client33CallStreamInterfaceMediaInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client33CallStreamInterfaceMediaInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33CallStreamInterfaceMediaInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33CallStreamInterfaceMediaInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33CallStreamInterfaceMediaInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client33ChannelDispatchOperationInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client33ChannelDispatchOperationInterface11ChannelLostERK15QDBusObjectPathRK7QStringS7_@Base 0.9.1
  _ZN2Tp6Client33ChannelDispatchOperationInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -2215,9 +2215,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client33ChannelDispatchOperationInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client33ChannelDispatchOperationInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client33ChannelDispatchOperationInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client33ChannelDispatchOperationInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client33ChannelDispatchOperationInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client33ChannelDispatchOperationInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelDispatchOperationInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelDispatchOperationInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelDispatchOperationInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client33ChannelInterfaceMessagesInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client33ChannelInterfaceMessagesInterface11MessageSentERK5QListINS_11MessagePartEEjRK7QString@Base 0.9.1
  _ZN2Tp6Client33ChannelInterfaceMessagesInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -2235,9 +2235,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client33ChannelInterfaceMessagesInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client33ChannelInterfaceMessagesInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client33ChannelInterfaceMessagesInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client33ChannelInterfaceMessagesInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client33ChannelInterfaceMessagesInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client33ChannelInterfaceMessagesInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelInterfaceMessagesInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelInterfaceMessagesInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelInterfaceMessagesInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client33ChannelInterfacePasswordInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client33ChannelInterfacePasswordInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client33ChannelInterfacePasswordInterface11qt_metacastEPKc@Base 0.9.1
@@ -2253,9 +2253,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client33ChannelInterfacePasswordInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client33ChannelInterfacePasswordInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client33ChannelInterfacePasswordInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client33ChannelInterfacePasswordInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client33ChannelInterfacePasswordInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client33ChannelInterfacePasswordInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelInterfacePasswordInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelInterfacePasswordInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelInterfacePasswordInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client33ChannelTypeContactSearchInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client33ChannelTypeContactSearchInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client33ChannelTypeContactSearchInterface11qt_metacastEPKc@Base 0.9.1
@@ -2272,9 +2272,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client33ChannelTypeContactSearchInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client33ChannelTypeContactSearchInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client33ChannelTypeContactSearchInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client33ChannelTypeContactSearchInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client33ChannelTypeContactSearchInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client33ChannelTypeContactSearchInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelTypeContactSearchInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelTypeContactSearchInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelTypeContactSearchInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client33ChannelTypeStreamedMediaInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client33ChannelTypeStreamedMediaInterface11StreamAddedEjjj@Base 0.9.1
  _ZN2Tp6Client33ChannelTypeStreamedMediaInterface11StreamErrorEjjRK7QString@Base 0.9.1
@@ -2294,9 +2294,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client33ChannelTypeStreamedMediaInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client33ChannelTypeStreamedMediaInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client33ChannelTypeStreamedMediaInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client33ChannelTypeStreamedMediaInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client33ChannelTypeStreamedMediaInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client33ChannelTypeStreamedMediaInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelTypeStreamedMediaInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelTypeStreamedMediaInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ChannelTypeStreamedMediaInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client33ProtocolInterfaceAvatarsInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client33ProtocolInterfaceAvatarsInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client33ProtocolInterfaceAvatarsInterface11qt_metacastEPKc@Base 0.9.1
@@ -2311,9 +2311,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client33ProtocolInterfaceAvatarsInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client33ProtocolInterfaceAvatarsInterfaceC2ERKNS0_26ConnectionManagerInterfaceE@Base 0.9.1
  _ZN2Tp6Client33ProtocolInterfaceAvatarsInterfaceC2ERKNS0_26ConnectionManagerInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client33ProtocolInterfaceAvatarsInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client33ProtocolInterfaceAvatarsInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client33ProtocolInterfaceAvatarsInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ProtocolInterfaceAvatarsInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ProtocolInterfaceAvatarsInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client33ProtocolInterfaceAvatarsInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client34CallContentInterfaceMediaInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client34CallContentInterfaceMediaInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client34CallContentInterfaceMediaInterface11qt_metacastEPKc@Base 0.9.1
@@ -2334,9 +2334,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client34CallContentInterfaceMediaInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client34CallContentInterfaceMediaInterfaceC2ERKNS0_20CallContentInterfaceE@Base 0.9.1
  _ZN2Tp6Client34CallContentInterfaceMediaInterfaceC2ERKNS0_20CallContentInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client34CallContentInterfaceMediaInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client34CallContentInterfaceMediaInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client34CallContentInterfaceMediaInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34CallContentInterfaceMediaInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34CallContentInterfaceMediaInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34CallContentInterfaceMediaInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceAnonymityInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceAnonymityInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceAnonymityInterface11qt_metacastEPKc@Base 0.9.1
@@ -2351,9 +2351,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client34ChannelInterfaceAnonymityInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceAnonymityInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceAnonymityInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceAnonymityInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceAnonymityInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceAnonymityInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceAnonymityInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceAnonymityInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceAnonymityInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceCallStateInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceCallStateInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceCallStateInterface11qt_metacastEPKc@Base 0.9.1
@@ -2369,9 +2369,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client34ChannelInterfaceCallStateInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceCallStateInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceCallStateInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceCallStateInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceCallStateInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceCallStateInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceCallStateInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceCallStateInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceCallStateInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceChatStateInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceChatStateInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceChatStateInterface11qt_metacastEPKc@Base 0.9.1
@@ -2387,9 +2387,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client34ChannelInterfaceChatStateInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceChatStateInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceChatStateInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceChatStateInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceChatStateInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceChatStateInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceChatStateInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceChatStateInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceChatStateInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceSecurableInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceSecurableInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceSecurableInterface11qt_metacastEPKc@Base 0.9.1
@@ -2404,9 +2404,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client34ChannelInterfaceSecurableInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceSecurableInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client34ChannelInterfaceSecurableInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceSecurableInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceSecurableInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client34ChannelInterfaceSecurableInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceSecurableInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceSecurableInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ChannelInterfaceSecurableInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client34ProtocolInterfacePresenceInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client34ProtocolInterfacePresenceInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client34ProtocolInterfacePresenceInterface11qt_metacastEPKc@Base 0.9.1
@@ -2421,9 +2421,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client34ProtocolInterfacePresenceInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client34ProtocolInterfacePresenceInterfaceC2ERKNS0_26ConnectionManagerInterfaceE@Base 0.9.1
  _ZN2Tp6Client34ProtocolInterfacePresenceInterfaceC2ERKNS0_26ConnectionManagerInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client34ProtocolInterfacePresenceInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client34ProtocolInterfacePresenceInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client34ProtocolInterfacePresenceInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ProtocolInterfacePresenceInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ProtocolInterfacePresenceInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client34ProtocolInterfacePresenceInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client35AccountInterfaceAddressingInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client35AccountInterfaceAddressingInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client35AccountInterfaceAddressingInterface11qt_metacastEPKc@Base 0.9.1
@@ -2438,9 +2438,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client35AccountInterfaceAddressingInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client35AccountInterfaceAddressingInterfaceC2ERKNS0_16AccountInterfaceE@Base 0.9.1
  _ZN2Tp6Client35AccountInterfaceAddressingInterfaceC2ERKNS0_16AccountInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client35AccountInterfaceAddressingInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client35AccountInterfaceAddressingInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client35AccountInterfaceAddressingInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35AccountInterfaceAddressingInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35AccountInterfaceAddressingInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35AccountInterfaceAddressingInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client35ChannelInterfaceConferenceInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client35ChannelInterfaceConferenceInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client35ChannelInterfaceConferenceInterface11qt_metacastEPKc@Base 0.9.1
@@ -2457,9 +2457,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client35ChannelInterfaceConferenceInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client35ChannelInterfaceConferenceInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client35ChannelInterfaceConferenceInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client35ChannelInterfaceConferenceInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client35ChannelInterfaceConferenceInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client35ChannelInterfaceConferenceInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35ChannelInterfaceConferenceInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35ChannelInterfaceConferenceInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35ChannelInterfaceConferenceInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client35ChannelInterfaceRoomConfigInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.4
  _ZN2Tp6Client35ChannelInterfaceRoomConfigInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.4
  _ZN2Tp6Client35ChannelInterfaceRoomConfigInterface11qt_metacastEPKc@Base 0.9.4
@@ -2474,9 +2474,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client35ChannelInterfaceRoomConfigInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.4
  _ZN2Tp6Client35ChannelInterfaceRoomConfigInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.4
  _ZN2Tp6Client35ChannelInterfaceRoomConfigInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.4
- _ZN2Tp6Client35ChannelInterfaceRoomConfigInterfaceD0Ev@Base 0.9.4
- _ZN2Tp6Client35ChannelInterfaceRoomConfigInterfaceD1Ev@Base 0.9.4
- _ZN2Tp6Client35ChannelInterfaceRoomConfigInterfaceD2Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client35ChannelInterfaceRoomConfigInterfaceD0Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client35ChannelInterfaceRoomConfigInterfaceD1Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client35ChannelInterfaceRoomConfigInterfaceD2Ev@Base 0.9.4
  _ZN2Tp6Client35ConnectionInterfaceAvatarsInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client35ConnectionInterfaceAvatarsInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client35ConnectionInterfaceAvatarsInterface11qt_metacastEPKc@Base 0.9.1
@@ -2493,9 +2493,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client35ConnectionInterfaceAvatarsInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client35ConnectionInterfaceAvatarsInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client35ConnectionInterfaceAvatarsInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client35ConnectionInterfaceAvatarsInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client35ConnectionInterfaceAvatarsInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client35ConnectionInterfaceAvatarsInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35ConnectionInterfaceAvatarsInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35ConnectionInterfaceAvatarsInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35ConnectionInterfaceAvatarsInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client35ConnectionInterfaceBalanceInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client35ConnectionInterfaceBalanceInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client35ConnectionInterfaceBalanceInterface11qt_metacastEPKc@Base 0.9.1
@@ -2511,9 +2511,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client35ConnectionInterfaceBalanceInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client35ConnectionInterfaceBalanceInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client35ConnectionInterfaceBalanceInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client35ConnectionInterfaceBalanceInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client35ConnectionInterfaceBalanceInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client35ConnectionInterfaceBalanceInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35ConnectionInterfaceBalanceInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35ConnectionInterfaceBalanceInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client35ConnectionInterfaceBalanceInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client36CallContentMediaDescriptionInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client36CallContentMediaDescriptionInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client36CallContentMediaDescriptionInterface11qt_metacastEPKc@Base 0.9.1
@@ -2524,9 +2524,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client36CallContentMediaDescriptionInterfaceC2EPNS_9DBusProxyE@Base 0.9.1
  _ZN2Tp6Client36CallContentMediaDescriptionInterfaceC2ERK15QDBusConnectionRK7QStringS7_P7QObject@Base 0.9.1
  _ZN2Tp6Client36CallContentMediaDescriptionInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
- _ZN2Tp6Client36CallContentMediaDescriptionInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client36CallContentMediaDescriptionInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client36CallContentMediaDescriptionInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36CallContentMediaDescriptionInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36CallContentMediaDescriptionInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36CallContentMediaDescriptionInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client36ChannelInterfaceDestroyableInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client36ChannelInterfaceDestroyableInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client36ChannelInterfaceDestroyableInterface11qt_metacastEPKc@Base 0.9.1
@@ -2541,9 +2541,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client36ChannelInterfaceDestroyableInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client36ChannelInterfaceDestroyableInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client36ChannelInterfaceDestroyableInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client36ChannelInterfaceDestroyableInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client36ChannelInterfaceDestroyableInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client36ChannelInterfaceDestroyableInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ChannelInterfaceDestroyableInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ChannelInterfaceDestroyableInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ChannelInterfaceDestroyableInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceAliasingInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceAliasingInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceAliasingInterface11qt_metacastEPKc@Base 0.9.1
@@ -2559,9 +2559,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client36ConnectionInterfaceAliasingInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceAliasingInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceAliasingInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceAliasingInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceAliasingInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceAliasingInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceAliasingInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceAliasingInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceAliasingInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceCellularInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceCellularInterface11IMSIChangedERK7QString@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceCellularInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -2577,9 +2577,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client36ConnectionInterfaceCellularInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceCellularInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceCellularInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceCellularInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceCellularInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceCellularInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceCellularInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceCellularInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceCellularInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceContactsInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceContactsInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceContactsInterface11qt_metacastEPKc@Base 0.9.1
@@ -2594,9 +2594,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client36ConnectionInterfaceContactsInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceContactsInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceContactsInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceContactsInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceContactsInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceContactsInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceContactsInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceContactsInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceContactsInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceLocationInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceLocationInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceLocationInterface11qt_metacastEPKc@Base 0.9.1
@@ -2612,9 +2612,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client36ConnectionInterfaceLocationInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceLocationInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceLocationInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceLocationInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceLocationInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceLocationInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceLocationInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceLocationInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceLocationInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfacePresenceInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfacePresenceInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfacePresenceInterface11qt_metacastEPKc@Base 0.9.1
@@ -2630,9 +2630,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client36ConnectionInterfacePresenceInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfacePresenceInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfacePresenceInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfacePresenceInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfacePresenceInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfacePresenceInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfacePresenceInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfacePresenceInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfacePresenceInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceRequestsInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceRequestsInterface11NewChannelsERK5QListINS_14ChannelDetailsEE@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceRequestsInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -2649,9 +2649,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client36ConnectionInterfaceRequestsInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceRequestsInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client36ConnectionInterfaceRequestsInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceRequestsInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceRequestsInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client36ConnectionInterfaceRequestsInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceRequestsInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceRequestsInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ConnectionInterfaceRequestsInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client36ProtocolInterfaceAddressingInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client36ProtocolInterfaceAddressingInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client36ProtocolInterfaceAddressingInterface11qt_metacastEPKc@Base 0.9.1
@@ -2666,9 +2666,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client36ProtocolInterfaceAddressingInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client36ProtocolInterfaceAddressingInterfaceC2ERKNS0_26ConnectionManagerInterfaceE@Base 0.9.1
  _ZN2Tp6Client36ProtocolInterfaceAddressingInterfaceC2ERKNS0_26ConnectionManagerInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client36ProtocolInterfaceAddressingInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client36ProtocolInterfaceAddressingInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client36ProtocolInterfaceAddressingInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ProtocolInterfaceAddressingInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ProtocolInterfaceAddressingInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client36ProtocolInterfaceAddressingInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client37AuthenticationTLSCertificateInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client37AuthenticationTLSCertificateInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client37AuthenticationTLSCertificateInterface11qt_metacastEPKc@Base 0.9.1
@@ -2685,9 +2685,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client37AuthenticationTLSCertificateInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client37AuthenticationTLSCertificateInterfaceC2ERKNS_17AbstractInterfaceE@Base 0.9.1
  _ZN2Tp6Client37AuthenticationTLSCertificateInterfaceC2ERKNS_17AbstractInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client37AuthenticationTLSCertificateInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client37AuthenticationTLSCertificateInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client37AuthenticationTLSCertificateInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client37AuthenticationTLSCertificateInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client37AuthenticationTLSCertificateInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client37AuthenticationTLSCertificateInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client37ChannelInterfaceServicePointInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client37ChannelInterfaceServicePointInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client37ChannelInterfaceServicePointInterface11qt_metacastEPKc@Base 0.9.1
@@ -2703,9 +2703,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client37ChannelInterfaceServicePointInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client37ChannelInterfaceServicePointInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client37ChannelInterfaceServicePointInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client37ChannelInterfaceServicePointInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client37ChannelInterfaceServicePointInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client37ChannelInterfaceServicePointInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client37ChannelInterfaceServicePointInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client37ChannelInterfaceServicePointInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client37ChannelInterfaceServicePointInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client37ConnectionInterfaceAnonymityInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client37ConnectionInterfaceAnonymityInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client37ConnectionInterfaceAnonymityInterface11qt_metacastEPKc@Base 0.9.1
@@ -2721,9 +2721,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client37ConnectionInterfaceAnonymityInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client37ConnectionInterfaceAnonymityInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client37ConnectionInterfaceAnonymityInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client37ConnectionInterfaceAnonymityInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client37ConnectionInterfaceAnonymityInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client37ConnectionInterfaceAnonymityInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client37ConnectionInterfaceAnonymityInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client37ConnectionInterfaceAnonymityInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client37ConnectionInterfaceAnonymityInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client38ConnectionInterfaceAddressingInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client38ConnectionInterfaceAddressingInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client38ConnectionInterfaceAddressingInterface11qt_metacastEPKc@Base 0.9.1
@@ -2738,9 +2738,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client38ConnectionInterfaceAddressingInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client38ConnectionInterfaceAddressingInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client38ConnectionInterfaceAddressingInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client38ConnectionInterfaceAddressingInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client38ConnectionInterfaceAddressingInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client38ConnectionInterfaceAddressingInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client38ConnectionInterfaceAddressingInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client38ConnectionInterfaceAddressingInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client38ConnectionInterfaceAddressingInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client39ChannelTypeServerTLSConnectionInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client39ChannelTypeServerTLSConnectionInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client39ChannelTypeServerTLSConnectionInterface11qt_metacastEPKc@Base 0.9.1
@@ -2755,9 +2755,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client39ChannelTypeServerTLSConnectionInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client39ChannelTypeServerTLSConnectionInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client39ChannelTypeServerTLSConnectionInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client39ChannelTypeServerTLSConnectionInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client39ChannelTypeServerTLSConnectionInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client39ChannelTypeServerTLSConnectionInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ChannelTypeServerTLSConnectionInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ChannelTypeServerTLSConnectionInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ChannelTypeServerTLSConnectionInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceClientTypesInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceClientTypesInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceClientTypesInterface11qt_metacastEPKc@Base 0.9.1
@@ -2773,9 +2773,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client39ConnectionInterfaceClientTypesInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceClientTypesInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceClientTypesInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfaceClientTypesInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfaceClientTypesInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfaceClientTypesInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfaceClientTypesInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfaceClientTypesInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfaceClientTypesInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceContactInfoInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceContactInfoInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceContactInfoInterface11qt_metacastEPKc@Base 0.9.1
@@ -2791,9 +2791,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client39ConnectionInterfaceContactInfoInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceContactInfoInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceContactInfoInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfaceContactInfoInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfaceContactInfoInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfaceContactInfoInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfaceContactInfoInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfaceContactInfoInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfaceContactInfoInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceContactListInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceContactListInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceContactListInterface11qt_metacastEPKc@Base 0.9.1
@@ -2811,9 +2811,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client39ConnectionInterfaceContactListInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceContactListInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfaceContactListInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfaceContactListInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfaceContactListInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfaceContactListInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfaceContactListInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfaceContactListInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfaceContactListInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfacePowerSavingInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfacePowerSavingInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfacePowerSavingInterface11qt_metacastEPKc@Base 0.9.1
@@ -2829,9 +2829,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client39ConnectionInterfacePowerSavingInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfacePowerSavingInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client39ConnectionInterfacePowerSavingInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfacePowerSavingInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfacePowerSavingInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client39ConnectionInterfacePowerSavingInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfacePowerSavingInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfacePowerSavingInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client39ConnectionInterfacePowerSavingInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client40ChannelInterfaceMediaSignallingInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client40ChannelInterfaceMediaSignallingInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client40ChannelInterfaceMediaSignallingInterface11qt_metacastEPKc@Base 0.9.1
@@ -2847,9 +2847,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client40ChannelInterfaceMediaSignallingInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client40ChannelInterfaceMediaSignallingInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client40ChannelInterfaceMediaSignallingInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client40ChannelInterfaceMediaSignallingInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client40ChannelInterfaceMediaSignallingInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client40ChannelInterfaceMediaSignallingInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ChannelInterfaceMediaSignallingInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ChannelInterfaceMediaSignallingInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ChannelInterfaceMediaSignallingInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client40ChannelTypeServerAuthenticationInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client40ChannelTypeServerAuthenticationInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client40ChannelTypeServerAuthenticationInterface11qt_metacastEPKc@Base 0.9.1
@@ -2864,9 +2864,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client40ChannelTypeServerAuthenticationInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client40ChannelTypeServerAuthenticationInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client40ChannelTypeServerAuthenticationInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client40ChannelTypeServerAuthenticationInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client40ChannelTypeServerAuthenticationInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client40ChannelTypeServerAuthenticationInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ChannelTypeServerAuthenticationInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ChannelTypeServerAuthenticationInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ChannelTypeServerAuthenticationInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterface11qt_metacastEPKc@Base 0.9.1
@@ -2882,9 +2882,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ConnectionInterfaceCapabilitiesInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client40ConnectionInterfaceServicePointInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client40ConnectionInterfaceServicePointInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client40ConnectionInterfaceServicePointInterface11qt_metacastEPKc@Base 0.9.1
@@ -2900,9 +2900,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client40ConnectionInterfaceServicePointInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client40ConnectionInterfaceServicePointInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client40ConnectionInterfaceServicePointInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client40ConnectionInterfaceServicePointInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client40ConnectionInterfaceServicePointInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client40ConnectionInterfaceServicePointInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ConnectionInterfaceServicePointInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ConnectionInterfaceServicePointInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client40ConnectionInterfaceServicePointInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client41CallContentInterfaceAudioControlInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client41CallContentInterfaceAudioControlInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client41CallContentInterfaceAudioControlInterface11qt_metacastEPKc@Base 0.9.1
@@ -2917,9 +2917,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client41CallContentInterfaceAudioControlInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client41CallContentInterfaceAudioControlInterfaceC2ERKNS0_20CallContentInterfaceE@Base 0.9.1
  _ZN2Tp6Client41CallContentInterfaceAudioControlInterfaceC2ERKNS0_20CallContentInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client41CallContentInterfaceAudioControlInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client41CallContentInterfaceAudioControlInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client41CallContentInterfaceAudioControlInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client41CallContentInterfaceAudioControlInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client41CallContentInterfaceAudioControlInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client41CallContentInterfaceAudioControlInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client41CallContentInterfaceVideoControlInterface10MTUChangedEj@Base 0.9.1
  _ZN2Tp6Client41CallContentInterfaceVideoControlInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client41CallContentInterfaceVideoControlInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
@@ -2939,9 +2939,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client41CallContentInterfaceVideoControlInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client41CallContentInterfaceVideoControlInterfaceC2ERKNS0_20CallContentInterfaceE@Base 0.9.1
  _ZN2Tp6Client41CallContentInterfaceVideoControlInterfaceC2ERKNS0_20CallContentInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client41CallContentInterfaceVideoControlInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client41CallContentInterfaceVideoControlInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client41CallContentInterfaceVideoControlInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client41CallContentInterfaceVideoControlInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client41CallContentInterfaceVideoControlInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client41CallContentInterfaceVideoControlInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client41ConnectionInterfaceContactGroupsInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client41ConnectionInterfaceContactGroupsInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client41ConnectionInterfaceContactGroupsInterface11qt_metacastEPKc@Base 0.9.1
@@ -2960,9 +2960,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client41ConnectionInterfaceContactGroupsInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client41ConnectionInterfaceContactGroupsInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client41ConnectionInterfaceContactGroupsInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client41ConnectionInterfaceContactGroupsInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client41ConnectionInterfaceContactGroupsInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client41ConnectionInterfaceContactGroupsInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client41ConnectionInterfaceContactGroupsInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client41ConnectionInterfaceContactGroupsInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client41ConnectionInterfaceContactGroupsInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterface11qt_metacastEPKc@Base 0.9.1
@@ -2978,9 +2978,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client42ConnectionInterfaceSimplePresenceInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterface11qt_metacastEPKc@Base 0.9.1
@@ -2997,9 +2997,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client43ChannelInterfaceSASLAuthenticationInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client43ConnectionInterfaceContactBlockingInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client43ConnectionInterfaceContactBlockingInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client43ConnectionInterfaceContactBlockingInterface11qt_metacastEPKc@Base 0.9.1
@@ -3015,9 +3015,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client43ConnectionInterfaceContactBlockingInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client43ConnectionInterfaceContactBlockingInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client43ConnectionInterfaceContactBlockingInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client43ConnectionInterfaceContactBlockingInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client43ConnectionInterfaceContactBlockingInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client43ConnectionInterfaceContactBlockingInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client43ConnectionInterfaceContactBlockingInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client43ConnectionInterfaceContactBlockingInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client43ConnectionInterfaceContactBlockingInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client44ChannelDispatcherInterfaceMessages1Interface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.4
  _ZN2Tp6Client44ChannelDispatcherInterfaceMessages1Interface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.4
  _ZN2Tp6Client44ChannelDispatcherInterfaceMessages1Interface11qt_metacastEPKc@Base 0.9.4
@@ -3032,9 +3032,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client44ChannelDispatcherInterfaceMessages1InterfaceC2ERK7QStringS4_P7QObject@Base 0.9.4
  _ZN2Tp6Client44ChannelDispatcherInterfaceMessages1InterfaceC2ERKNS0_26ChannelDispatcherInterfaceE@Base 0.9.4
  _ZN2Tp6Client44ChannelDispatcherInterfaceMessages1InterfaceC2ERKNS0_26ChannelDispatcherInterfaceEP7QObject@Base 0.9.4
- _ZN2Tp6Client44ChannelDispatcherInterfaceMessages1InterfaceD0Ev@Base 0.9.4
- _ZN2Tp6Client44ChannelDispatcherInterfaceMessages1InterfaceD1Ev@Base 0.9.4
- _ZN2Tp6Client44ChannelDispatcherInterfaceMessages1InterfaceD2Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client44ChannelDispatcherInterfaceMessages1InterfaceD0Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client44ChannelDispatcherInterfaceMessages1InterfaceD1Ev@Base 0.9.4
+ (optional=gccinternal)_ZN2Tp6Client44ChannelDispatcherInterfaceMessages1InterfaceD2Ev@Base 0.9.4
  _ZN2Tp6Client44ConnectionInterfaceMailNotificationInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client44ConnectionInterfaceMailNotificationInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client44ConnectionInterfaceMailNotificationInterface11qt_metacastEPKc@Base 0.9.1
@@ -3051,9 +3051,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client44ConnectionInterfaceMailNotificationInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client44ConnectionInterfaceMailNotificationInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client44ConnectionInterfaceMailNotificationInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client44ConnectionInterfaceMailNotificationInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client44ConnectionInterfaceMailNotificationInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client44ConnectionInterfaceMailNotificationInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client44ConnectionInterfaceMailNotificationInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client44ConnectionInterfaceMailNotificationInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client44ConnectionInterfaceMailNotificationInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterface11qt_metacastEPKc@Base 0.9.1
@@ -3068,9 +3068,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client45ChannelInterfaceFileTransferMetadataInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterface11qt_metacastEPKc@Base 0.9.1
@@ -3085,9 +3085,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterfaceC2ERKNS0_16ChannelInterfaceE@Base 0.9.1
  _ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterfaceC2ERKNS0_16ChannelInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client46ChannelInterfaceCaptchaAuthenticationInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterface11qt_metacastEPKc@Base 0.9.1
@@ -3103,9 +3103,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterfaceC2ERKNS0_19ConnectionInterfaceE@Base 0.9.1
  _ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterfaceC2ERKNS0_19ConnectionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client47ConnectionInterfaceContactCapabilitiesInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client4DBus13PeerInterface10invalidateEPNS_9DBusProxyERK7QStringS7_@Base 0.9.1
  _ZN2Tp6Client4DBus13PeerInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client4DBus13PeerInterface11qt_metacastEPKc@Base 0.9.1
@@ -3120,9 +3120,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client4DBus13PeerInterfaceC2ERK7QStringS5_P7QObject@Base 0.9.1
  _ZN2Tp6Client4DBus13PeerInterfaceC2ERKNS_17AbstractInterfaceE@Base 0.9.1
  _ZN2Tp6Client4DBus13PeerInterfaceC2ERKNS_17AbstractInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client4DBus13PeerInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client4DBus13PeerInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client4DBus13PeerInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus13PeerInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus13PeerInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus13PeerInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client4DBus19DBusDaemonInterface10invalidateEPNS_9DBusProxyERK7QStringS7_@Base 0.9.1
  _ZN2Tp6Client4DBus19DBusDaemonInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client4DBus19DBusDaemonInterface11qt_metacastEPKc@Base 0.9.1
@@ -3140,9 +3140,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client4DBus19DBusDaemonInterfaceC2ERK7QStringS5_P7QObject@Base 0.9.1
  _ZN2Tp6Client4DBus19DBusDaemonInterfaceC2ERKNS_17AbstractInterfaceE@Base 0.9.1
  _ZN2Tp6Client4DBus19DBusDaemonInterfaceC2ERKNS_17AbstractInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client4DBus19DBusDaemonInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client4DBus19DBusDaemonInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client4DBus19DBusDaemonInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus19DBusDaemonInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus19DBusDaemonInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus19DBusDaemonInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client4DBus19PropertiesInterface10invalidateEPNS_9DBusProxyERK7QStringS7_@Base 0.9.1
  _ZN2Tp6Client4DBus19PropertiesInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client4DBus19PropertiesInterface11qt_metacastEPKc@Base 0.9.1
@@ -3157,9 +3157,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client4DBus19PropertiesInterfaceC2ERK7QStringS5_P7QObject@Base 0.9.1
  _ZN2Tp6Client4DBus19PropertiesInterfaceC2ERKNS_17AbstractInterfaceE@Base 0.9.1
  _ZN2Tp6Client4DBus19PropertiesInterfaceC2ERKNS_17AbstractInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client4DBus19PropertiesInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client4DBus19PropertiesInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client4DBus19PropertiesInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus19PropertiesInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus19PropertiesInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus19PropertiesInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client4DBus23IntrospectableInterface10invalidateEPNS_9DBusProxyERK7QStringS7_@Base 0.9.1
  _ZN2Tp6Client4DBus23IntrospectableInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client4DBus23IntrospectableInterface11qt_metacastEPKc@Base 0.9.1
@@ -3174,9 +3174,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client4DBus23IntrospectableInterfaceC2ERK7QStringS5_P7QObject@Base 0.9.1
  _ZN2Tp6Client4DBus23IntrospectableInterfaceC2ERKNS_17AbstractInterfaceE@Base 0.9.1
  _ZN2Tp6Client4DBus23IntrospectableInterfaceC2ERKNS_17AbstractInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client4DBus23IntrospectableInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client4DBus23IntrospectableInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client4DBus23IntrospectableInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus23IntrospectableInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus23IntrospectableInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client4DBus23IntrospectableInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterface11qt_metacastEPKc@Base 0.9.1
@@ -3191,9 +3191,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterfaceC2ERKNS0_36CallContentMediaDescriptionInterfaceE@Base 0.9.1
  _ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterfaceC2ERKNS0_36CallContentMediaDescriptionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client57CallContentMediaDescriptionInterfaceRTCPFeedbackInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterface11qt_metacastEPKc@Base 0.9.1
@@ -3208,9 +3208,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterfaceC2ERKNS0_36CallContentMediaDescriptionInterfaceE@Base 0.9.1
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterfaceC2ERKNS0_36CallContentMediaDescriptionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTCPExtendedReportsInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterface10invalidateEPNS_9DBusProxyERK7QStringS6_@Base 0.9.1
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterface11qt_metacastEPKc@Base 0.9.1
@@ -3225,9 +3225,9 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterfaceC2ERK7QStringS4_P7QObject@Base 0.9.1
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterfaceC2ERKNS0_36CallContentMediaDescriptionInterfaceE@Base 0.9.1
  _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterfaceC2ERKNS0_36CallContentMediaDescriptionInterfaceEP7QObject@Base 0.9.1
- _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterfaceD0Ev@Base 0.9.1
- _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterfaceD1Ev@Base 0.9.1
- _ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterfaceD2Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterfaceD0Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterfaceD1Ev@Base 0.9.1
+ (optional=gccinternal)_ZN2Tp6Client64CallContentMediaDescriptionInterfaceRTPHeaderExtensionsInterfaceD2Ev@Base 0.9.1
  _ZN2Tp6Object11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.9.1
  _ZN2Tp6Object11qt_metacastEPKc@Base 0.9.1
  _ZN2Tp6Object15propertyChangedERK7QString@Base 0.9.1
@@ -5089,7 +5089,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTVN2Tp14AbstractClientE@Base 0.9.1
  _ZTVN2Tp14AccountFactoryE@Base 0.9.1
  _ZTVN2Tp14AccountManagerE@Base 0.9.1
- _ZTVN2Tp14ChannelFactory11ConstructorE@Base 0.9.1
+ (optional=gccinternal)_ZTVN2Tp14ChannelFactory11ConstructorE@Base 0.9.1
  _ZTVN2Tp14ChannelFactory12SubclassCtorINS_11CallChannelEEE@Base 0.9.1
  _ZTVN2Tp14ChannelFactory12SubclassCtorINS_11TextChannelEEE@Base 0.9.1
  _ZTVN2Tp14ChannelFactory12SubclassCtorINS_15RoomListChannelEEE@Base 0.9.1
@@ -5127,7 +5127,7 @@ libtelepathy-qt4.so.2 libtelepathy-qt4-2 #MINVER#
  _ZTVN2Tp16PendingCompositeE@Base 0.9.1
  _ZTVN2Tp16PendingOperationE@Base 0.9.1
  _ZTVN2Tp16StreamTubeClientE@Base 0.9.1
- _ZTVN2Tp16StreamTubeServer19ParametersGeneratorE@Base 0.9.1
+ (optional=gccinternal)_ZTVN2Tp16StreamTubeServer19ParametersGeneratorE@Base 0.9.1
  _ZTVN2Tp16StreamTubeServerE@Base 0.9.1
  _ZTVN2Tp17AbstractInterfaceE@Base 0.9.1
  _ZTVN2Tp17ConnectionFactoryE@Base 0.9.1
