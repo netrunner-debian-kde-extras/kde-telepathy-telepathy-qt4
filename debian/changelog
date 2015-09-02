@@ -1,4 +1,4 @@
-telepathy-qt (0.9.6.1-2) UNRELEASED; urgency=medium
+telepathy-qt (0.9.6.1-2) unstable; urgency=medium
 
   * Update symbols files with 0.9.6.1-1 build logs
 
