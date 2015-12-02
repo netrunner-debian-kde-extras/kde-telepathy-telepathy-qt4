@@ -1,3 +1,10 @@
+telepathy-qt (0.9.6.1-3) unstable; urgency=medium
+
+  * Add gstreamer-1.5.patch (Closes: #800629)
+    (Works around changes to location of gstreamer)
+
+ -- Diane Trout <diane@debian.org>  Tue, 06 Oct 2015 16:07:14 -0700
+
 telepathy-qt (0.9.6.1-2) unstable; urgency=medium
 
   * Update symbols files with 0.9.6.1-1 build logs

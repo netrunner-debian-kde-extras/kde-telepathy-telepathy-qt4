@@ -1,2 +1,3 @@
 improve-doxygen-build.patch
 update-doxygen.patch
+gstreamer-1.5.patch
