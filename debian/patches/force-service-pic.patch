@@ -1,0 +1,13 @@
+Index: telepathy-qt-0.9.6.1/TelepathyQt/CMakeLists.txt
+===================================================================
+--- telepathy-qt-0.9.6.1.orig/TelepathyQt/CMakeLists.txt
++++ telepathy-qt-0.9.6.1/TelepathyQt/CMakeLists.txt
+@@ -953,6 +953,8 @@ if(ENABLE_SERVICE_SUPPORT)
+     #endif (ENABLE_COMPILER_COVERAGE)
+     # lets build a static only library until we have a stable API/ABI
+     add_library(telepathy-qt${QT_VERSION_MAJOR}-service STATIC ${telepathy_qt_service_SRCS})
++    set_target_properties(telepathy-qt${QT_VERSION_MAJOR}-service PROPERTIES
++                          POSITION_INDEPENDENT_CODE ON)
+ 
+     # generate service moc files
+     foreach(moc_src ${telepathy_qt_service_MOC_SRCS})
