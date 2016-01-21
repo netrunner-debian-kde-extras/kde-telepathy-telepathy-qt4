@@ -26,8 +26,8 @@ Build-Depends: debhelper (>= 9),
                qt4-doc-html,
 # * python-dbus and python-gobject can safely be removed if you don't care
 #   about running the regression tests
-#               python-dbus,
-#               python-gobject,
+               python-dbus,
+               libxml2-utils,
 # * doxygen and graphviz should be Build-Depends-Indep if #478524 is fixed
 Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/telepathy-qt4.git
