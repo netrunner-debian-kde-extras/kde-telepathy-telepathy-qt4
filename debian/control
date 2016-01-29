@@ -30,8 +30,8 @@ Build-Depends: debhelper (>= 9),
                libxml2-utils,
 # * doxygen and graphviz should be Build-Depends-Indep if #478524 is fixed
 Standards-Version: 3.9.6
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/telepathy-qt4.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/telepathy-qt4.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kde-telepathy/telepathy-qt4.git
+Vcs-Browser: https://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/telepathy-qt4.git
 Homepage: http://telepathy.freedesktop.org/wiki/
 
 Package: libtelepathy-qt4-2
