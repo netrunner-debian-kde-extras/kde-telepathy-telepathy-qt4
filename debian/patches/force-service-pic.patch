@@ -1,3 +1,8 @@
+Author: Diane Trout <diane@ghic.org>
+Description: A temporary work around for linking the
+ static library into a shared library. Upstream is
+ going to make this a static library next release.
+Bug: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=801817
 Index: telepathy-qt-0.9.6.1/TelepathyQt/CMakeLists.txt
 ===================================================================
 --- telepathy-qt-0.9.6.1.orig/TelepathyQt/CMakeLists.txt
